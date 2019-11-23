@@ -18,9 +18,12 @@ def getTopAssignees(names):
             count_names[name] = count_names[name] + 1
     
     # Get percentage of appearances for each name
-    total_names = len(count_names)
+    total_count = len(count_names)
     for name in count_names:
-        pass
+        count_names[name] = (count_names[name], count_names[name]/total_count)
+    
+    print(count_names)
+
 
 
 def main():
