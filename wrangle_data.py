@@ -33,6 +33,7 @@ def getCountAndPercent(values):
 
 def main():
     df = pd.read_csv('scraped_patents.csv')
+    df.fillna('Unknown', inplace=True)
     assignee_name_df = getCountAndPercent(df.loc[:, 'Assignee Name'])
     print(assignee_name_df.head())
     
