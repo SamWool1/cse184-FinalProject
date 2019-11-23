@@ -19,8 +19,10 @@ def generatePatentURL(patnum):
 
 # Returns the sampled patent numbers as a list
 def getSamples(filename):
+    print('Reading samples')
     f = open(filename, 'r')
     str_samples = f.readline()
+    print('Read samples')
     samples = str_samples.split(', ')
     return samples
 
