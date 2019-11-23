@@ -74,6 +74,7 @@ def main():
     samples = getSamples('sample_numbers.txt')
     df = getDataframe(samples)
     df.to_csv(r'scraped_patents.csv')
+    print('CSV created')
 
 
 main()
