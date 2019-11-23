@@ -3,32 +3,38 @@
 # ---------------------------------------------------------------------------
 
 import pandas as pd
+import numpy as np
 
-# Takes column of assignee names, returns df with assignee names and how
-# many times they appear (sorted by num of appearances) + percentage
-def getTopAssignees(names):
+# Get a count and percentage of unique values in a column
+def getCountAndPercent(values):
 
-    # Get number of occurrences for each name
-    count_names = {}
-    for name in names:
+    # Get number of occurrences for each value
+    count_values = {}
+    for value in values:
         
-        if name not in count_names:
-            count_names[name] = 1
+        if value not in count_values:
+            count_values[value] = 1
         else:
-            count_names[name] = count_names[name] + 1
+            count_values[value] = count_values[value] + 1
     
-    # Get percentage of appearances for each name
-    total_count = len(count_names)
-    for name in count_names:
-        count_names[name] = (count_names[name], count_names[name]/total_count)
-    
-    print(count_names)
+    # Craete dataframe and get percentage of appearances for each value
+    total_count = len(count_values)
+    df = pd.DataFrame(columns=np.arange(3))
+    df.columns = ['Value', 'Count', 'Percentage']
+
+    for i, value in enumerate(count_values):
+        count = count_values[value]
+        percentage = count/total_count
+        df.loc[i] = [value, count, percentage]
+
+    return df
 
 
 
 def main():
     df = pd.read_csv('scraped_patents.csv')
-    getTopAssignees(df.loc[:, 'Assignee Name'])
+    assignee_name_df = getCountAndPercent(df.loc[:, 'Assignee Name'])
+    print(assignee_name_df.head())
     
 
 
