@@ -51,7 +51,7 @@ def main():
     assignee_name_df = getCountAndPercent(df.loc[:, 'Assignee Name'])
     print(assignee_name_df.head())
 
-    test_func(df)
+    # test_func(df)
 
 
 main()
