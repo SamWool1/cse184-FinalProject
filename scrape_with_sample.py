@@ -3,7 +3,7 @@
 # and creates a .csv based on the scraped data.
 # ---------------------------------------------------------------------------
 
-import pypatent
+from PatentWithField import *
 import time
 import pandas as pd
 
@@ -43,7 +43,7 @@ def getPatentAsDict(p):
     d['Patent Date'] = p.patent_date
     d['Patent Number'] = p.patent_num
     d['Title (Patent Number)'] = p.title
-    d['url'] = p.url
+    d['Fields'] = p.fields
     d['fetched'] = p.fetched_details
     return d
 
@@ -57,7 +57,7 @@ def getDataframe(samples):
         time.sleep(1)
 
         # TODO catch forcible close from remote (resolved by wait?)
-        p = pypatent.Patent(title='#' + str(sample),
+        p = PatentWithField(title='#' + str(sample),
                             url=generatePatentURL(sample))
         print('Starting fetch of number ' + sample)
         p.fetch_details()
