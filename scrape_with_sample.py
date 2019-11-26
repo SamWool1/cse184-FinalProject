@@ -3,7 +3,7 @@
 # and creates a .csv based on the scraped data.
 # ---------------------------------------------------------------------------
 
-from PatentWithField import *
+from PatentWithField import PatentWithField
 import time
 import pandas as pd
 
