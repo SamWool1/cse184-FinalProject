@@ -98,10 +98,10 @@ def getDataframe(samples):
         print('Starting fetch of number ' + sample)
         try:
             p.fetch_details()
+            print('Fetched number ' + sample)
         except:
             print('Fetch for ' + str(sample) + ' failed')
-            
-        print('Fetched number ' + sample)
+
         p_dict = getPatentAsDict(p)
 
         if df is None:
@@ -113,11 +113,12 @@ def getDataframe(samples):
 
 
 def main():
-    year = str(2018)
-    samples = getSamples('samples/sample_numbers', year)
-    df = getDataframe(samples)
-    df.to_csv('scrapes/scraped_patents' + year + '.csv')
-    print('CSV created')
+    years = range(1980, 2019)
+    for year in years:
+        samples = getSamples('samples/sample_numbers', year)
+        df = getDataframe(samples)
+        df.to_csv('scrapes/scraped_patents' + str(year) + '.csv')
+        print('CSV created')
 
 
 main()

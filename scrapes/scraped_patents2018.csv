@@ -1,101 +1,1001 @@
 ,Applicant Country,Applicant Number ,Assignee Name,Fields,File Date,Patent Date,Patent Number,Title (Patent Number),fetched
-0,US,15,"DELPHI TECHNOLOGIES, INC.","Mechanical Engineering, Lighting, Heating, Weapons, Blasting Engines or Pumps","August 12, 2016","January 9, 2018","9,863,335",#9863335,True
-1,TW,14,"Chiun Mai Communication Systems, Inc.",Electricity,"October 27, 2014","January 9, 2018","9,865,916",#9865916,True
-2,SE,15,Tobii AB,Physics,"August 10, 2016","January 9, 2018","9,866,754",#9866754,True
-3,KR,14,"Samsung Electronics Co., Ltd",Electricity,"November 13, 2014","January 9, 2018","9,867,091",#9867091,True
-4,US,14,COVIDIEN LP,Human Necessities,"September 8, 2014","January 16, 2018","9,867,665",#9867665,True
-5,US,14,"JEFFERSON SCIENCE ASSOCIATES, LLC",Electricity,"May 10, 2015","January 16, 2018","9,871,337",#9871337,True
-6,KR,15,AJOU UNIVERSITY INDUSTRY-ACADEMIC COOPERATION FOUNDATION,Electricity,"June 2, 2016","February 6, 2018","9,887,464",#9887464,True
-7,USUSUSUS,14,UNIVERSITY OF DELAWARE,"Performing Operations, Transporting","March 12, 2014","February 20, 2018","9,897,547",#9897547,True
-8,JP,15,Shimano Inc.,Human Necessities,"January 19, 2017","February 27, 2018","9,901,084",#9901084,True
-9,NL,14,KONINKLIJKE PHILPS N.V.,Human Necessities,"October 31, 2012","February 27, 2018","9,901,696",#9901696,True
-10,JP,15,TOYOTA JIDOSHA KABUSHIKI KAISHA,"Mechanical Engineering, Lighting, Heating, Weapons, Blasting Engines or Pumps","January 12, 2017","February 27, 2018","9,903,298",#9903298,True
-11,US,15,"Lexmark International, Inc.",Physics,"January 18, 2017","February 27, 2018","9,904,209",#9904209,True
-12,US,14,Moog Inc.,Electricity,"March 14, 2014","February 27, 2018","9,906,090",#9906090,True
-13,US,15,Monsanto Technology LLC,Human Necessities,"June 9, 2016","March 6, 2018","9,907,262",#9907262,True
-14,US,14,Acushnet Company,Human Necessities,"November 21, 2015","March 6, 2018","9,908,004",#9908004,True
-15,US,14,Hamilton Sundstrand Corporation,"Mechanical Engineering, Lighting, Heating, Weapons, Blasting Engines or Pumps","December 29, 2014","March 6, 2018","9,909,594",#9909594,True
-16,CNCN,14,Tsinghua University,Physics,"December 11, 2015","March 6, 2018","9,910,184",#9910184,True
-17,JP,15,SONY CORPORATION,Physics,"December 27, 2016","March 6, 2018","9,911,383",#9911383,True
-18,DE,14,Infineon Technologies AG,Electricity,"December 15, 2015","March 6, 2018","9,911,610",#9911610,True
-19,USUS,13,"CARBON CAPTURE SCIENTIFIC, LLC","Performing Operations, Transporting","January 7, 2013","March 20, 2018","9,919,259",#9919259,True
-20,CA,15,D Morrison Consulting Inc.,"Mechanical Engineering, Lighting, Heating, Weapons, Blasting Engines or Pumps","September 13, 2016","March 20, 2018","9,920,811",#9920811,True
-21,US,14,INTERNATIONAL BUSINESS MACHINES CORPORATION,Physics,"September 30, 2015","March 20, 2018","9,922,289",#9922289,True
-22,DK,15,OTICON A/S,Electricity,"June 12, 2017","March 20, 2018","9,924,280",#9924280,True
-23,JP,15,"EAGLE INDUSTRY CO., LTD.","Mechanical Engineering, Lighting, Heating, Weapons, Blasting Engines or Pumps","January 15, 2015","March 27, 2018","9,927,030",#9927030,True
-24,JP,15,Yazaki Corporation,Electricity,"April 29, 2016","March 27, 2018","9,929,446",#9929446,True
-25,USUSUS,15,,Physics,"May 25, 2016","April 3, 2018","9,934,298",#9934298,True
-26,IL,14,Technion Research & Development Foundation Ltd.,Human Necessities,"June 22, 2015","April 10, 2018","9,937,326",#9937326,True
-27,JP,15,SUZUKI MOTOR CORPORATION,"Mechanical Engineering, Lighting, Heating, Weapons, Blasting Engines or Pumps","March 2, 2016","April 10, 2018","9,938,879",#9938879,True
-28,US,14,"Flextronics AP, LLC",Electricity,"November 10, 2015","April 10, 2018","9,941,965",#9941965,True
-29,CNTWCN,14,Inventec Appliances,"Performing Operations, Transporting","December 19, 2014","April 17, 2018","9,944,015",#9944015,True
-30,USUS,12,Diamabrush LLC,"Performing Operations, Transporting","November 2, 2010","April 24, 2018","9,950,408",#9950408,True
-31,SE,15,Telefonaktiebolaget LM Ericsson,Electricity,"February 7, 2017","April 24, 2018","9,955,483",#9955483,True
-32,AEBEBE,13,"Halliburton Energy Services, Inc.","Performing Operations, Transporting","January 11, 2012","May 1, 2018","9,957,764",#9957764,True
-33,JP,15,"YAMADA MANUFACTURING CO., LTD.","Performing Operations, Transporting","February 8, 2016","May 8, 2018","9,963,164",#9963164,True
-34,,,,Unknown,,,,#9966061,True
-35,US,14,Lockheed Martin Corporation,"Performing Operations, Transporting","December 9, 2015","May 15, 2018","9,969,505",#9969505,True
-36,US,14,Rosemount Inc.,Physics,"September 30, 2013","May 15, 2018","9,971,316",#9971316,True
-37,US,14,"AT&T Intellectual Property I, L.P.",Electricity,"October 14, 2014","May 15, 2018","9,973,299",#9973299,True
-38,US,15,"Amazon Technologies, Inc.",Electricity,"July 27, 2017","May 15, 2018","9,973,732",#9973732,True
-39,DE,14,CureVac AG,Human Necessities,"February 21, 2014","May 22, 2018","9,974,845",#9974845,True
-40,FRFRFRFR,14,VIROXIS SAS,Human Necessities,"June 6, 2014","May 22, 2018","9,974,852",#9974852,True
-41,TW,14,Taiwan Semiconductor Manufacturing Company Limited,Electricity,"July 15, 2014","May 22, 2018","9,978,755",#9978755,True
-42,FR,15,INGENICO GROUP,Electricity,"October 24, 2014","May 22, 2018","9,980,374",#9980374,True
-43,US,14,"Merrimack Pharmaceuticals, Inc.","Chemistry, Metallurgy","February 24, 2014","May 29, 2018","9,982,060",#9982060,True
-44,USUSUSUSUSUSUS,13,University of Southern California,Human Necessities,"July 13, 2012","June 5, 2018","9,987,380",#9987380,True
-45,FR,14,SNECMA,"Mechanical Engineering, Lighting, Heating, Weapons, Blasting Engines or Pumps","February 24, 2015","June 5, 2018","9,988,982",#9988982,True
-46,JP,14,Toyota Jidosha Kabushiki Kaisha,"Mechanical Engineering, Lighting, Heating, Weapons, Blasting Engines or Pumps","June 7, 2013","June 5, 2018","9,989,148",#9989148,True
-47,US,13,"Microsoft Technology Licensing, LLC",Physics,"June 27, 2012","June 5, 2018","9,990,378",#9990378,True
-48,KR,14,"SAMSUNG DISPLAY CO., LTD.",Electricity,"April 30, 2014","June 5, 2018","9,991,460",#9991460,True
-49,JP,15,Sony Corporation,Electricity,"September 29, 2016","June 5, 2018","9,992,434",#9992434,True
-50,JP,15,TOKYO ELECTRON LIMITED,Electricity,"January 27, 2016","June 12, 2018","9,997,332",#9997332,True
-51,US,15,"Monolithic Power Systems, Inc.",Electricity,"March 20, 2017","June 12, 2018","9,998,127",#9998127,True
-52,US,14,In Ovation LLC,"Mechanical Engineering, Lighting, Heating, Weapons, Blasting Engines or Pumps","October 22, 2015","June 26, 2018","10,006,733",#10006733,True
-53,US,15,QUALCOMM Incorporated,Electricity,"November 1, 2016","June 26, 2018","10,008,425",#10008425,True
-54,SE,14,GAMBRO LUNDIA AB,Human Necessities,"April 28, 2014","July 3, 2018","10,010,665",#10010665,True
-55,US,14,"Board of Regents, The University of Texas System",Electricity,"October 23, 2015","July 17, 2018","10,026,609",#10026609,True
-56,USUS,15,,Human Necessities,"October 23, 2017","July 24, 2018","10,029,165",#10029165,True
-57,GB,14,ROLLS-ROYCE plc,"Mechanical Engineering, Lighting, Heating, Weapons, Blasting Engines or Pumps","November 30, 2015","July 24, 2018","10,030,522",#10030522,True
-58,US,14,INTERNATIONAL BUSINESS MACHINES CORPORATION,Physics,"January 8, 2016","July 24, 2018","10,031,985",#10031985,True
-59,US,14,Regents of the University of Minnesota,"Chemistry, Metallurgy","October 15, 2015","July 31, 2018","10,035,719",#10035719,True
-60,JP,15,"FUJI XEROX CO., LTD.",Electricity,"March 1, 2017","July 31, 2018","10,038,805",#10038805,True
-61,US,15,QUALCOMM Incorporated,Electricity,"July 21, 2016","August 7, 2018","10,044,390",#10044390,True
-62,JP,15,"RION Co., Ltd.",Physics,"March 4, 2016","August 21, 2018","10,054,529",#10054529,True
-63,JP,15,"ROHM CO., LTD.",Electricity,"May 15, 2017","August 28, 2018","10,063,027",#10063027,True
-64,KR,14,"Samsung Electronics Co., Ltd.",Electricity,"July 8, 2014","August 28, 2018","10,064,118",#10064118,True
-65,US,15,"Ford Global Technologies, LLC","Performing Operations, Transporting","July 6, 2016","September 4, 2018","10,065,637",#10065637,True
-66,US,14,MAGNA ELECTRONICS INC.,"Performing Operations, Transporting","October 7, 2015","September 11, 2018","10,073,261",#10073261,True
-67,JP,15,BROTHER KOGYO KABUSHIKI KAISHA,Electricity,"March 28, 2017","September 11, 2018","10,074,922",#10074922,True
-68,US,15,Vertex Pharmaceuticals Incorporated,Human Necessities,"January 19, 2016","September 18, 2018","10,076,513",#10076513,True
-69,US,15,LEDABOUR INC.,Physics,"October 3, 2017","September 18, 2018","10,078,256",#10078256,True
-70,US,15,Raytheon Company,Electricity,"April 28, 2016","September 18, 2018","10,080,099",#10080099,True
-71,US,15,ExThera Medical Corporation,Human Necessities,"June 30, 2016","October 2, 2018","10,086,126",#10086126,True
-72,JP,15,NATIONAL INSTITUTE OF INFORMATION AND COMMUNICATIONS TECHNOLOGY,Physics,"June 2, 2015","October 2, 2018","10,090,918",#10090918,True
-73,JP,15,Kabushiki Kaisha Toshiba,Electricity,"September 11, 2017","October 9, 2018","10,097,175",#10097175,True
-74,US,15,"Uber Technologies, Inc.","Performing Operations, Transporting","August 17, 2016","October 16, 2018","10,099,723",#10099723,True
-75,US,15,"Inguran, LLC",Physics,"June 10, 2016","October 16, 2018","10,100,278",#10100278,True
-76,US,15,"OneTrust, LLC",Physics,"June 10, 2017","October 16, 2018","10,102,533",#10102533,True
-77,CN,15,"HUAWEI TECHNOLOGIES CO., LTD.",Electricity,"April 16, 2014","October 16, 2018","10,104,215",#10104215,True
-78,US,15,GM GLOBAL TECHNOLOGY OPERATIONS LLC,Physics,"August 19, 2016","October 23, 2018","10,107,631",#10107631,True
-79,FR,14,SARTORIUS STEDIM FMT SAS,"Performing Operations, Transporting","August 19, 2015","October 30, 2018","10,112,764",#10112764,True
-80,US,14,,Physics,"December 4, 2015","October 30, 2018","10,114,871",#10114871,True
-81,JP,15,Seiko Epson Corporation,Physics,"June 27, 2016","November 6, 2018","10,120,677",#10120677,True
-82,FR,14,ARKEMA FRANCE,"Chemistry, Metallurgy","June 3, 2013","November 13, 2018","10,125,243",#10125243,True
-83,JP,15,Canon Kabushiki Kaisha,Physics,"December 12, 2017","November 13, 2018","10,126,691",#10126691,True
-84,US,14,Google LLC,Physics,"January 27, 2015","November 13, 2018","10,127,714",#10127714,True
-85,KR,15,"Samsung Electronics Co., Ltd.",Electricity,"May 19, 2016","November 13, 2018","10,129,896",#10129896,True
-86,CZ,14,Robe Lighting s.r.o.,"Mechanical Engineering, Lighting, Heating, Weapons, Blasting Engines or Pumps","September 24, 2014","November 20, 2018","10,132,456",#10132456,True
-87,CN,15,Dongfang Jingyuan Electron Limited,Physics,"January 30, 2017","November 20, 2018","10,133,838",#10133838,True
-88,US,14,Cellco Partnership,Electricity,"October 31, 2013","November 20, 2018","10,135,805",#10135805,True
-89,CH,15,Tetra Laval Holdings & Finance S.A.,"Performing Operations, Transporting","September 22, 2014","November 27, 2018","10,137,387",#10137387,True
-90,JP,15,CANON KABUSHIKI KAISHA,Electricity,"July 11, 2016","November 27, 2018","10,142,510",#10142510,True
-91,AT,15,INFINEON TECHNOLOGIES AUSTRIA AG,Electricity,"April 27, 2018","December 4, 2018","10,148,175",#10148175,True
-92,US,15,"Halliburton Energy Services, Inc.",Fixed Construction,"April 8, 2014","December 11, 2018","10,151,152",#10151152,True
-93,AU,15,Ainsworth Game Technology Limited,Physics,"May 11, 2016","December 11, 2018","10,152,845",#10152845,True
-94,KR,14,"LG CHEM, LTD.",Electricity,"May 6, 2015","December 11, 2018","10,153,465",#10153465,True
-95,US,15,"HALLIBURTON ENERGY SERVICES, INC.",Fixed Construction,"July 9, 2015","December 18, 2018","10,156,111",#10156111,True
-96,NL,15,GENEXIS HOLDING B.V.,Physics,"November 25, 2015","December 18, 2018","10,156,690",#10156690,True
-97,CN,14,Yanshan University,"Chemistry, Metallurgy","November 13, 2014","December 25, 2018","10,160,654",#10160654,True
-98,US,14,"Amazon Technologies, Inc.",Physics,"September 24, 2015","December 25, 2018","10,163,071",#10163071,True
-99,,,,Unknown,,"10,163,620","10,163,620",#10163620,True
+0,US,14,AGQUAM LLC,Human Necessities,"August 18, 2014","January 2, 2018","9,854,795",#9854795,True
+1,US,15,"DePuy Synthes Products, Inc.",Human Necessities,"January 29, 2016","January 2, 2018","9,855,056",#9855056,True
+2,US,15,INTERNATIONAL BUSINESS MACHINES CORPORATION,"Performing Operations, Transporting","June 7, 2017","January 2, 2018","9,855,820",#9855820,True
+3,JP,14,Yamada Bee Company Inc.,Human Necessities,"December 25, 2012","January 2, 2018","9,856,451",#9856451,True
+4,CNCNCNCN,15,,Fixed Construction,"January 31, 2016","January 2, 2018","9,856,660",#9856660,True
+5,US,14,GE-HITACHI NUCLEAR ENERGY AMERICAS LLC,Physics,"August 27, 2014","January 2, 2018","9,857,311",#9857311,True
+6,KR,15,LG SILTRON INCORPORATED,Physics,"August 12, 2014","January 2, 2018","9,857,319",#9857319,True
+7,US,14,Washington State University,Electricity,"October 28, 2013","January 2, 2018","9,857,825",#9857825,True
+8,US,14,Google inc.,Physics,"October 23, 2015","January 2, 2018","9,857,961",#9857961,True
+9,US,14,International Business Machines Corporation,Physics,"December 21, 2015","January 2, 2018","9,858,146",#9858146,True
+10,KR,14,"SAMSUNG ELECTRONICS CO., LTD.",Physics,"June 10, 2015","January 2, 2018","9,858,182",#9858182,True
+11,US,14,Brainzsquare Inc.,Physics,"December 29, 2014","January 2, 2018","9,858,434",#9858434,True
+12,US,14,Google Inc.,Physics,"November 13, 2015","January 2, 2018","9,858,524",#9858524,True
+13,USUSUS,12,PALO ALTO RESEARCH CENTER INCORPORATED,Physics,"April 4, 2008","January 2, 2018","9,858,616",#9858616,True
+14,US,14,"MICROSOFT TECHNOLOGY LICENSING, LLC",Physics,"January 27, 2015","January 2, 2018","9,858,718",#9858718,True
+15,JP,15,KABUSHIKI KAISHA TOSHIBA,Physics,"September 15, 2016","January 2, 2018","9,858,976",#9858976,True
+16,DE,13,Infineon Technologies Dresden GmbH,Electricity,"July 11, 2012","January 2, 2018","9,859,274",#9859274,True
+17,FRFR,14,STMicroelectronics SA,Electricity,"October 27, 2015","January 2, 2018","9,859,319",#9859319,True
+18,KR,15,ELECTRONICS AND TELECOMMUNICATIONS RESEARCH INSTITUTE,Electricity,"January 24, 2017","January 2, 2018","9,859,889",#9859889,True
+19,SE,13,Telefonaktiebolaget LM Ericsson,Electricity,"May 30, 2009","January 2, 2018","9,860,073",#9860073,True
+20,CN,15,"HUAWEI TECHNOLOGIES CO., LTD.",Electricity,"April 29, 2016","January 2, 2018","9,860,083",#9860083,True
+21,KR,14,ELECTRONICS AND TELECOMMUNICATIONS RESEARCH INSTITUTE,Electricity,"February 16, 2015","January 2, 2018","9,860,320",#9860320,True
+22,SG,14,Avago Technologies General IP,Electricity,"March 9, 2015","January 2, 2018","9,860,617",#9860617,True
+23,SE,15,Telefonaktiebolaget LM Ericsson,Electricity,"May 23, 2016","January 2, 2018","9,860,752",#9860752,True
+24,US,13,Anaxiom Corporation,Human Necessities,"October 18, 2012","January 9, 2018","9,861,369",#9861369,True
+25,FR,14,Allergan Holdings France S.A.S.,Human Necessities,"November 20, 2015","January 9, 2018","9,861,570",#9861570,True
+26,USUSUS,13,"CFPH, LLC",Human Necessities,"July 5, 2011","January 9, 2018","9,861,879",#9861879,True
+27,CH,14,Debiopharm International SA,"Chemistry, Metallurgy","November 8, 2013","January 9, 2018","9,862,737",#9862737,True
+28,US,14,"Halliburton Energy Services, Inc.",Fixed Construction,"September 24, 2013","January 9, 2018","9,863,211",#9863211,True
+29,JP,15,SYSMEX CORPORATION,Physics,"April 29, 2016","January 9, 2018","9,863,964",#9863964,True
+30,US,14,Micro Focus Software Inc.,Physics,"May 20, 2014","January 9, 2018","9,864,616",#9864616,True
+31,US,15,"GetGo, Inc.",Electricity,"December 22, 2016","January 9, 2018","9,865,274",#9865274,True
+32,JP,15,Japan Display Inc.,Electricity,"August 25, 2016","January 9, 2018","9,865,817",#9865817,True
+33,US,14,Battelle Memorial Institute,Electricity,"January 12, 2015","January 9, 2018","9,865,900",#9865900,True
+34,US,15,CommScope Technologies LLC,Electricity,"April 25, 2016","January 9, 2018","9,865,919",#9865919,True
+35,US,14,Microchip Technology Incorporated,Electricity,"October 14, 2015","January 9, 2018","9,866,200",#9866200,True
+36,USUS,13,"COX COMMUNICATIONS, INC.",Electricity,"March 8, 2011","January 9, 2018","9,866,877",#9866877,True
+37,US,14,"HOIST FITNESS SYSTEMS, INC.",Human Necessities,"December 7, 2015","January 16, 2018","9,868,016",#9868016,True
+38,JP,15,Brother Kogyo Kabushiki Kaisha,"Performing Operations, Transporting","January 13, 2017","January 16, 2018","9,868,308",#9868308,True
+39,JP,14,KABUSHIKI KAISHA YASKAWA DENKI,Human Necessities,"March 3, 2015","January 16, 2018","9,868,552",#9868552,True
+40,US,15,Sealed Air Corporation,"Performing Operations, Transporting","September 11, 2015","January 16, 2018","9,868,577",#9868577,True
+41,KR,14,Hyundai Motor Company,"Mechanical Engineering, Lighting, Heating, Weapons, Blasting Engines or Pumps","October 14, 2015","January 16, 2018","9,869,386",#9869386,True
+42,US,14,"UNITED PARCEL SERVICE OF AMERICA, INC.",Physics,"May 12, 2015","January 16, 2018","9,869,557",#9869557,True
+43,JP,14,Olympus Corporation,Physics,"April 24, 2015","January 16, 2018","9,869,612",#9869612,True
+44,KR,15,"SAMSUNG DISPLAY CO., LTD.",Electricity,"May 17, 2016","January 16, 2018","9,869,911",#9869911,True
+45,US,14,Intel Corporation,Physics,"March 28, 2014","January 16, 2018","9,870,209",#9870209,True
+46,US,14,California Institute of Technology,Human Necessities,"August 17, 2015","January 16, 2018","9,870,457",#9870457,True
+47,CA,15,VOICEAGE CORPORATION,Physics,"June 20, 2016","January 16, 2018","9,870,781",#9870781,True
+48,KY,14,Silergy Corp.,Electricity,"September 2, 2014","January 16, 2018","9,871,390",#9871390,True
+49,US,14,TEXAS INSTRUMENTS INCORPORATED,Electricity,"July 3, 2015","January 16, 2018","9,871,456",#9871456,True
+50,JP,15,Mitsubishi Electric Corporation,Electricity,"February 19, 2016","January 16, 2018","9,871,493",#9871493,True
+51,KR,14,"Samsung Electro-Mechanics Co., Ltd.",Electricity,"July 13, 2015","January 16, 2018","9,871,600",#9871600,True
+52,US,15,"Analyst Platform, LLC",Electricity,"January 24, 2017","January 16, 2018","9,871,826",#9871826,True
+53,US,15,Estimote Polska Sp. z o. o.,Electricity,"March 22, 2017","January 16, 2018","9,872,146",#9872146,True
+54,JP,14,NEC CORPORATION,Electricity,"February 8, 2013","January 16, 2018","9,872,291",#9872291,True
+55,CACAIRCA,15,,Human Necessities,"December 5, 2016","January 23, 2018","9,872,616",#9872616,True
+56,CA,14,Liberty Active Body & Mind Inc.,Human Necessities,"December 15, 2014","January 23, 2018","9,873,012",#9873012,True
+57,JP,14,Japan Science and Technology Agency,"Chemistry, Metallurgy","December 2, 2013","January 23, 2018","9,873,108",#9873108,True
+58,US,15,,"Performing Operations, Transporting","August 4, 2016","January 23, 2018","9,873,636",#9873636,True
+59,US,14,"INEOS OLEFINS & POLYMERS USA, a division of INEOS USA LLC","Chemistry, Metallurgy","December 21, 2012","January 23, 2018","9,873,782",#9873782,True
+60,JPJPJPJPJP,15,"Ricoh Company, Ltd.","Chemistry, Metallurgy","June 28, 2016","January 23, 2018","9,873,809",#9873809,True
+61,JP,14,"SHINKO ELECTRIC INDUSTRIES CO., LTD.",Electricity,"November 5, 2014","January 23, 2018","9,873,825",#9873825,True
+62,US,15,"Agena Bioscience, Inc.",General New Technological Developments,"March 9, 2016","January 23, 2018","9,873,912",#9873912,True
+63,US,12,"Electrolux Home Products, Inc.","Mechanical Engineering, Lighting, Heating, Weapons, Blasting Engines or Pumps","February 27, 2009","January 23, 2018","9,874,403",#9874403,True
+64,US,14,,Physics,"December 16, 2015","January 23, 2018","9,874,438",#9874438,True
+65,KRKR,13,"SAMSUNG ELECTRONICS CO., LTD.",Physics,"February 7, 2011","January 23, 2018","9,874,670",#9874670,True
+66,US,15,"Extreme Networks, Inc.",Physics,"August 22, 2016","January 23, 2018","9,875,275",#9875275,True
+67,US,14,"Crane Payment Innovations, Inc.",Physics,"February 18, 2014","January 23, 2018","9,875,594",#9875594,True
+68,JP,15,SHIMADZU CORPORATION,Electricity,"August 8, 2014","January 23, 2018","9,875,873",#9875873,True
+69,DE,15,Infineon Technologies AG,Electricity,"February 26, 2016","January 23, 2018","9,875,934",#9875934,True
+70,JP,15,"ROHM CO., LTD.",Electricity,"May 11, 2015","January 23, 2018","9,876,124",#9876124,True
+71,US,14,,Electricity,"September 30, 2013","January 23, 2018","9,876,367",#9876367,True
+72,US,14,The Regents of the University of California,Electricity,"October 9, 2015","January 23, 2018","9,876,442",#9876442,True
+73,US,15,"NXP USA, INC.",Electricity,"November 4, 2016","January 23, 2018","9,876,475",#9876475,True
+74,US,14,"MOPHIE, INC.",Electricity,"March 11, 2014","January 23, 2018","9,876,522",#9876522,True
+75,JP,14,"CASIO COMPUTER CO., LTD.",Electricity,"January 14, 2015","January 23, 2018","9,876,956",#9876956,True
+76,JP,15,"PANASONIC INTELLECTUAL PROPERTY MANAGEMENT CO., LTD.",Electricity,"June 29, 2016","January 23, 2018","9,876,971",#9876971,True
+77,CN,14,ZTE CORPORATION,Electricity,"May 22, 2014","January 23, 2018","9,877,311",#9877311,True
+78,US,14,FEDERAL-MOGUL LLC,"Performing Operations, Transporting","March 14, 2014","January 30, 2018","9,878,658",#9878658,True
+79,SE,14,SCANIA CV AB,"Mechanical Engineering, Lighting, Heating, Weapons, Blasting Engines or Pumps","March 2, 2014","January 30, 2018","9,878,720",#9878720,True
+80,CA,14,GreenField Specialty Alcohols Inc.,"Chemistry, Metallurgy","November 19, 2015","January 30, 2018","9,879,212",#9879212,True
+81,IT,14,,Human Necessities,"November 8, 2013","January 30, 2018","9,879,227",#9879227,True
+82,US,14,"Weatherford Technology Holdings, LLC",Fixed Construction,"April 14, 2014","January 30, 2018","9,879,524",#9879524,True
+83,USUS,15,,"Mechanical Engineering, Lighting, Heating, Weapons, Blasting Engines or Pumps","May 27, 2016","January 30, 2018","9,879,932",#9879932,True
+84,US,14,"RATERMANN MANUFACTURING, INC.",Physics,"October 8, 2014","January 30, 2018","9,880,320",#9880320,True
+85,JP,14,Sony Corporation,Physics,"December 1, 2015","January 30, 2018","9,880,613",#9880613,True
+86,US,14,"CERNER INNOVATION, INC.",Physics,"October 6, 2015","January 30, 2018","9,881,004",#9881004,True
+87,US,14,"Mitsubishi Electric Research Laboratories, Inc.",Physics,"February 12, 2015","January 30, 2018","9,881,631",#9881631,True
+88,JP,15,CANON KABUSHIKI KAISHA,Electricity,"September 7, 2016","January 30, 2018","9,881,648",#9881648,True
+89,US,15,Rambus Inc.,Electricity,"June 7, 2016","January 30, 2018","9,881,663",#9881663,True
+90,US,14,"HGST Technologies Santa Ana, Inc.",Physics,"September 14, 2015","January 30, 2018","9,881,670",#9881670,True
+91,JP,15,"MURATA MANUFACTURING CO., LTD.",Electricity,"December 12, 2016","January 30, 2018","9,881,740",#9881740,True
+92,JP,14,"Hodogaya Chemical Co., Ltd.",Electricity,"March 14, 2013","January 30, 2018","9,882,136",#9882136,True
+93,CACACA,12,BlackBerry Limited,Electricity,"August 8, 2008","January 30, 2018","9,882,769",#9882769,True
+94,US,15,International Business Machines Corporation,Electricity,"February 26, 2016","January 30, 2018","9,882,898",#9882898,True
+95,US,15,"Facebook, Inc.",Physics,"June 28, 2017","January 30, 2018","9,882,999",#9882999,True
+96,JP,15,"FUJI XEROX CO., LTD.",Electricity,"August 26, 2016","January 30, 2018","9,883,054",#9883054,True
+97,USUSUSUSUSUSUSUSUSUS,13,"Proteus Digital Health, Inc.",Human Necessities,"January 6, 2010","February 6, 2018","9,883,819",#9883819,True
+98,TW,14,"JIH KAO ENTERPRISE CO., LTD.",Human Necessities,"January 12, 2016","February 6, 2018","9,884,222",#9884222,True
+99,TW,14,Medal Sports,Human Necessities,"November 23, 2015","February 6, 2018","9,884,238",#9884238,True
+100,US,14,Mercutek LLC,"Performing Operations, Transporting","March 14, 2013","February 6, 2018","9,884,311",#9884311,True
+101,JP,14,FANUC CORPORATION,"Performing Operations, Transporting","June 19, 2015","February 6, 2018","9,884,395",#9884395,True
+102,US,15,"Peck & Hale, L.L.C.",General New Technological Developments,"March 30, 2017","February 6, 2018","9,884,581",#9884581,True
+103,IN,14,KPIT TECHNOLOGIES LIMITED,"Performing Operations, Transporting","December 31, 2015","February 6, 2018","9,884,615",#9884615,True
+104,JP,14,CANON ANELVA CORPORATION,"Chemistry, Metallurgy","December 10, 2012","February 6, 2018","9,885,107",#9885107,True
+105,US,14,United Technologies Corporation,"Mechanical Engineering, Lighting, Heating, Weapons, Blasting Engines or Pumps","April 24, 2015","February 6, 2018","9,885,254",#9885254,True
+106,USUS,14,General Electric Company,"Mechanical Engineering, Lighting, Heating, Weapons, Blasting Engines or Pumps","May 29, 2015","February 6, 2018","9,885,290",#9885290,True
+107,US,15,"Pure Storage, Inc.",Physics,"January 28, 2016","February 6, 2018","9,886,314",#9886314,True
+108,US,15,"Twitter, Inc.",Physics,"August 22, 2016","February 6, 2018","9,886,515",#9886515,True
+109,JP,15,Japan Display Inc.,Physics,"November 2, 2016","February 6, 2018","9,886,910",#9886910,True
+110,JP,14,Yazaki Corporation,Electricity,"June 2, 2014","February 6, 2018","9,887,408",#9887408,True
+111,CN,15,Tyco Electronics,Electricity,"November 23, 2016","February 6, 2018","9,887,495",#9887495,True
+112,USUSUS,14,UNIVERSITY OF UTAH RESEARCH FOUNDATION,Electricity,"July 6, 2012","February 6, 2018","9,887,610",#9887610,True
+113,US,14,International Business Machines Corporation,Electricity,"June 30, 2015","February 6, 2018","9,887,842",#9887842,True
+114,CH,15,ABB Schweiz AG,"Mechanical Engineering, Lighting, Heating, Weapons, Blasting Engines or Pumps","January 9, 2017","February 6, 2018","9,888,612",#9888612,True
+115,AU,15,Proteobioactives Pty Ltd,"Chemistry, Metallurgy","August 12, 2016","February 13, 2018","9,888,679",#9888679,True
+116,JP,14,Kabushiki Kaisha Topcon,Human Necessities,"November 16, 2015","February 13, 2018","9,888,846",#9888846,True
+117,KRKRKR,14,"OSSTEMIMPLANT CO., LTD.",Human Necessities,"August 13, 2012","February 13, 2018","9,888,929",#9888929,True
+118,GBGB,14,The University Of Liverpool,"Chemistry, Metallurgy","November 1, 2013","February 13, 2018","9,889,150",#9889150,True
+119,US,15,,"Performing Operations, Transporting","May 10, 2016","February 13, 2018","9,889,546",#9889546,True
+120,BE,15,UCB Biopharma SPRL,Human Necessities,"December 8, 2014","February 13, 2018","9,890,154",#9890154,True
+121,US,14,"Cummins, Inc.","Mechanical Engineering, Lighting, Heating, Weapons, Blasting Engines or Pumps","December 15, 2014","February 13, 2018","9,890,677",#9890677,True
+122,CN,15,"Zhejiang CFMOTO Power Co., Ltd.","Mechanical Engineering, Lighting, Heating, Weapons, Blasting Engines or Pumps","October 7, 2016","February 13, 2018","9,890,843",#9890843,True
+123,JP,15,MITUTOYO CORPORATION,Physics,"March 29, 2016","February 13, 2018","9,891,033",#9891033,True
+124,CN,15,"Wuhan China Star Optoelectronics Technology Co., Ltd.",Physics,"July 12, 2016","February 13, 2018","9,891,375",#9891375,True
+125,US,14,"Harman Connected Services, Inc.",Electricity,"January 6, 2016","February 13, 2018","9,891,907",#9891907,True
+126,US,15,NVIDIA CORPORATION,Physics,"March 27, 2017","February 13, 2018","9,891,972",#9891972,True
+127,US,13,ADOBE SYSTEMS INCORPORATED,Physics,"April 1, 2013","February 13, 2018","9,892,097",#9892097,True
+128,USUSUSUS,12,Xerox Corporation,Physics,"August 25, 2009","February 13, 2018","9,892,585",#9892585,True
+129,JP,15,Sony Corporation,Electricity,"June 28, 2016","February 13, 2018","9,893,492",#9893492,True
+130,US,14,"Ford Global Technologies, LLC","Mechanical Engineering, Lighting, Heating, Weapons, Blasting Engines or Pumps","May 1, 2015","February 13, 2018","9,893,664",#9893664,True
+131,DE,15,Harman Becker Automotive Systems GmbH,Electricity,"January 26, 2017","February 13, 2018","9,893,699",#9893699,True
+132,US,15,Aquantia Corp.,Electricity,"March 7, 2016","February 13, 2018","9,893,756",#9893756,True
+133,US,15,International Business Machines Corporation,Electricity,"January 23, 2017","February 13, 2018","9,894,183",#9894183,True
+134,KR,15,LG ELECTRONICS INC.,Electricity,"November 24, 2014","February 13, 2018","9,894,191",#9894191,True
+135,JP,15,"Casio Computer Co., Ltd.",Physics,"August 10, 2016","February 20, 2018","9,894,978",#9894978,True
+136,US,14,"MakerBot Industries, LLC","Performing Operations, Transporting","January 5, 2015","February 20, 2018","9,895,844",#9895844,True
+137,US,14,STOWERS INSTITUTE FOR MEDICAL RESEARCH,"Chemistry, Metallurgy","October 17, 2012","February 20, 2018","9,896,659",#9896659,True
+138,JP,14,IHI Corporation,"Mechanical Engineering, Lighting, Heating, Weapons, Blasting Engines or Pumps","August 24, 2015","February 20, 2018","9,897,106",#9897106,True
+139,US,15,Skychase Holdings Corporation,"Mechanical Engineering, Lighting, Heating, Weapons, Blasting Engines or Pumps","February 22, 2016","February 20, 2018","9,897,403",#9897403,True
+140,CACA,13,COLT CANADA IP HOLDING PARTNERSHIP,"Mechanical Engineering, Lighting, Heating, Weapons, Blasting Engines or Pumps","August 16, 2013","February 20, 2018","9,897,411",#9897411,True
+141,CA,15,,"Chemistry, Metallurgy","July 26, 2016","February 20, 2018","9,897,606",#9897606,True
+142,CN,15,"HUAWEI TECHNOLOGIES CO., LTD.",Physics,"April 12, 2017","February 20, 2018","9,897,754",#9897754,True
+143,JPJPJPJPJPJP,15,"Ricoh Company, Ltd.",Physics,"December 9, 2016","February 20, 2018","9,897,946",#9897946,True
+144,US,14,International Business Machines Corporation,Physics,"November 10, 2015","February 20, 2018","9,898,378",#9898378,True
+145,US,14,Intel Corporation,Physics,"December 10, 2014","February 20, 2018","9,898,435",#9898435,True
+146,US,15,Seagate Technology LLC,"Chemistry, Metallurgy","December 12, 2016","February 20, 2018","9,899,050",#9899050,True
+147,TW,15,"Taiwan Semiconductor Manufacturing Co., Ltd.",Electricity,"June 1, 2016","February 20, 2018","9,899,382",#9899382,True
+148,US,14,GM Global Technology Operations LLC,Electricity,"May 18, 2015","February 20, 2018","9,899,902",#9899902,True
+149,CNCN,15,,Electricity,"July 5, 2016","February 20, 2018","9,899,934",#9899934,True
+150,CNDE,14,"Huawei Technologies Co., Ltd.",Electricity,"June 19, 2015","February 20, 2018","9,900,063",#9900063,True
+151,NL,14,NXP B.V.,Physics,"December 23, 2013","February 20, 2018","9,900,154",#9900154,True
+152,FRFR,13,ORANGE,Electricity,"March 23, 2010","February 20, 2018","9,900,373",#9900373,True
+153,JP,15,CANON KABUSHIKI KAISHA,Electricity,"April 6, 2016","February 20, 2018","9,900,464",#9900464,True
+154,US,15,International Business Machines Corporation,Electricity,"February 16, 2017","February 20, 2018","9,900,750",#9900750,True
+155,US,15,LEGACY GAME SYSTEMS LLC,Human Necessities,"June 14, 2016","February 27, 2018","9,901,825",#9901825,True
+156,CNCNCNCNCN,14,"INSTITUTE OF MECHANICS, CHINESE ACADEMY OF SCIENCES","Performing Operations, Transporting","February 22, 2012","February 27, 2018","9,901,936",#9901936,True
+157,IT,14,F.I.M.I.--FABBRICA IMPIANTI MACCHINE INDUSTRIALI--S.P.A.,"Performing Operations, Transporting","February 18, 2014","February 27, 2018","9,901,967",#9901967,True
+158,DE,15,AUDI AG,"Performing Operations, Transporting","July 15, 2016","February 27, 2018","9,902,226",#9902226,True
+159,JP,14,MITSUBISHI MATERIALS CORPORATION,"Chemistry, Metallurgy","November 27, 2013","February 27, 2018","9,903,013",#9903013,True
+160,US,15,CommScope Technologies LLC,"Mechanical Engineering, Lighting, Heating, Weapons, Blasting Engines or Pumps","October 27, 2016","February 27, 2018","9,903,510",#9903510,True
+161,JP,15,"FUJI XEROX CO., LTD.",Physics,"August 18, 2016","February 27, 2018","9,904,246",#9904246,True
+162,CA,14,2236008 ONTARIO INC.,Physics,"January 6, 2015","February 27, 2018","9,904,532",#9904532,True
+163,US,14,INTEL CORPORATION,Physics,"March 25, 2015","February 27, 2018","9,904,803",#9904803,True
+164,,,,Unknown,,,,#9905293,True
+165,CN,14,"WUHAN CHINA STAR OPTOELECTRONICS TECHNOLOGY CO., LTD.",Electricity,"January 28, 2016","February 27, 2018","9,905,493",#9905493,True
+166,US,14,POLYPLUS BATTERY COMPANY,Electricity,"June 27, 2014","February 27, 2018","9,905,860",#9905860,True
+167,CN,14,"Tang Band Industries Co., Ltd.",Electricity,"April 12, 2012","February 27, 2018","9,906,848",#9906848,True
+168,JP,14,"Panasonic Intellectual Property Management Co., Ltd.",Electricity,"February 3, 2014","February 27, 2018","9,906,948",#9906948,True
+169,DE,14,Harman Becker Automotive Systems GmbH,Electricity,"July 3, 2014","February 27, 2018","9,907,181",#9907181,True
+170,JP,15,"SUMITOMO CHEMICAL COMPANY, LIMITED","Chemistry, Metallurgy","March 26, 2015","March 6, 2018","9,907,307",#9907307,True
+171,USUS,13,University of Washington,Human Necessities,"March 14, 2012","March 6, 2018","9,907,761",#9907761,True
+172,US,15,"Hewlett-Packard Development Company, L.P.","Performing Operations, Transporting","April 23, 2014","March 6, 2018","9,908,327",#9908327,True
+173,US,14,,"Performing Operations, Transporting","October 12, 2015","March 6, 2018","9,908,502",#9908502,True
+174,JP,14,Shimano Inc.,"Performing Operations, Transporting","November 19, 2015","March 6, 2018","9,908,587",#9908587,True
+175,US,15,The United States of America as represented by the Secretary of the Air Force,"Chemistry, Metallurgy","March 22, 2016","March 6, 2018","9,909,229",#9909229,True
+176,JP,14,"YANMAR CO., LTD.","Mechanical Engineering, Lighting, Heating, Weapons, Blasting Engines or Pumps","August 28, 2014","March 6, 2018","9,909,281",#9909281,True
+177,GB,15,"Armorworks Holdings, Inc.","Mechanical Engineering, Lighting, Heating, Weapons, Blasting Engines or Pumps","May 9, 2014","March 6, 2018","9,909,845",#9909845,True
+178,JP,15,NEC Corporation,Physics,"September 2, 2014","March 6, 2018","9,910,528",#9910528,True
+179,US,15,INTERNATIONAL BUSINESS MACHINES CORPORATION,Physics,"August 18, 2016","March 6, 2018","9,910,763",#9910763,True
+180,MY,14,UNIVERSITI TEKNOLOGI MALAYSIA,Physics,"September 30, 2015","March 6, 2018","9,910,801",#9910801,True
+181,US,15,"Dropbox, Inc.",Physics,"September 9, 2016","March 6, 2018","9,910,973",#9910973,True
+182,JP,14,"Hitachi, Ltd.",Physics,"August 29, 2011","March 6, 2018","9,911,041",#9911041,True
+183,US,15,"Wal-Mart Stores, Inc.",Physics,"May 3, 2017","March 6, 2018","9,911,048",#9911048,True
+184,US,14,Ohio State Innovation Foundation,Physics,"October 20, 2015","March 6, 2018","9,911,062",#9911062,True
+185,US,14,VISA INTERNATIONAL SERVICE ASSOCIATION,Physics,"November 21, 2013","March 6, 2018","9,911,118",#9911118,True
+186,US,15,Lear Corporation,Physics,"January 20, 2017","March 6, 2018","9,911,259",#9911259,True
+187,US,15,"SneakGuard, LLC",Physics,"August 3, 2016","March 6, 2018","9,911,261",#9911261,True
+188,US,13,"BWXT mPower, Inc.",Physics,"April 16, 2013","March 6, 2018","9,911,512",#9911512,True
+189,US,15,Lam Research Corporation,Electricity,"March 17, 2017","March 6, 2018","9,911,595",#9911595,True
+190,LU,15,Longitude Semiconductor S.a.r.l.,Electricity,"November 15, 2016","March 6, 2018","9,911,699",#9911699,True
+191,JP,15,"ROHM CO., LTD.",Electricity,"March 24, 2016","March 6, 2018","9,911,868",#9911868,True
+192,US,15,INPHI CORPORATION,Electricity,"September 27, 2016","March 6, 2018","9,912,411",#9912411,True
+193,US,15,"NEWRACOM, INC.",Electricity,"July 6, 2016","March 6, 2018","9,912,513",#9912513,True
+194,US,14,Google LLC,Electricity,"July 2, 2014","March 6, 2018","9,912,556",#9912556,True
+195,US,14,"Microsoft Technology Licensing, LLC",Electricity,"March 19, 2015","March 6, 2018","9,912,579",#9912579,True
+196,CN,15,"Huawei Technologies Co., Ltd.",Electricity,"June 17, 2016","March 6, 2018","9,912,586",#9912586,True
+197,JP,15,CANON KABUSHIKI KAISHA,Electricity,"December 6, 2016","March 6, 2018","9,912,835",#9912835,True
+198,JP,15,Seiko Epson Corporation,Electricity,"December 1, 2016","March 6, 2018","9,912,887",#9912887,True
+199,CN,15,TENCENT TECHNOLOGY,Electricity,"July 19, 2016","March 6, 2018","9,913,055",#9913055,True
+200,USUS,15,General Motors LLC,Physics,"January 21, 2016","March 6, 2018","9,913,104",#9913104,True
+201,US,14,ORACLE INTERNATIONAL CORPORATION,Electricity,"July 21, 2015","March 6, 2018","9,913,128",#9913128,True
+202,US,15,"RAI STRATEGIC HOLDINGS, INC.",Physics,"February 20, 2017","March 13, 2018","9,913,497",#9913497,True
+203,SE,15,SYMCEL SVERIGE AB,"Performing Operations, Transporting","August 20, 2014","March 13, 2018","9,914,122",#9914122,True
+204,US,15,"Faurecia Automotive Seating, LLC","Performing Operations, Transporting","May 4, 2016","March 13, 2018","9,914,371",#9914371,True
+205,KRKR,14,Hyundai Motor Company,"Performing Operations, Transporting","December 5, 2015","March 13, 2018","9,914,450",#9914450,True
+206,US,14,TEMPTIME CORPORATION,"Performing Operations, Transporting","September 30, 2014","March 13, 2018","9,914,574",#9914574,True
+207,DE,14,BASF SE,"Chemistry, Metallurgy","February 12, 2014","March 13, 2018","9,914,693",#9914693,True
+208,DE,14,"Schaeffler Technologies AG & Co., KG","Mechanical Engineering, Lighting, Heating, Weapons, Blasting Engines or Pumps","August 5, 2013","March 13, 2018","9,915,198",#9915198,True
+209,US,14,Carrier Corporation,"Mechanical Engineering, Lighting, Heating, Weapons, Blasting Engines or Pumps","December 10, 2013","March 13, 2018","9,915,451",#9915451,True
+210,JPJPJPJP,14,Mitsubishi Electric Corporation,"Mechanical Engineering, Lighting, Heating, Weapons, Blasting Engines or Pumps","March 29, 2012","March 13, 2018","9,915,454",#9915454,True
+211,US,14,Workhorse Group Inc.,"Performing Operations, Transporting","January 7, 2016","March 13, 2018","9,915,956",#9915956,True
+212,US,15,Oracle International Corporation,Physics,"January 21, 2016","March 13, 2018","9,916,208",#9916208,True
+213,US,14,International Business Machines Corporation,Physics,"February 25, 2015","March 13, 2018","9,916,407",#9916407,True
+214,US,15,International Business Machines Corporation,Physics,"September 5, 2017","March 13, 2018","9,916,693",#9916693,True
+215,US,15,"Balboa Water Group, Inc.",Electricity,"May 26, 2017","March 13, 2018","9,917,404",#9917404,True
+216,DE,15,VI Systems GmbH,Electricity,"June 26, 2016","March 13, 2018","9,917,419",#9917419,True
+217,CN,15,TENCENT TECHNOLOGY,Electricity,"February 13, 2015","March 13, 2018","9,917,884",#9917884,True
+218,US,15,ILLINOIS TOOL WORKS INC.,Physics,"January 23, 2017","March 13, 2018","9,918,018",#9918018,True
+219,US,14,"Biomet Manufacturing, LLC",Human Necessities,"November 11, 2013","March 20, 2018","9,918,796",#9918796,True
+220,US,13,KONINKLIJKE PHILIPS N.V.,Human Necessities,"November 21, 2009","March 20, 2018","9,919,120",#9919120,True
+221,US,15,"Aftershock Services, Inc.",Human Necessities,"February 19, 2016","March 20, 2018","9,919,218",#9919218,True
+222,KR,14,LG Electronics Inc.,"Performing Operations, Transporting","May 27, 2015","March 20, 2018","9,919,272",#9919272,True
+223,US,15,"Ford Global Technologies, LLC","Performing Operations, Transporting","May 2, 2016","March 20, 2018","9,919,647",#9919647,True
+224,US,15,"FORD GLOBAL TECHNOLOGIES, LLC","Performing Operations, Transporting","June 27, 2016","March 20, 2018","9,919,667",#9919667,True
+225,US,14,"ODDS, LLC","Performing Operations, Transporting","August 27, 2014","March 20, 2018","9,919,825",#9919825,True
+226,US,15,ANTECIP BIOVENTURES II LLC,Human Necessities,"June 9, 2017","March 20, 2018","9,920,127",#9920127,True
+227,ITUS,15,Basell Poliolefine Italia S.r.l.,"Chemistry, Metallurgy","August 20, 2015","March 20, 2018","9,920,144",#9920144,True
+228,US,15,"Tejas Research & Engineering, LLC",Fixed Construction,"November 16, 2016","March 20, 2018","9,920,593",#9920593,True
+229,DEDKDK,14,LM WP PATENT HOLDING A/S,"Mechanical Engineering, Lighting, Heating, Weapons, Blasting Engines or Pumps","July 16, 2012","March 20, 2018","9,920,630",#9920630,True
+230,BB,14,DELPHI TECHNOLOGIES IP LIMITED,"Mechanical Engineering, Lighting, Heating, Weapons, Blasting Engines or Pumps","August 12, 2015","March 20, 2018","9,920,845",#9920845,True
+231,JP,15,ADVANTEST CORPORATION,Physics,"January 24, 2017","March 20, 2018","9,921,266",#9921266,True
+232,US,14,INTERNATIONAL BUSINESS MACHINES CORPORATION,Physics,"November 18, 2015","March 20, 2018","9,921,268",#9921268,True
+233,US,14,Intel Corporation,Physics,"November 20, 2015","March 20, 2018","9,921,630",#9921630,True
+234,CN,14,"Huawei Technologies Co., Ltd.",Physics,"December 30, 2014","March 20, 2018","9,921,867",#9921867,True
+235,US,15,ENTIT SOFTWARE LLC,Physics,"October 30, 2013","March 20, 2018","9,921,948",#9921948,True
+236,US,14,MICROCHIP TECHNOLOGY INCORPORATED,Physics,"June 3, 2015","March 20, 2018","9,921,988",#9921988,True
+237,US,15,Superior Essex International LP,Electricity,"July 12, 2017","March 20, 2018","9,922,754",#9922754,True
+238,DE,15,Siemens Aktiengesellschaft,Electricity,"December 18, 2013","March 20, 2018","9,922,780",#9922780,True
+239,KR,15,LG ELECTRONICS INC.,Electricity,"February 27, 2015","March 20, 2018","9,923,753",#9923753,True
+240,DE,14,SAP SE,Electricity,"April 14, 2015","March 20, 2018","9,923,893",#9923893,True
+241,US,15,"Area 1 Security, Inc.",Electricity,"January 26, 2017","March 20, 2018","9,923,920",#9923920,True
+242,KR,14,LG ELECTRONICS INC.,Electricity,"October 20, 2014","March 20, 2018","9,924,207",#9924207,True
+243,US,15,"Facebook, Inc.",Electricity,"November 18, 2016","March 20, 2018","9,924,336",#9924336,True
+244,JP,15,KYOCERA Corporation,Electricity,"January 24, 2017","March 20, 2018","9,924,377",#9924377,True
+245,US,15,AT&T Mobility II LLC,Electricity,"June 5, 2017","March 20, 2018","9,924,562",#9924562,True
+246,US,15,Marlow; John C,Human Necessities,"January 19, 2017","March 27, 2018","9,925,436",#9925436,True
+247,US,14,ANTAYA TECHNOLOGIES CORPORATION,Electricity,"July 24, 2014","March 27, 2018","9,925,611",#9925611,True
+248,JP,15,SUMITOMO BAKELITE COMPANY LIMITED,"Chemistry, Metallurgy","January 27, 2015","March 27, 2018","9,926,446",#9926446,True
+249,GB,14,OXFORD INSTRUMENTS NANOTECHNOLOGY TOOLS LIMITED,"Mechanical Engineering, Lighting, Heating, Weapons, Blasting Engines or Pumps","November 26, 2014","March 27, 2018","9,927,154",#9927154,True
+250,DE,15,Carl Zeiss SMT GmbH,Physics,"April 11, 2017","March 27, 2018","9,927,714",#9927714,True
+251,US,14,Educational Testing Service,Physics,"March 17, 2014","March 27, 2018","9,928,754",#9928754,True
+252,CN,14,"WUHAN CHINA STAR OPTOELECTRONICS TECHNOLOGY CO., LTD.",Physics,"August 10, 2015","March 27, 2018","9,928,793",#9928793,True
+253,IL,14,SILENTIUM LTD.,Physics,"December 28, 2015","March 27, 2018","9,928,824",#9928824,True
+254,SG,15,Unisantis Electronics Singapore Pte. Ltd.,Electricity,"April 17, 2017","March 27, 2018","9,929,341",#9929341,True
+255,JP,15,Canon Kabushiki Kaisha,Electricity,"July 1, 2016","March 27, 2018","9,930,207",#9930207,True
+256,US,15,OL SECURITY LIMITED LIABILITY COMPANY,Electricity,"January 19, 2017","March 27, 2018","9,930,575",#9930575,True
+257,US,14,,Electricity,"January 13, 2015","March 27, 2018","9,930,643",#9930643,True
+258,US,14,"InterDigital Patent Holdings, Inc.",Electricity,"August 5, 2015","March 27, 2018","9,930,709",#9930709,True
+259,IT,15,TEXA S.P.A.,Electricity,"March 13, 2015","March 27, 2018","9,930,796",#9930796,True
+260,US,15,"Zimmer Spine, Inc.",Human Necessities,"May 6, 2016","April 3, 2018","9,931,149",#9931149,True
+261,KR,14,"Samsung Electronics Co., Ltd.",Human Necessities,"January 19, 2015","April 3, 2018","9,931,265",#9931265,True
+262,US,14,AMASTAN TECHNOLOGIES LLC,"Chemistry, Metallurgy","June 6, 2014","April 3, 2018","9,932,673",#9932673,True
+263,JP,15,SHOWA CORPORATION,"Mechanical Engineering, Lighting, Heating, Weapons, Blasting Engines or Pumps","November 25, 2016","April 3, 2018","9,932,997",#9932997,True
+264,USUSUS,13,"Cancer Prevention and Cure, LTD.",Physics,"March 12, 2010","April 3, 2018","9,933,429",#9933429,True
+265,KY,14,Safe Text Ltd.,Electricity,"October 5, 2015","April 3, 2018","9,934,396",#9934396,True
+266,GB,15,Imagination Technologies Limited,Physics,"February 3, 2017","April 3, 2018","9,934,549",#9934549,True
+267,TH,14,"CHAN MUSICAL CO., LTD.",Physics,"October 13, 2015","April 3, 2018","9,934,765",#9934765,True
+268,TW,15,Taiwan Semiconductor Manufacturing Company Limited,Physics,"January 25, 2017","April 3, 2018","9,934,828",#9934828,True
+269,US,14,"Micron Technology, Inc.",Physics,"April 7, 2014","April 3, 2018","9,934,831",#9934831,True
+270,AT,15,AMS AG,Electricity,"February 8, 2017","April 3, 2018","9,935,231",#9935231,True
+271,JP,14,"Semiconductor Energy Laboratory Co., Ltd.",Electricity,"December 18, 2014","April 3, 2018","9,935,617",#9935617,True
+272,US,15,Intel IP Corporation,Electricity,"June 21, 2016","April 3, 2018","9,935,722",#9935722,True
+273,US,15,"Juniper Networks, Inc.",Electricity,"October 31, 2016","April 3, 2018","9,935,779",#9935779,True
+274,US,15,"Minerva Project, Inc.",Electricity,"December 12, 2016","April 3, 2018","9,935,987",#9935987,True
+275,US,15,"ICON Health & Fitness, Inc.",Human Necessities,"February 18, 2016","April 10, 2018","9,937,378",#9937378,True
+276,US,14,"Terex USA, LLC","Performing Operations, Transporting","February 10, 2014","April 10, 2018","9,937,502",#9937502,True
+277,JP,15,Toyota Jidosha Kabushiki Kaisha,"Performing Operations, Transporting","October 28, 2016","April 10, 2018","9,937,915",#9937915,True
+278,IT,13,Harken Italy S.P.A.,"Performing Operations, Transporting","September 17, 2010","April 10, 2018","9,938,122",#9938122,True
+279,US,15,"Halliburton Energy Services, Inc.",Fixed Construction,"July 5, 2016","April 10, 2018","9,938,785",#9938785,True
+280,US,15,OSCILLA POWER INC.,"Mechanical Engineering, Lighting, Heating, Weapons, Blasting Engines or Pumps","August 5, 2016","April 10, 2018","9,941,820",#9941820,True
+281,JP,15,"NTT DOCOMO, INC.",Electricity,"July 29, 2016","April 10, 2018","9,941,912",#9941912,True
+282,DE,14,Robert Bosch GmbH,Physics,"July 24, 2015","April 10, 2018","9,942,475",#9942475,True
+283,US,14,Time Warner Cable Enterprises LLC,Electricity,"October 26, 2015","April 10, 2018","9,942,749",#9942749,True
+284,JP,14,NIPPON STEEL & SUMITOMO METAL CORPORATION,"Chemistry, Metallurgy","December 14, 2015","April 10, 2018","9,942,949",#9942949,True
+285,HK,15,,Electricity,"August 15, 2016","April 10, 2018","9,943,015",#9943015,True
+286,JP,15,ENPLAS CORPORATION,Human Necessities,"November 26, 2014","April 17, 2018","9,943,045",#9943045,True
+287,US,15,"PIONEER HI-BRED INTERNATIONAL, INC.",Human Necessities,"March 2, 2017","April 17, 2018","9,943,060",#9943060,True
+288,CH,15,Philip Morris Products S.A.,Electricity,"July 9, 2015","April 17, 2018","9,943,114",#9943114,True
+289,US,15,Texas Tech University System,Human Necessities,"May 27, 2015","April 17, 2018","9,943,502",#9943502,True
+290,US,14,STEERING SOLUTIONS IP HOLDING CORPORATION,"Mechanical Engineering, Lighting, Heating, Weapons, Blasting Engines or Pumps","November 5, 2015","April 17, 2018","9,945,415",#9945415,True
+291,US,15,"Microsoft Technology Licensing, LLC",Electricity,"September 6, 2016","April 17, 2018","9,947,262",#9947262,True
+292,KY,15,GLOBALFOUNDRIES INC.,Electricity,"February 21, 2017","April 17, 2018","9,947,545",#9947545,True
+293,BE,14,COMMSCOPE CONNECTIVITY BELGIUM BVBA,Electricity,"June 27, 2013","April 17, 2018","9,948,082",#9948082,True
+294,KR,15,LG ELECTRONICS INC.,Electricity,"March 10, 2015","April 17, 2018","9,948,378",#9948378,True
+295,JPJP,15,"Ricoh Company, Ltd.",Electricity,"March 16, 2017","April 17, 2018","9,948,824",#9948824,True
+296,JP,15,"PANASONIC INTELLECTUAL PROPERTY MANAGEMENT CO., LTD.",Physics,"June 5, 2017","April 17, 2018","9,948,884",#9948884,True
+297,KR,14,"SAMSUNG DISPLAY CO., LTD.",Electricity,"January 9, 2015","April 17, 2018","9,949,335",#9949335,True
+298,US,14,"Avent, Inc.",Human Necessities,"May 6, 2014","April 24, 2018","9,949,789",#9949789,True
+299,US,15,"FENF, LLC",Human Necessities,"July 5, 2016","April 24, 2018","9,949,859",#9949859,True
+300,US,14,"Cardiac Pacemakers, Inc.",Human Necessities,"January 26, 2015","April 24, 2018","9,950,175",#9950175,True
+301,FR,14,L'AIR LIQUIDE SOCIETE ANONYME POUR L'ETUDE ET L'EXPLOITATION DES PROCEDES GEORGES CLAUDE,"Mechanical Engineering, Lighting, Heating, Weapons, Blasting Engines or Pumps","July 12, 2013","April 24, 2018","9,950,274",#9950274,True
+302,FI,14,ABB Oy,"Performing Operations, Transporting","February 19, 2015","April 24, 2018","9,950,914",#9950914,True
+303,ITIT,15,Fondazione Telethon,"Chemistry, Metallurgy","August 31, 2017","April 24, 2018","9,951,328",#9951328,True
+304,DE,14,CONTINENTAL AUTOMOTIVE GMBH,"Mechanical Engineering, Lighting, Heating, Weapons, Blasting Engines or Pumps","January 8, 2016","April 24, 2018","9,951,739",#9951739,True
+305,US,15,"NEW HAMPSHIRE BALL BEARINGS, INC.","Mechanical Engineering, Lighting, Heating, Weapons, Blasting Engines or Pumps","April 7, 2016","April 24, 2018","9,951,820",#9951820,True
+306,DE,15,FLENDER GMBH,"Mechanical Engineering, Lighting, Heating, Weapons, Blasting Engines or Pumps","April 22, 2016","April 24, 2018","9,951,859",#9951859,True
+307,US,14,"Magic Leap, Inc.",Physics,"May 5, 2015","April 24, 2018","9,952,042",#9952042,True
+308,KR,14,"SAMSUNG DISPLAY CO., LTD.",Physics,"November 11, 2015","April 24, 2018","9,952,380",#9952380,True
+309,CN,14,"Vista Optronics, Inc.",Physics,"August 25, 2015","April 24, 2018","9,952,407",#9952407,True
+310,CN,15,"Qingdao GoerTek Technology Co., Ltd.",Physics,"June 23, 2015","April 24, 2018","9,952,450",#9952450,True
+311,CACA,14,SAP SE,Physics,"January 31, 2014","April 24, 2018","9,953,074",#9953074,True
+312,US,13,GOOGLE LLC,Physics,"September 4, 2012","April 24, 2018","9,953,093",#9953093,True
+313,JP,15,Canon Kabushiki Kaisha,Physics,"January 27, 2016","April 24, 2018","9,953,734",#9953734,True
+314,JP,15,TOSHIBA MEMORY CORPORATION,Electricity,"September 15, 2016","April 24, 2018","9,954,167",#9954167,True
+315,GB,15,GE ENERGY POWER CONVERSION TECHNOLOGY LIMITED,Electricity,"April 22, 2016","April 24, 2018","9,954,393",#9954393,True
+316,US,14,GM GLOBAL TECHNOLOGY OPERATIONS LLC,Electricity,"June 9, 2014","April 24, 2018","9,955,331",#9955331,True
+317,US,14,University of Pittsburgh--Of the Commonwealth System of Higher Education,Human Necessities,"March 4, 2014","May 1, 2018","9,955,881",#9955881,True
+318,US,13,St. Jude Medical Puerto Rico LLC,Human Necessities,"February 6, 2013","May 1, 2018","9,955,958",#9955958,True
+319,US,14,,Human Necessities,"February 12, 2015","May 1, 2018","9,956,026",#9956026,True
+320,GB,14,Smith & Nephew PLC,Human Necessities,"April 22, 2014","May 1, 2018","9,956,121",#9956121,True
+321,DKDKDKDKDK,14,MOBERG PHARMA AB,Human Necessities,"April 27, 2012","May 1, 2018","9,956,211",#9956211,True
+322,US,15,Boston Scientific Neuromodulation Corporation,Human Necessities,"May 24, 2016","May 1, 2018","9,956,419",#9956419,True
+323,JP,15,"KONICA MINOLTA, INC.","Performing Operations, Transporting","December 8, 2016","May 1, 2018","9,957,128",#9957128,True
+324,US,15,The United States of America as represented by the Secretary of the Army,Human Necessities,"March 1, 2016","May 1, 2018","9,958,023",#9958023,True
+325,JP,14,DENSO CORPORATION,"Mechanical Engineering, Lighting, Heating, Weapons, Blasting Engines or Pumps","March 28, 2014","May 1, 2018","9,958,043",#9958043,True
+326,US,15,"YARDARM TECHNOLOGIES, INC.","Mechanical Engineering, Lighting, Heating, Weapons, Blasting Engines or Pumps","January 25, 2017","May 1, 2018","9,958,228",#9958228,True
+327,LI,15,Neutrik AG,Electricity,"January 13, 2017","May 1, 2018","9,958,617",#9958617,True
+328,US,15,"McCreight, Jr.; Robert J.",Physics,"May 23, 2016","May 1, 2018","9,958,667",#9958667,True
+329,US,15,"Red Hat, Inc.",Physics,"May 26, 2017","May 1, 2018","9,959,105",#9959105,True
+330,US,15,"Western Digital Technologies, Inc.",Physics,"August 2, 2016","May 1, 2018","9,959,218",#9959218,True
+331,GB,15,Imagination Technologies Limited,Physics,"October 25, 2016","May 1, 2018","9,959,636",#9959636,True
+332,USUS,14,Texas Scottish Rite Hospital for Children,Physics,"March 15, 2013","May 1, 2018","9,959,683",#9959683,True
+333,JP,14,"MITSUBISHI HEAVY INDUSTRIES, LTD.",Physics,"October 12, 2012","May 1, 2018","9,959,945",#9959945,True
+334,KR,14,"LG INNOTEK CO., LTD.",Electricity,"June 17, 2014","May 1, 2018","9,960,291",#9960291,True
+335,KR,15,DOOSAN CORPORATION,Electricity,"December 21, 2015","May 1, 2018","9,960,363",#9960363,True
+336,JP,14,Mitsubishi Electric Corporation,Electricity,"April 26, 2013","May 1, 2018","9,960,650",#9960650,True
+337,NL,14,KONINKLIJKE PHILIPS N.V.,Electricity,"September 23, 2015","May 1, 2018","9,961,186",#9961186,True
+338,JP,15,OLYMPUS CORPORATION,Electricity,"February 24, 2017","May 1, 2018","9,961,286",#9961286,True
+339,US,15,"Applied Minds, LLC",Electricity,"November 4, 2016","May 1, 2018","9,961,541",#9961541,True
+340,CA,15,Guest Tek Interactive Entertainment Ltd.,Electricity,"February 22, 2017","May 1, 2018","9,961,548",#9961548,True
+341,US,15,Whirlpool Corporation,Human Necessities,"August 14, 2017","May 8, 2018","9,962,060",#9962060,True
+342,US,14,Legacy Ventures LLC,Human Necessities,"July 8, 2015","May 8, 2018","9,962,177",#9962177,True
+343,PK,15,,Human Necessities,"March 6, 2016","May 8, 2018","9,962,347",#9962347,True
+344,CH,14,Obseva S.A.,Human Necessities,"December 16, 2014","May 8, 2018","9,962,367",#9962367,True
+345,US,14,"Natrogen Therapeutics International, Inc.",Human Necessities,"June 6, 2014","May 8, 2018","9,962,400",#9962400,True
+346,US,15,High Point Equipment LLC,Human Necessities,"April 27, 2017","May 8, 2018","9,962,590",#9962590,True
+347,DEDE,14,FRAUNHOFER-GESELLSCHAFT ZUR FOERDERUNG DER ANGEWANDTEN FORSCHUNG E. V.,"Performing Operations, Transporting","December 15, 2015","May 8, 2018","9,962,648",#9962648,True
+348,US,15,ILLINOIS TOOK WORKS INC.,"Performing Operations, Transporting","March 7, 2017","May 8, 2018","9,962,768",#9962768,True
+349,JP,14,"TOKYO OHKA KOGYO CO., LTD.",Electricity,"January 23, 2013","May 8, 2018","9,962,915",#9962915,True
+350,JP,15,Seiko Epson Corporation,"Performing Operations, Transporting","March 22, 2017","May 8, 2018","9,962,964",#9962964,True
+351,US,15,The United States of America as Represented by the Secretary of the Navy,"Chemistry, Metallurgy","October 12, 2016","May 8, 2018","9,963,651",#9963651,True
+352,USUS,14,,"Textiles, Paper","August 25, 2014","May 8, 2018","9,963,825",#9963825,True
+353,JP,15,"SUMITOMO ELECTRIC INDUSTRIES, LTD.","Chemistry, Metallurgy","December 2, 2015","May 8, 2018","9,964,700",#9964700,True
+354,JP,14,Japan Display Inc.,Physics,"August 28, 2015","May 8, 2018","9,965,082",#9965082,True
+355,FR,14,THOMSON LICENSING,Physics,"November 27, 2012","May 8, 2018","9,965,179",#9965179,True
+356,USUSUSUSUS,12,INTERNATIONAL BUSINESS MACHINES CORPORATION,Physics,"April 13, 2009","May 8, 2018","9,965,333",#9965333,True
+357,TW,15,BROGENT TECHNOLOGIES INC.,Physics,"March 28, 2017","May 8, 2018","9,966,113",#9966113,True
+358,JP,14,"Murata Manufacturing Co., Ltd.",Electricity,"March 6, 2015","May 8, 2018","9,966,189",#9966189,True
+359,KY,14,GLOBALFOUNDRIES INC.,Electricity,"September 4, 2014","May 8, 2018","9,966,459",#9966459,True
+360,US,15,CNH Industrial America LLC,Human Necessities,"May 25, 2016","May 15, 2018","9,968,034",#9968034,True
+361,US,15,"Allen Medical Systems, Inc.",Human Necessities,"June 30, 2016","May 15, 2018","9,968,502",#9968502,True
+362,USCN,15,Merck Sharp & Dohme Corp.,"Chemistry, Metallurgy","September 23, 2015","May 15, 2018","9,969,752",#9969752,True
+363,JP,14,"NISSAN CHEMICAL INDUSTRIES, LTD.","Chemistry, Metallurgy","May 14, 2014","May 15, 2018","9,969,867",#9969867,True
+364,CH,14,EMS-PATENT AG,"Chemistry, Metallurgy","August 8, 2014","May 15, 2018","9,969,882",#9969882,True
+365,US,15,,Fixed Construction,"April 20, 2017","May 15, 2018","9,970,201",#9970201,True
+366,US,14,"PYROTEK, INC.","Mechanical Engineering, Lighting, Heating, Weapons, Blasting Engines or Pumps","April 18, 2012","May 15, 2018","9,970,442",#9970442,True
+367,US,15,"LAWRENCE LIVERMORE NATIONAL SECURITY, LLC",Physics,"June 9, 2016","May 15, 2018","9,970,820",#9970820,True
+368,USUSUSUS,12,Duke University,Physics,"June 16, 2009","May 15, 2018","9,970,897",#9970897,True
+369,US,14,Intel Corporation,Physics,"December 28, 2015","May 15, 2018","9,971,045",#9971045,True
+370,TW,14,GENIUS ELECTRONIC OPTICAL,Physics,"November 10, 2015","May 15, 2018","9,971,124",#9971124,True
+371,JP,15,Japan Display Inc.,Physics,"October 17, 2016","May 15, 2018","9,971,207",#9971207,True
+372,JPJPJPJP,13,"Semiconductor Energy Laboratory Co., Ltd.",Physics,"March 8, 2011","May 15, 2018","9,971,440",#9971440,True
+373,US,15,Next Issue Media,Physics,"February 18, 2016","May 15, 2018","9,971,738",#9971738,True
+374,JP,15,SONY CORPORATION,Human Necessities,"July 1, 2016","May 15, 2018","9,972,112",#9972112,True
+375,JP,15,"Tokyo Parts Industrial Co., Ltd.",Electricity,"December 21, 2016","May 15, 2018","9,972,457",#9972457,True
+376,IT,12,STMICROELECTRONICS S.R.L.,Electricity,"March 15, 2010","May 15, 2018","9,972,496",#9972496,True
+377,CH,14,General Electric Technology GmbH,Electricity,"July 2, 2013","May 15, 2018","9,972,997",#9972997,True
+378,US,15,INTEL CORPORATION,Electricity,"September 2, 2016","May 15, 2018","9,973,417",#9973417,True
+379,US,15,International Business Machines Corporation,Electricity,"August 19, 2016","May 15, 2018","9,973,539",#9973539,True
+380,US,14,Dolby Laboratories Licensing Corporation,Electricity,"March 6, 2013","May 15, 2018","9,973,779",#9973779,True
+381,IT,14,ENI S.P.A.,"Performing Operations, Transporting","December 15, 2015","May 22, 2018","9,975,112",#9975112,True
+382,CNTW,14,FU DING ELECTRONICAL TECHNOLOGY,"Performing Operations, Transporting","October 7, 2014","May 22, 2018","9,975,213",#9975213,True
+383,JP,15,"SUMITOMO CHEMICAL COMPANY, LIMITED","Chemistry, Metallurgy","April 8, 2015","May 22, 2018","9,975,844",#9975844,True
+384,KR,15,"LG CHEM, LTD.","Chemistry, Metallurgy","November 21, 2014","May 22, 2018","9,975,969",#9975969,True
+385,US,14,"Electrolux Home Products, Inc.","Mechanical Engineering, Lighting, Heating, Weapons, Blasting Engines or Pumps","April 6, 2015","May 22, 2018","9,976,794",#9976794,True
+386,US,15,"True Velocity, Inc.","Mechanical Engineering, Lighting, Heating, Weapons, Blasting Engines or Pumps","November 2, 2017","May 22, 2018","9,976,840",#9976840,True
+387,CHCHCHCH,12,SWISSLITHO AG,Physics,"November 5, 2010","May 22, 2018","9,977,050",#9977050,True
+388,KR,14,"SAMSUNG DISPLAY CO., LTD.",Physics,"December 18, 2015","May 22, 2018","9,978,327",#9978327,True
+389,US,15,Seagate Technology LLC,Physics,"March 4, 2016","May 22, 2018","9,978,409",#9978409,True
+390,NL,14,MAPPER LITHOGRAPHY IP B.V.,Electricity,"May 27, 2014","May 22, 2018","9,978,562",#9978562,True
+391,US,15,"VERSUM MATERIALS US, LLC","Chemistry, Metallurgy","January 20, 2016","May 22, 2018","9,978,609",#9978609,True
+392,US,15,"POWER DISTRIBUTION, INC.",Electricity,"April 21, 2017","May 22, 2018","9,979,166",#9979166,True
+393,US,15,,Electricity,"August 18, 2016","May 22, 2018","9,979,213",#9979213,True
+394,CN,15,"VIA ALLIANCE SEMICONDUCTOR CO., LTD.",Physics,"August 10, 2017","May 22, 2018","9,979,414",#9979414,True
+395,KR,14,"Samsung Electronics Co., Ltd",Electricity,"October 21, 2013","May 22, 2018","9,979,439",#9979439,True
+396,US,14,Sprint Communications Company L.P.,Electricity,"May 27, 2015","May 22, 2018","9,979,562",#9979562,True
+397,US,15,"T-Mobile USA, Inc.",Electricity,"May 24, 2017","May 22, 2018","9,980,086",#9980086,True
+398,US,14,Colgate-Palmolive Company,"Performing Operations, Transporting","June 30, 2015","May 29, 2018","9,980,557",#9980557,True
+399,CHCHCH,13,Nestec S.A.,Human Necessities,"June 30, 2011","May 29, 2018","9,980,595",#9980595,True
+400,JP,15,"SUMITOMO RUBBER INDUSTRIES, LTD.",Human Necessities,"July 5, 2016","May 29, 2018","9,981,073",#9981073,True
+401,NL,15,Synthon B.V.,"Chemistry, Metallurgy","March 24, 2016","May 29, 2018","9,981,965",#9981965,True
+402,JP,15,ADEKA CORPORATION,"Chemistry, Metallurgy","February 2, 2015","May 29, 2018","9,982,149",#9982149,True
+403,JP,14,"KANSAI PAINT CO., LTD.","Chemistry, Metallurgy","October 11, 2013","May 29, 2018","9,982,159",#9982159,True
+404,JP,14,"HITACHI KOKI CO., LTD.","Mechanical Engineering, Lighting, Heating, Weapons, Blasting Engines or Pumps","August 17, 2014","May 29, 2018","9,982,665",#9982665,True
+405,CN,15,"SHANDONG PROSPEROUS STAR OPTOELECTRONICS CO., LTD.","Mechanical Engineering, Lighting, Heating, Weapons, Blasting Engines or Pumps","March 3, 2016","May 29, 2018","9,982,865",#9982865,True
+406,US,14,"Vivint, Inc.","Mechanical Engineering, Lighting, Heating, Weapons, Blasting Engines or Pumps","October 23, 2014","May 29, 2018","9,982,906",#9982906,True
+407,JP,15,SHIMADZU CORPORATION,Physics,"February 4, 2015","May 29, 2018","9,983,180",#9983180,True
+408,US,15,AbbVie Inc.,Physics,"March 9, 2017","May 29, 2018","9,983,218",#9983218,True
+409,US,15,Intel Corporation,Physics,"May 31, 2016","May 29, 2018","9,983,873",#9983873,True
+410,US,15,International Business Machines Corporation,Physics,"March 28, 2017","May 29, 2018","9,984,227",#9984227,True
+411,US,14,International Business Machines Corporation,Physics,"December 17, 2015","May 29, 2018","9,984,228",#9984228,True
+412,US,14,"DELL PRODUCTS, LP",Physics,"July 31, 2015","May 29, 2018","9,984,236",#9984236,True
+413,US,15,ELMATEK INTERNATION CORP.,Electricity,"May 13, 2016","May 29, 2018","9,984,797",#9984797,True
+414,KR,15,"SAMSUNG ELECTRO-MECHANICS CO., LTD.",Electricity,"February 24, 2016","May 29, 2018","9,984,821",#9984821,True
+415,DE,15,Infineon Technologies AG,Electricity,"March 4, 2016","May 29, 2018","9,985,126",#9985126,True
+416,KR,15,"Samsung Electronics Co., Ltd.",Electricity,"September 12, 2016","May 29, 2018","9,985,229",#9985229,True
+417,USUS,11,"TP Lab, Inc.",Electricity,"November 14, 2006","May 29, 2018","9,985,817",#9985817,True
+418,US,14,Avaya Inc.,Electricity,"November 5, 2014","May 29, 2018","9,986,097",#9986097,True
+419,US,15,"FUTUREWEI TECHNOLOGIES, INC.",General New Technological Developments,"June 3, 2016","May 29, 2018","9,986,456",#9986456,True
+420,US,15,"Futurewei Technologies, Inc.",Electricity,"March 18, 2016","May 29, 2018","9,986,468",#9986468,True
+421,US,14,Apple Inc.,Electricity,"September 15, 2014","May 29, 2018","9,986,478",#9986478,True
+422,US,15,"M87, Inc.",Electricity,"July 29, 2016","May 29, 2018","9,986,480",#9986480,True
+423,USUSUSUS,13,The Regents Of The University of Minnesota,Human Necessities,"May 31, 2011","June 5, 2018","9,987,153",#9987153,True
+424,JP,15,"NINTENDO CO., LTD.",Human Necessities,"March 15, 2016","June 5, 2018","9,987,560",#9987560,True
+425,USUSUS,13,"Guardian Glass, LLC","Chemistry, Metallurgy","September 2, 2011","June 5, 2018","9,988,304",#9988304,True
+426,KRKR,14,"SAMSUNG ELECTRONICS CO., LTD.","Chemistry, Metallurgy","June 17, 2015","June 5, 2018","9,988,493",#9988493,True
+427,IT,15,PAOLO GOBBI FRATTINI S.R.L.,Physics,"October 6, 2014","June 5, 2018","9,988,601",#9988601,True
+428,US,15,"National Oilwell Varco, L.P.",Fixed Construction,"February 24, 2016","June 5, 2018","9,988,807",#9988807,True
+429,US,14,Hamilton Sundstrand Corporation,"Mechanical Engineering, Lighting, Heating, Weapons, Blasting Engines or Pumps","November 10, 2014","June 5, 2018","9,989,155",#9989155,True
+430,JP,14,"NGK SPARK PLUG CO., LTD.",Physics,"May 12, 2015","June 5, 2018","9,989,487",#9989487,True
+431,KR,14,"LG Display Co., Ltd.",Physics,"August 31, 2015","June 5, 2018","9,989,797",#9989797,True
+432,CN,15,JRD COMMUNICATION INC.,Physics,"September 1, 2016","June 5, 2018","9,989,924",#9989924,True
+433,US,14,"Selligent, Inc.",Physics,"October 7, 2014","June 5, 2018","9,990,649",#9990649,True
+434,CA,14,Certicom Corp.,Physics,"February 23, 2015","June 5, 2018","9,990,796",#9990796,True
+435,TW,15,POWERTECH TECHNOLOGY INC.,Electricity,"April 5, 2017","June 5, 2018","9,991,206",#9991206,True
+436,JP,15,KABUSHIKI KAISHA TOSHIBA,Electricity,"July 14, 2017","June 5, 2018","9,991,421",#9991421,True
+437,JP,14,TOYOTA JIDOSHA KABUSHIKI KAISHA,Electricity,"April 24, 2013","June 5, 2018","9,991,479",#9991479,True
+438,AU,15,NOWWW.US PTY LTD.,Electricity,"September 7, 2017","June 5, 2018","9,992,176",#9992176,True
+439,US,15,VIDEOSTITCH INC.,Physics,"February 23, 2016","June 5, 2018","9,992,400",#9992400,True
+440,US,15,"FUTUREWEI TECHNOLOGIES, INC.",Electricity,"December 21, 2016","June 5, 2018","9,992,779",#9992779,True
+441,US,14,APPLE INC.,Electricity,"August 22, 2014","June 5, 2018","9,992,863",#9992863,True
+442,US,15,International Business Machines Corporation,Electricity,"August 15, 2017","June 5, 2018","9,992,900",#9992900,True
+443,US,14,"Zimmer Surgical, Inc.",Human Necessities,"May 12, 2015","June 12, 2018","9,993,262",#9993262,True
+444,US,14,Davol Inc.,Human Necessities,"December 18, 2014","June 12, 2018","9,993,324",#9993324,True
+445,DE,15,IMMATICS BIOTECHNOLOGIES GMBH,Human Necessities,"June 30, 2017","June 12, 2018","9,993,540",#9993540,True
+446,US,15,THE BOEING COMPANY,"Performing Operations, Transporting","August 4, 2016","June 12, 2018","9,993,947",#9993947,True
+447,FR,15,SAFRAN AIRCRAFT ENGINES,"Mechanical Engineering, Lighting, Heating, Weapons, Blasting Engines or Pumps","July 22, 2015","June 12, 2018","9,995,224",#9995224,True
+448,JPJP,15,FUJIKURA RUBBER LTD.,"Mechanical Engineering, Lighting, Heating, Weapons, Blasting Engines or Pumps","October 7, 2014","June 12, 2018","9,995,322",#9995322,True
+449,US,14,"Baltimore Aircoil Company, Inc.","Mechanical Engineering, Lighting, Heating, Weapons, Blasting Engines or Pumps","December 3, 2015","June 12, 2018","9,995,533",#9995533,True
+450,DE,14,Siemens Aktiengesellschaft,Physics,"September 4, 2014","June 12, 2018","9,995,807",#9995807,True
+451,JP,15,Hitachi Kokusai Electric Inc.,Electricity,"March 21, 2017","June 12, 2018","9,995,931",#9995931,True
+452,DK,14,GN HEARING A/S,Electricity,"May 5, 2014","June 12, 2018","9,997,171",#9997171,True
+453,USUS,15,INTERNATIONAL BUSINESS MACHINES CORPORATION,Electricity,"August 30, 2016","June 12, 2018","9,997,539",#9997539,True
+454,DE,14,Dialog Semiconductor GmbH,Electricity,"June 25, 2014","June 12, 2018","9,997,999",#9997999,True
+455,US,15,International Business Machines Corporation,Electricity,"May 11, 2016","June 12, 2018","9,998,255",#9998255,True
+456,US,15,QUALCOMM Incorporated,Electricity,"May 17, 2017","June 12, 2018","9,998,300",#9998300,True
+457,JP,14,YOKOGAWA ELECTRIC CORPORATION,Electricity,"October 8, 2015","June 12, 2018","9,998,542",#9998542,True
+458,FRFRFR,14,STMicroelectronics,Electricity,"December 1, 2014","June 12, 2018","9,998,689",#9998689,True
+459,US,14,"SUPER MICRO COMPUTER, INC.",Electricity,"January 14, 2015","June 12, 2018","9,999,162",#9999162,True
+460,CH,14,POLYPHOR LTD.,"Chemistry, Metallurgy","December 19, 2013","June 19, 2018","10,000,535",#10000535,True
+461,US,14,"SIX CONTINENTS HOTELS, INC.",Human Necessities,"November 23, 2015","June 19, 2018","10,000,940",#10000940,True
+462,JP,15,NABTESCO CORPORATION,Fixed Construction,"September 16, 2014","June 19, 2018","10,000,959",#10000959,True
+463,GB,15,,"Mechanical Engineering, Lighting, Heating, Weapons, Blasting Engines or Pumps","November 11, 2014","June 19, 2018","10,001,075",#10001075,True
+464,USUSUSUSUSUS,13,"JENTEK SENSORS, INC.",Physics,"April 19, 2012","June 19, 2018","10,001,457",#10001457,True
+465,CA,15,,Physics,"February 2, 2015","June 19, 2018","10,001,480",#10001480,True
+466,US,15,SanDisk Technologies LLC,Physics,"December 20, 2016","June 19, 2018","10,002,086",#10002086,True
+467,TW,15,"TAIWAN SEMICONDUCTOR MANUFACTURING CO., LTD.",Electricity,"January 17, 2017","June 19, 2018","10,002,969",#10002969,True
+468,US,14,ENERGOUS CORPORATION,Electricity,"December 30, 2014","June 19, 2018","10,003,211",#10003211,True
+469,JP,15,Kabushiki Kaisha Toshiba,Electricity,"December 21, 2016","June 19, 2018","10,003,331",#10003331,True
+470,US,15,"StreamScale, Inc.",Electricity,"July 1, 2016","June 19, 2018","10,003,358",#10003358,True
+471,CA,15,Accedian Networks Inc.,Electricity,"July 5, 2016","June 19, 2018","10,003,506",#10003506,True
+472,,,,Unknown,,,,#10003953,True
+473,GBGB,10,GW Pharma Limited,Human Necessities,"February 14, 2002","June 26, 2018","10,004,684",#10004684,True
+474,GBGBGBGBUSGBUSGBGB,15,Novartis AG,"Chemistry, Metallurgy","April 24, 2014","June 26, 2018","10,004,732",#10004732,True
+475,US,14,Delavan Inc.,"Performing Operations, Transporting","July 29, 2015","June 26, 2018","10,005,239",#10005239,True
+476,TW,14,"MICROJET TECHNOLOGY CO., LTD","Performing Operations, Transporting","January 6, 2016","June 26, 2018","10,005,240",#10005240,True
+477,TW,15,BESTRIDENT LTD.,"Performing Operations, Transporting","October 6, 2016","June 26, 2018","10,005,402",#10005402,True
+478,US,15,TEXAS INSTRUMENTS INCORPORATED,Electricity,"March 29, 2017","June 26, 2018","10,005,429",#10005429,True
+479,NL,15,SABIC GLOBAL TECHNOLOGIES B.V.,"Chemistry, Metallurgy","June 1, 2015","June 26, 2018","10,005,859",#10005859,True
+480,TW,14,INDUSTRIAL TECHNOLOGY RESEARCH INSTITUTE,"Chemistry, Metallurgy","September 21, 2015","June 26, 2018","10,005,881",#10005881,True
+481,US,15,"Baker Hughes, a GE company, LLC",Fixed Construction,"July 13, 2016","June 26, 2018","10,006,283",#10006283,True
+482,DE,14,RENK Aktiengesellschaft,"Mechanical Engineering, Lighting, Heating, Weapons, Blasting Engines or Pumps","March 12, 2014","June 26, 2018","10,006,493",#10006493,True
+483,IT,15,PIRELLI TYRE S.P.A.,Physics,"December 18, 2015","June 26, 2018","10,006,836",#10006836,True
+484,USUS,13,INTERNATIONAL BUSINESS MACHINES CORPORATION,Physics,"May 2, 2011","June 26, 2018","10,007,523",#10007523,True
+485,US,15,"DROPBOX, INC.",Physics,"May 22, 2017","June 26, 2018","10,007,695",#10007695,True
+486,US,15,International Business Machines Corporation,Physics,"September 28, 2017","June 26, 2018","10,007,916",#10007916,True
+487,TW,15,"TAIWAN SEMICONDUCTOR MANUFACTURING CO., LTD.",Electricity,"October 13, 2016","June 26, 2018","10,008,574",#10008574,True
+488,US,15,"Molex, LLC",Electricity,"May 29, 2015","June 26, 2018","10,008,811",#10008811,True
+489,JP,15,Sony Corporation,Electricity,"December 16, 2016","June 26, 2018","10,008,876",#10008876,True
+490,USUS,15,The Florida International University Board of Trustees,Electricity,"August 31, 2017","June 26, 2018","10,008,962",#10008962,True
+491,US,14,SATELLITE TRACKING OF PEOPLE LLC,Electricity,"November 20, 2015","June 26, 2018","10,009,721",#10009721,True
+492,FI,14,GE Embedded Electronics Oy,Electricity,"February 16, 2015","June 26, 2018","10,010,019",#10010019,True
+493,BS,13,,Human Necessities,"March 15, 2013","July 3, 2018","10,010,215",#10010215,True
+494,US,15,"Innovative Health Solutions, Inc.",Human Necessities,"November 13, 2017","July 3, 2018","10,010,479",#10010479,True
+495,US,13,West Virginia University,Human Necessities,"November 5, 2012","July 3, 2018","10,010,584",#10010584,True
+496,US,14,"FENWAL, INC.","Performing Operations, Transporting","March 11, 2013","July 3, 2018","10,010,886",#10010886,True
+497,BE,14,,"Chemistry, Metallurgy","July 30, 2014","July 3, 2018","10,011,510",#10011510,True
+498,US,14,"University of Florida Research Foundation, Incorporated","Chemistry, Metallurgy","March 14, 2014","July 3, 2018","10,011,640",#10011640,True
+499,CN,15,"BOE Technology Group Co., Ltd.","Mechanical Engineering, Lighting, Heating, Weapons, Blasting Engines or Pumps","January 29, 2016","July 3, 2018","10,011,898",#10011898,True
+500,DE,15,Schaeffler Technologies AG & Co. KG,"Mechanical Engineering, Lighting, Heating, Weapons, Blasting Engines or Pumps","March 10, 2016","July 3, 2018","10,012,083",#10012083,True
+501,US,15,Caterpillar Inc.,"Mechanical Engineering, Lighting, Heating, Weapons, Blasting Engines or Pumps","August 25, 2016","July 3, 2018","10,012,205",#10012205,True
+502,US,13,Energy Wall,"Mechanical Engineering, Lighting, Heating, Weapons, Blasting Engines or Pumps","March 21, 2012","July 3, 2018","10,012,444",#10012444,True
+503,US,14,"SEMILAB Semiconductor Physics Laboratory Co., Ltd.",Electricity,"May 4, 2015","July 3, 2018","10,012,593",#10012593,True
+504,KRKRKRKRKRKRKRKRKR,15,"Samsung Electronics Co., Ltd.",Physics,"May 25, 2017","July 3, 2018","10,013,211",#10013211,True
+505,US,15,Apple Inc.,Electricity,"September 19, 2016","July 3, 2018","10,014,131",#10014131,True
+506,CA,15,BlackBerry Limited,Electricity,"October 5, 2017","July 3, 2018","10,014,732",#10014732,True
+507,DE,14,SIEMENS AKTIENGESELLSCHAFT,Electricity,"September 9, 2015","July 3, 2018","10,014,737",#10014737,True
+508,US,15,"Sound Devices, LLC",Electricity,"March 9, 2017","July 3, 2018","10,014,966",#10014966,True
+509,CN,14,TENCENT TECHNOLOGY,Electricity,"August 22, 2014","July 3, 2018","10,015,130",#10015130,True
+510,US,14,Multek Technologies Ltd.,Electricity,"December 9, 2014","July 3, 2018","10,015,880",#10015880,True
+511,US,15,,Human Necessities,"September 12, 2016","July 10, 2018","10,016,006",#10016006,True
+512,US,15,"3DBiopsy, Inc.",Physics,"October 13, 2016","July 10, 2018","10,016,183",#10016183,True
+513,TW,15,"TCI CO., LTD.",Human Necessities,"September 20, 2017","July 10, 2018","10,016,387",#10016387,True
+514,US,14,"FORD GLOBAL TECHNOLOGIES, LLC","Performing Operations, Transporting","January 22, 2014","July 10, 2018","10,016,849",#10016849,True
+515,US,15,The Boeing Company,"Performing Operations, Transporting","August 1, 2016","July 10, 2018","10,016,934",#10016934,True
+516,US,15,"Stratasys, Inc.","Performing Operations, Transporting","February 23, 2016","July 10, 2018","10,016,945",#10016945,True
+517,US,14,HONEYWELL INTERNATIONAL INC.,"Performing Operations, Transporting","April 29, 2015","July 10, 2018","10,017,257",#10017257,True
+518,JP,15,Kaneka Corporation,"Chemistry, Metallurgy","April 8, 2016","July 10, 2018","10,017,673",#10017673,True
+519,US,15,"Peptide BioSciences, Inc.","Chemistry, Metallurgy","April 25, 2016","July 10, 2018","10,018,618",#10018618,True
+520,DEKR,14,Robert Bosch GmbH,Physics,"November 15, 2012","July 10, 2018","10,018,657",#10018657,True
+521,FR,15,SERCEL,Physics,"September 26, 2016","July 10, 2018","10,018,740",#10018740,True
+522,TW,15,"LARGAN PRECISION CO., LTD.",Physics,"June 29, 2016","July 10, 2018","10,018,809",#10018809,True
+523,KR,13,ELECTRONICS AND TELECOMMUNICATIONS RESEARCH INSTITUTE,Physics,"March 14, 2013","July 10, 2018","10,019,991",#10019991,True
+524,US,15,Alpha and Omega Semiconductor Incorporation,Electricity,"February 1, 2017","July 10, 2018","10,020,369",#10020369,True
+525,JP,15,"FUJI ELECTRIC CO., LTD.",Electricity,"July 28, 2017","July 10, 2018","10,020,804",#10020804,True
+526,NL,15,KONINKLIJKE PHILIPS N.V.,General New Technological Developments,"March 3, 2017","July 10, 2018","10,021,647",#10021647,True
+527,US,15,QUALCOMM Incorporated,Electricity,"October 14, 2016","July 10, 2018","10,021,712",#10021712,True
+528,USUS,14,NOVARTIS AG,Human Necessities,"November 26, 2013","July 17, 2018","10,022,256",#10022256,True
+529,US,14,CONMED CORPORATION,Human Necessities,"November 18, 2015","July 17, 2018","10,022,479",#10022479,True
+530,US,14,"Thomas West, Inc.","Performing Operations, Transporting","February 19, 2015","July 17, 2018","10,022,842",#10022842,True
+531,JP,15,Seiko Epson Corporation,Physics,"March 17, 2016","July 17, 2018","10,022,864",#10022864,True
+532,JP,15,YAMAHA HATSUDOKI KABUSHIKI KAISHA,"Performing Operations, Transporting","May 18, 2017","July 17, 2018","10,023,047",#10023047,True
+533,RU,14,UNITED COMPANY RUSAL ENGINEERING AND TECHNOLOGY CENTRE LLC,"Performing Operations, Transporting","February 4, 2013","July 17, 2018","10,023,472",#10023472,True
+534,US,15,Dow Global Technologies LLC,"Chemistry, Metallurgy","November 10, 2015","July 17, 2018","10,023,511",#10023511,True
+535,GB,14,GlaxoSmithKline Intellectual Property Development Limited,"Chemistry, Metallurgy","March 26, 2014","July 17, 2018","10,023,568",#10023568,True
+536,USSG,15,International Business Machines Corporation,Human Necessities,"November 25, 2016","July 17, 2018","10,023,697",#10023697,True
+537,US,14,Emerson Electric Co.,"Mechanical Engineering, Lighting, Heating, Weapons, Blasting Engines or Pumps","January 20, 2015","July 17, 2018","10,024,565",#10024565,True
+538,DE,15,ADDI-DATA GmbH,Physics,"November 25, 2014","July 17, 2018","10,024,693",#10024693,True
+539,JP,14,KABUSHIKI KAISHA NIHON MICRONICS,Physics,"November 19, 2015","July 17, 2018","10,024,908",#10024908,True
+540,USUS,14,,Physics,"December 24, 2013","July 17, 2018","10,024,950",#10024950,True
+541,US,15,INTERNATIONAL BUSINESS MACHINES CORPORATION,Physics,"October 25, 2016","July 17, 2018","10,025,521",#10025521,True
+542,JP,14,Canon Kabushiki Kaisha,Physics,"January 14, 2016","July 17, 2018","10,025,542",#10025542,True
+543,US,15,AMERICAN MEGATRENDS INC.,Physics,"August 17, 2016","July 17, 2018","10,025,587",#10025587,True
+544,US,13,Litera Corporation,Physics,"June 18, 2013","July 17, 2018","10,025,782",#10025782,True
+545,USUS,14,Case Western Reserve University,Physics,"April 1, 2015","July 17, 2018","10,026,015",#10026015,True
+546,US,15,Fawn Engineering Corporation,Physics,"September 1, 2017","July 17, 2018","10,026,254",#10026254,True
+547,TW,15,"TAIWAN SEMICONDUCTOR MANUFACTURING CO., LTD.",Electricity,"April 26, 2017","July 17, 2018","10,026,647",#10026647,True
+548,JP,15,TODA KOGYO CORPORATION,Electricity,"March 15, 2017","July 17, 2018","10,027,017",#10027017,True
+549,KR,14,LG ELECTRONICS INC.,Electricity,"October 8, 2014","July 17, 2018","10,027,164",#10027164,True
+550,US,15,INTERNATIONAL BUSINESS MACHINES CORPORATION,Electricity,"December 14, 2017","July 17, 2018","10,027,675",#10027675,True
+551,US,15,Digimarc Corporation,Physics,"March 10, 2017","July 17, 2018","10,027,868",#10027868,True
+552,US,15,"Sonos, Inc.",Electricity,"June 22, 2017","July 17, 2018","10,028,069",#10028069,True
+553,US,15,Intel IP Corporation,Electricity,"June 30, 2017","July 17, 2018","10,028,184",#10028184,True
+554,US,14,Skavis Corporation,Human Necessities,"October 1, 2015","July 24, 2018","10,028,450",#10028450,True
+555,US,15,"BEESPROUT, LLC",Electricity,"March 31, 2017","July 24, 2018","10,028,452",#10028452,True
+556,,,,Unknown,,,,#10029243,True
+557,JPJPJP,15,TOYOTA BOSHOKU KABUSHIKI KAISHA,"Performing Operations, Transporting","February 24, 2017","July 24, 2018","10,029,583",#10029583,True
+558,CN,15,"SHENGYI TECHNOLOGY CO., LTD.","Performing Operations, Transporting","June 1, 2015","July 24, 2018","10,030,143",#10030143,True
+559,US,13,"RAI Strategic Holdings, Inc.",Human Necessities,"March 7, 2013","July 24, 2018","10,031,183",#10031183,True
+560,DE,14,Siemens Aktiengesellschaft,Physics,"April 17, 2015","July 24, 2018","10,031,199",#10031199,True
+561,JP,15,"Wacom Co., Ltd.",Physics,"April 12, 2016","July 24, 2018","10,031,597",#10031597,True
+562,US,14,GOOGLE LLC,Physics,"December 29, 2015","July 24, 2018","10,031,920",#10031920,True
+563,US,14,Adobe Systems Incorporated,Physics,"January 24, 2014","July 24, 2018","10,032,133",#10032133,True
+564,US,14,,Physics,"July 7, 2015","July 24, 2018","10,032,398",#10032398,True
+565,USUSUSUSUSUSUS,14,Intel Corporation,Electricity,"March 13, 2014","July 24, 2018","10,032,431",#10032431,True
+566,US,14,"Skyworks Solutions, Inc.","Chemistry, Metallurgy","October 20, 2015","July 24, 2018","10,032,547",#10032547,True
+567,US,15,THE TRUSTEES OF THE UNIVERSITY OF PENNSYLVANIA,"Performing Operations, Transporting","January 27, 2016","July 24, 2018","10,032,635",#10032635,True
+568,CN,15,"SHENZHEN CHINA STAR OPTOELECTRONICS TECHNOLOGY CO., LTD.",Electricity,"May 19, 2016","July 24, 2018","10,032,805",#10032805,True
+569,JP,15,"Murata Manufacturing Co., Ltd.",Electricity,"December 15, 2017","July 24, 2018","10,033,089",#10033089,True
+570,DE,14,Infineon Technologies AG,Electricity,"June 12, 2015","July 24, 2018","10,033,370",#10033370,True
+571,US,14,TEXAS INSTRUMENTS INCORPORATED,Electricity,"June 11, 2015","July 24, 2018","10,033,427",#10033427,True
+572,SG,15,Avago Technologies General IP,Electricity,"October 3, 2016","July 24, 2018","10,033,556",#10033556,True
+573,JPJPJPJPJPJP,15,Ricoh Company LTD.,Electricity,"May 26, 2016","July 24, 2018","10,033,899",#10033899,True
+574,CN,14,CHINA ACADEMY OF TELECOMMUNICATIONS TECHNOLOGY,Electricity,"December 27, 2013","July 24, 2018","10,034,298",#10034298,True
+575,US,14,"PneumRx, Inc.",Human Necessities,"July 30, 2015","July 31, 2018","10,034,999",#10034999,True
+576,CH,14,Novartis AG,"Performing Operations, Transporting","December 7, 2015","July 31, 2018","10,035,177",#10035177,True
+577,JP,15,Mitsubishi Electric Corporation,"Performing Operations, Transporting","August 29, 2014","July 31, 2018","10,035,218",#10035218,True
+578,GBGBUS,12,The Gillette Company LLC,"Performing Operations, Transporting","October 19, 2009","July 31, 2018","10,035,275",#10035275,True
+579,US,15,Dow AgroSciences LLC,"Chemistry, Metallurgy","July 6, 2017","July 31, 2018","10,035,772",#10035772,True
+580,US,13,Wisconsin Alumni Research Foundation,"Chemistry, Metallurgy","November 6, 2012","July 31, 2018","10,036,084",#10036084,True
+581,US,15,Moen Incorporated,Fixed Construction,"May 26, 2017","July 31, 2018","10,036,145",#10036145,True
+582,US,15,BorgWarner Inc.,"Mechanical Engineering, Lighting, Heating, Weapons, Blasting Engines or Pumps","August 1, 2016","July 31, 2018","10,036,309",#10036309,True
+583,US,15,"CONTEMPORARY VISIONS, LLC","Mechanical Engineering, Lighting, Heating, Weapons, Blasting Engines or Pumps","October 7, 2016","July 31, 2018","10,036,541",#10036541,True
+584,US,15,Lennox Industries Inc.,"Mechanical Engineering, Lighting, Heating, Weapons, Blasting Engines or Pumps","January 17, 2017","July 31, 2018","10,036,580",#10036580,True
+585,US,14,The Boeing Company,Physics,"November 16, 2015","July 31, 2018","10,036,813",#10036813,True
+586,DE,14,SAP SE,Physics,"July 7, 2015","July 31, 2018","10,037,361",#10037361,True
+587,IN,14,Infosys Limited,Physics,"September 23, 2014","July 31, 2018","10,037,583",#10037583,True
+588,JP,15,"SUMITOMO ELECTRIC INDUSTRIES, LTD.",Electricity,"March 15, 2017","July 31, 2018","10,038,086",#10038086,True
+589,US,14,"Amazon Technologies, Inc.",Electricity,"December 11, 2015","July 31, 2018","10,038,758",#10038758,True
+590,JP,15,DENSO CORPORATION,Electricity,"February 18, 2016","July 31, 2018","10,039,063",#10039063,True
+591,KR,15,"Point Engineering Co., Ltd.","Mechanical Engineering, Lighting, Heating, Weapons, Blasting Engines or Pumps","April 29, 2016","July 31, 2018","10,039,160",#10039160,True
+592,JP,14,FUJIFILM Corporation,Human Necessities,"September 22, 2015","August 7, 2018","10,039,509",#10039509,True
+593,FR,14,COUSIN BIOTECH SAS,Human Necessities,"July 1, 2013","August 7, 2018","10,039,575",#10039575,True
+594,USUSUSUSUSUS,12,adidas AG,Human Necessities,"July 14, 2010","August 7, 2018","10,039,970",#10039970,True
+595,US,15,"Stemco Products, Inc.","Performing Operations, Transporting","May 1, 2017","August 7, 2018","10,040,130",#10040130,True
+596,US,15,International Business Machines Corporation,"Performing Operations, Transporting","November 30, 2016","August 7, 2018","10,040,424",#10040424,True
+597,JP,15,CANON FINETECH NISCA INC.,"Performing Operations, Transporting","January 30, 2017","August 7, 2018","10,040,651",#10040651,True
+598,DE,15,Covestro Deutschland AG,"Chemistry, Metallurgy","January 26, 2015","August 7, 2018","10,040,808",#10040808,True
+599,US,15,General Electric Company,"Mechanical Engineering, Lighting, Heating, Weapons, Blasting Engines or Pumps","September 30, 2016","August 7, 2018","10,041,503",#10041503,True
+600,US,15,,"Mechanical Engineering, Lighting, Heating, Weapons, Blasting Engines or Pumps","December 2, 2016","August 7, 2018","10,041,634",#10041634,True
+601,TW,15,MPI Corporation,Physics,"September 9, 2016","August 7, 2018","10,041,974",#10041974,True
+602,US,15,Universal Lighting Technologies,Electricity,"August 3, 2017","August 7, 2018","10,041,984",#10041984,True
+603,FR,14,CGG SERVICES SAS,Physics,"August 13, 2015","August 7, 2018","10,042,064",#10042064,True
+604,KR,14,"LG CHEM, LTD.","Chemistry, Metallurgy","August 21, 2013","August 7, 2018","10,042,209",#10042209,True
+605,US,13,OATH INC.,Electricity,"December 14, 2012","August 7, 2018","10,042,624",#10042624,True
+606,AU,15,CANVA PTY LTD.,Physics,"April 27, 2017","August 7, 2018","10,042,935",#10042935,True
+607,US,14,CAPITAL ONE FINANCIAL CORPORATION,Physics,"December 11, 2015","August 7, 2018","10,043,175",#10043175,True
+608,JP,14,"SHIN-ETSU HANDOTAI CO., LTD.",Electricity,"June 11, 2013","August 7, 2018","10,043,719",#10043719,True
+609,US,14,"Toyota Motor Engineering & Manufacturing North America, Inc.",Electricity,"September 1, 2015","August 7, 2018","10,043,731",#10043731,True
+610,KY,15,GLOBALFOUNDRIES INC.,Electricity,"December 13, 2016","August 7, 2018","10,043,753",#10043753,True
+611,US,15,EATON INTELLIGENT POWER LIMITED,Electricity,"November 1, 2017","August 7, 2018","10,044,117",#10044117,True
+612,JP,15,NIKON CORPORATION,Physics,"August 16, 2016","August 7, 2018","10,044,160",#10044160,True
+613,US,15,"Fortinet, Inc.",Electricity,"September 27, 2016","August 7, 2018","10,044,578",#10044578,True
+614,JP,15,"Panasonic Intellectual Property Management Co., Ltd.",Electricity,"February 10, 2017","August 7, 2018","10,044,963",#10044963,True
+615,JP,15,"Casio Computer Co., Ltd.",Electricity,"September 28, 2017","August 7, 2018","10,044,998",#10044998,True
+616,US,13,InterDigital Technology Corporation,Electricity,"July 18, 2013","August 7, 2018","10,045,271",#10045271,True
+617,DE,15,Drager Safety AG & Co. KGaA,Human Necessities,"October 4, 2016","August 14, 2018","10,046,286",#10046286,True
+618,CH,14,Credentis AG,Human Necessities,"August 14, 2013","August 14, 2018","10,047,120",#10047120,True
+619,JP,15,"NIPPON ELECTRIC GLASS CO., LTD.",Electricity,"May 8, 2015","August 14, 2018","10,047,285",#10047285,True
+620,JP,14,NTN CORPORATION,"Chemistry, Metallurgy","April 9, 2012","August 14, 2018","10,047,429",#10047429,True
+621,US,15,Caterpillar Inc.,Fixed Construction,"October 25, 2016","August 14, 2018","10,047,504",#10047504,True
+622,US,15,Nidec Motor Corporation,Electricity,"February 18, 2016","August 14, 2018","10,047,826",#10047826,True
+623,US,15,"Butts Properties, Ltd.","Mechanical Engineering, Lighting, Heating, Weapons, Blasting Engines or Pumps","June 28, 2017","August 14, 2018","10,048,001",#10048001,True
+624,USUS,14,"PRAXAIR TECHNOLOGY, INC.","Mechanical Engineering, Lighting, Heating, Weapons, Blasting Engines or Pumps","June 9, 2015","August 14, 2018","10,048,003",#10048003,True
+625,FR,14,,Physics,"January 21, 2013","August 14, 2018","10,048,119",#10048119,True
+626,JP,15,KYOCERA Document Solutions Inc.,Physics,"January 22, 2018","August 14, 2018","10,048,620",#10048620,True
+627,US,15,INTEL CORPORATION,Physics,"February 5, 2016","August 14, 2018","10,049,607",#10049607,True
+628,JP,15,KUBOTA CORPORATION,Electricity,"June 16, 2016","August 14, 2018","10,049,832",#10049832,True
+629,US,15,"SEMICONDUCTOR COMPONENTS INDUSTRIES, LLC",Electricity,"May 16, 2016","August 14, 2018","10,050,535",#10050535,True
+630,US,14,Sprint Communications Company L.P.,Electricity,"February 6, 2015","August 14, 2018","10,050,752",#10050752,True
+631,US,15,Moen Incorporated,Human Necessities,"May 22, 2017","August 21, 2018","10,051,985",#10051985,True
+632,US,14,"DexCom, Inc.",Human Necessities,"November 5, 2013","August 21, 2018","10,052,055",#10052055,True
+633,US,15,Edwards Lifesciences Corporation,Human Necessities,"June 22, 2016","August 21, 2018","10,052,200",#10052200,True
+634,US,12,3M INNOVATIVE PROPERTIES COMPANY,Human Necessities,"December 29, 2008","August 21, 2018","10,052,384",#10052384,True
+635,JP,14,"HONDA MOTOR CO., LTD.","Performing Operations, Transporting","August 7, 2015","August 21, 2018","10,052,697",#10052697,True
+636,US,14,GM GLOBAL TECHNOLOGY OPERATIONS LLC,"Performing Operations, Transporting","June 4, 2015","August 21, 2018","10,052,941",#10052941,True
+637,JP,14,BROTHER KOGYO KABUSHIKI KAISHA,"Performing Operations, Transporting","August 6, 2014","August 21, 2018","10,053,309",#10053309,True
+638,US,15,"ABRAXIS BIOSCIENCE, LLC",Human Necessities,"April 19, 2016","August 21, 2018","10,053,504",#10053504,True
+639,KRNLNLKR,14,Cho; Yeoung Cheol,"Mechanical Engineering, Lighting, Heating, Weapons, Blasting Engines or Pumps","December 11, 2012","August 21, 2018","10,053,986",#10053986,True
+640,KR,15,LG Electronics Inc.,"Mechanical Engineering, Lighting, Heating, Weapons, Blasting Engines or Pumps","January 26, 2016","August 21, 2018","10,054,358",#10054358,True
+641,JP,15,Canon Kabushiki Kaisha,"Mechanical Engineering, Lighting, Heating, Weapons, Blasting Engines or Pumps","October 17, 2016","August 21, 2018","10,054,878",#10054878,True
+642,JP,14,NEC CORPORATION,Physics,"June 2, 2015","August 21, 2018","10,055,106",#10055106,True
+643,US,14,"S34A, Inc.",Physics,"May 19, 2015","August 21, 2018","10,055,125",#10055125,True
+644,NL,15,"WESTERN DIGITAL TECHNOLOGIES, INC.",Physics,"March 25, 2016","August 21, 2018","10,055,349",#10055349,True
+645,US,14,International Business Machines Corporation,Physics,"September 24, 2014","August 21, 2018","10,055,478",#10055478,True
+646,US,15,X DEVELOPMENT LLC,Physics,"August 3, 2016","August 21, 2018","10,055,667",#10055667,True
+647,FR,15,THOMSON LICENSING,Physics,"March 14, 2017","August 21, 2018","10,055,856",#10055856,True
+648,US,15,"NIKE, Inc.",Human Necessities,"November 30, 2016","August 21, 2018","10,055,948",#10055948,True
+649,GB,14,INTELLIGENT ENERGY LIMITED,Electricity,"October 20, 2015","August 21, 2018","10,056,625",#10056625,True
+650,US,14,"SANUWAVE, INC.",Human Necessities,"May 7, 2014","August 28, 2018","10,058,340",#10058340,True
+651,AU,14,RESMED LIMITED,Human Necessities,"October 8, 2015","August 28, 2018","10,058,666",#10058666,True
+652,US,14,"Summit Medical, Inc.",Human Necessities,"February 28, 2014","August 28, 2018","10,058,687",#10058687,True
+653,US,14,"Medtronic, Inc.",Human Necessities,"December 18, 2015","August 28, 2018","10,058,695",#10058695,True
+654,JP,15,Seiko Epson Corporation,"Performing Operations, Transporting","March 15, 2016","August 28, 2018","10,059,096",#10059096,True
+655,CN,14,BYD COMPANY LIMITED,"Performing Operations, Transporting","June 30, 2014","August 28, 2018","10,059,210",#10059210,True
+656,FR,14,Valeo Systemes d'Essuyage,"Performing Operations, Transporting","July 15, 2015","August 28, 2018","10,059,310",#10059310,True
+657,US,15,"Ford Global Technologies, LLC","Performing Operations, Transporting","July 21, 2016","August 28, 2018","10,059,325",#10059325,True
+658,US,15,"Gilead Sciences, Inc.","Chemistry, Metallurgy","May 31, 2017","August 28, 2018","10,059,716",#10059716,True
+659,US,15,,Physics,"July 25, 2016","August 28, 2018","10,060,742",#10060742,True
+660,US,15,"BOARD OF REGENTS, THE UNIVERSITY OF TEXAS SYSTEM",Electricity,"June 12, 2017","August 28, 2018","10,061,272",#10061272,True
+661,US,14,"Commvault Systems, Inc.",Physics,"January 11, 2016","August 28, 2018","10,061,535",#10061535,True
+662,CN,14,TENCENT TECHNOLOGY,Physics,"January 29, 2015","August 28, 2018","10,061,844",#10061844,True
+663,US,14,"Osterhout Group, Inc.",Physics,"March 17, 2015","August 28, 2018","10,062,182",#10062182,True
+664,US,14,KEMET Electronics Corporation,Electricity,"September 14, 2015","August 28, 2018","10,062,519",#10062519,True
+665,USUS,15,The University of Akron,Electricity,"April 23, 2015","August 28, 2018","10,062,928",#10062928,True
+666,CN,15,Silergy Semiconductor Technology,Electricity,"May 22, 2017","August 28, 2018","10,063,131",#10063131,True
+667,CN,15,ZTE Corporation,Electricity,"March 16, 2015","August 28, 2018","10,063,335",#10063335,True
+668,US,14,THE KEYW CORPORATION,Electricity,"April 9, 2014","August 28, 2018","10,063,429",#10063429,True
+669,USUS,13,Whirlpool Corporation,Electricity,"July 19, 2011","August 28, 2018","10,064,266",#10064266,True
+670,US,14,,Physics,"September 18, 2015","September 4, 2018","10,064,395",#10064395,True
+671,US,15,,Human Necessities,"May 16, 2017","September 4, 2018","10,064,464",#10064464,True
+672,US,14,"FROST PRODUCTIONS, LLC",Human Necessities,"August 12, 2015","September 4, 2018","10,065,105",#10065105,True
+673,JP,14,Chugai Seiyaku Kabushiki Kaisha,"Chemistry, Metallurgy","December 8, 2015","September 4, 2018","10,066,018",#10066018,True
+674,US,15,International Business Machines Corporation,"Chemistry, Metallurgy","September 12, 2016","September 4, 2018","10,066,312",#10066312,True
+675,KRKRKR,15,SOOA Corporation,"Mechanical Engineering, Lighting, Heating, Weapons, Blasting Engines or Pumps","December 15, 2017","September 4, 2018","10,066,917",#10066917,True
+676,JP,15,MITUTOYO CORPORATION,Physics,"December 28, 2016","September 4, 2018","10,066,922",#10066922,True
+677,USUSUS,15,University of South Florida,"Chemistry, Metallurgy","February 6, 2017","September 4, 2018","10,067,136",#10067136,True
+678,,,,Unknown,,,,#10067248,True
+679,CN,15,"Huawei Technologies Co., Ltd",Physics,"June 20, 2016","September 4, 2018","10,067,363",#10067363,True
+680,JP,15,Canon Kabushiki Kaisha,Physics,"April 25, 2017","September 4, 2018","10,067,411",#10067411,True
+681,US,14,"COMMISSIONING AGENTS, INC.",Physics,"June 3, 2015","September 4, 2018","10,067,489",#10067489,True
+682,US,15,GM Global Technology Operations LLC,Physics,"April 7, 2016","September 4, 2018","10,067,497",#10067497,True
+683,US,15,Dell International L.L.C.,Physics,"August 18, 2016","September 4, 2018","10,067,712",#10067712,True
+684,KR,14,"IRIS ID, INC.",Physics,"December 19, 2014","September 4, 2018","10,068,127",#10068127,True
+685,CN,15,Tencent Technology,Physics,"July 18, 2016","September 4, 2018","10,068,364",#10068364,True
+686,CN,15,"HISENSE CO., LTD.",Physics,"December 29, 2016","September 4, 2018","10,068,574",#10068574,True
+687,TW,15,Taiwan Semiconductor Manufacturing Company,Electricity,"December 21, 2016","September 4, 2018","10,068,789",#10068789,True
+688,JP,15,COORSTEK KK,Electricity,"October 4, 2016","September 4, 2018","10,068,858",#10068858,True
+689,KR,15,"SAMSUNG DISPLAY CO., LTD.",Electricity,"June 23, 2016","September 4, 2018","10,068,923",#10068923,True
+690,,,,Unknown,,,,#10069287,True
+691,JP,15,MITSUBISHI ELECTRIC CORPORATION,Electricity,"April 23, 2014","September 4, 2018","10,069,516",#10069516,True
+692,SE,15,Telefonaktiebolaget LM Ericsson,Electricity,"September 26, 2014","September 4, 2018","10,069,595",#10069595,True
+693,US,15,International Business Machines Corporation,Electricity,"March 3, 2017","September 4, 2018","10,069,642",#10069642,True
+694,JP,15,Mitsubishi Electric Corporation,Electricity,"August 5, 2016","September 4, 2018","10,070,529",#10070529,True
+695,JP,15,"HONDA MOTOR CO., LTD.",Human Necessities,"February 27, 2017","September 11, 2018","10,070,581",#10070581,True
+696,US,15,ROKFORM IP LLC,Human Necessities,"July 10, 2017","September 11, 2018","10,070,707",#10070707,True
+697,JP,14,Sony Interactive Entertainment Inc.,Human Necessities,"June 25, 2014","September 11, 2018","10,071,315",#10071315,True
+698,JP,15,NIPPON STEEL & SUMITOMO METAL CORPORATION,"Performing Operations, Transporting","May 25, 2015","September 11, 2018","10,071,774",#10071774,True
+699,JP,15,"HONDA MOTOR CO., LTD.","Mechanical Engineering, Lighting, Heating, Weapons, Blasting Engines or Pumps","December 22, 2016","September 11, 2018","10,072,555",#10072555,True
+700,US,15,Ecolab USA Inc.,"Textiles, Paper","July 5, 2016","September 11, 2018","10,072,962",#10072962,True
+701,KR,15,LG ELECTRONICS INC.,Physics,"February 23, 2015","September 11, 2018","10,073,265",#10073265,True
+702,JP,15,SHARP KABUSHIKI KAISHA,Physics,"August 31, 2015","September 11, 2018","10,073,314",#10073314,True
+703,USUSUS,15,,"Performing Operations, Transporting","August 25, 2017","September 11, 2018","10,073,954",#10073954,True
+704,US,13,"Capital One Services, LLC",Physics,"December 17, 2012","September 11, 2018","10,074,100",#10074100,True
+705,CN,15,"BEIJING PICO TECHNOLOGY CO., LTD.",Physics,"September 19, 2016","September 11, 2018","10,074,342",#10074342,True
+706,US,14,"Qorvo US, Inc.",Electricity,"December 4, 2014","September 11, 2018","10,075,200",#10075200,True
+707,USUS,13,"MICROSOFT TECHNOLOGY LICENSING, LLC",Electricity,"July 3, 2012","September 11, 2018","10,075,785",#10075785,True
+708,SE,15,Telefonaktiebolaget LM Ericsson,Electricity,"March 14, 2016","September 11, 2018","10,075,886",#10075886,True
+709,KR,15,LG ELECTRONICS INC.,Electricity,"July 9, 2014","September 11, 2018","10,075,904",#10075904,True
+710,JP,15,FANUC Corporation,Electricity,"January 20, 2016","September 11, 2018","10,076,051",#10076051,True
+711,US,14,"SIEMENS ENERGY, INC.","Performing Operations, Transporting","August 14, 2015","September 18, 2018","10,076,811",#10076811,True
+712,KR,15,"KCTech Co., Ltd.","Chemistry, Metallurgy","July 8, 2016","September 18, 2018","10,077,381",#10077381,True
+713,CN,15,Hong Kong Beida Jade Bird Display Limited,Physics,"September 21, 2016","September 18, 2018","10,078,158",#10078158,True
+714,US,15,INTERNATIONAL BUSINESS MACHINES CORPORATION,Physics,"February 25, 2016","September 18, 2018","10,078,507",#10078507,True
+715,US,14,"RED HAT, INC.",Electricity,"February 26, 2015","September 18, 2018","10,078,671",#10078671,True
+716,JP,15,"Panasonic Intellectual Property Management Co., Ltd.",Electricity,"June 12, 2017","September 18, 2018","10,079,112",#10079112,True
+717,,,,Unknown,,,,#10079546,True
+718,TW,14,MEDIATEK SINGAPORE PTE. LTD.,Electricity,"December 16, 2015","September 18, 2018","10,079,702",#10079702,True
+719,US,14,"BMC Software, Inc.",Physics,"June 25, 2015","September 18, 2018","10,079,713",#10079713,True
+720,US,14,Vonage Business Inc.,Electricity,"October 29, 2015","September 18, 2018","10,079,932",#10079932,True
+721,KR,14,LG Electronics Inc.,Electricity,"December 9, 2013","September 18, 2018","10,080,216",#10080216,True
+722,US,15,"MACOM Technology Solutions Holdings, Inc.",Electricity,"April 19, 2017","September 18, 2018","10,080,289",#10080289,True
+723,FR,15,Becton Dickinson France,Human Necessities,"September 22, 2014","September 25, 2018","10,080,703",#10080703,True
+724,FR,14,EUROKERA S.N.C.,"Chemistry, Metallurgy","October 29, 2013","September 25, 2018","10,081,568",#10081568,True
+725,RURUCH,14,SOLARIS HOLDINGS LIMITED,"Chemistry, Metallurgy","August 28, 2012","September 25, 2018","10,081,858",#10081858,True
+726,JP,15,Sony Corporation,Physics,"February 18, 2016","September 25, 2018","10,082,423",#10082423,True
+727,CNCN,14,"BOE TECHNOLOGY GROUP CO., LTD.",Physics,"April 14, 2015","September 25, 2018","10,082,900",#10082900,True
+728,IL,15,Reduxio Systems Ltd.,Physics,"January 26, 2017","September 25, 2018","10,082,969",#10082969,True
+729,US,15,FAIR ISAAC CORPORATION,Physics,"October 2, 2017","September 25, 2018","10,083,263",#10083263,True
+730,KR,15,"SAMSUNG ELECTRONICS CO., LTD.",Physics,"May 27, 2016","September 25, 2018","10,083,349",#10083349,True
+731,JP,15,Sony Corporation,Electricity,"February 6, 2018","September 25, 2018","10,084,002",#10084002,True
+732,US,15,FREELINC TECHNOLOGIES,Electricity,"December 4, 2017","September 25, 2018","10,084,512",#10084512,True
+733,US,14,Motorola Mobility LLC,Electricity,"March 30, 2015","September 25, 2018","10,084,577",#10084577,True
+734,SE,15,Telefonaktiebolaget LM Ericsson,Electricity,"March 27, 2017","September 25, 2018","10,085,036",#10085036,True
+735,KR,14,"SAMSUNG ELECTRONICS CO., LTD.",Human Necessities,"May 5, 2014","October 2, 2018","10,085,700",#10085700,True
+736,USUSUSUSUSUSUS,14,,Human Necessities,"March 17, 2014","October 2, 2018","10,085,716",#10085716,True
+737,US,14,"Aspire Bariatrics, Inc.",Human Necessities,"February 21, 2014","October 2, 2018","10,085,866",#10085866,True
+738,KR,15,CJ Cheiljedang Corporation,Human Necessities,"October 26, 2017","October 2, 2018","10,085,945",#10085945,True
+739,JP,15,ZEON CORPORATION,"Chemistry, Metallurgy","December 19, 2014","October 2, 2018","10,086,588",#10086588,True
+740,JP,15,"Toray Industries, Inc.","Chemistry, Metallurgy","June 16, 2015","October 2, 2018","10,087,274",#10087274,True
+741,GB,14,Rubberatkins Limited,Fixed Construction,"May 2, 2014","October 2, 2018","10,087,705",#10087705,True
+742,DE,14,Infineon Technologies AG,"Mechanical Engineering, Lighting, Heating, Weapons, Blasting Engines or Pumps","January 18, 2016","October 2, 2018","10,087,866",#10087866,True
+743,DE,15,INFINEON TECHNOLOGIES AG,Electricity,"August 21, 2017","October 2, 2018","10,089,430",#10089430,True
+744,US,15,"Qorvo US, Inc.",Electricity,"August 30, 2016","October 2, 2018","10,090,172",#10090172,True
+745,TW,15,"Taiwan Semiconductor Manufacturing Co., Ltd.",Electricity,"October 10, 2017","October 2, 2018","10,090,245",#10090245,True
+746,KR,15,"SAMSUNG DISPLAY CO., LTD.",Electricity,"January 11, 2017","October 2, 2018","10,090,334",#10090334,True
+747,CN,15,"Shenzhen China Star Optoelectronics Technology Co., Ltd",Electricity,"February 26, 2016","October 2, 2018","10,090,336",#10090336,True
+748,US,15,"Juniper Networks, Inc.",Electricity,"August 5, 2016","October 2, 2018","10,090,913",#10090913,True
+749,US,15,International Business Machines Corporation,Electricity,"August 7, 2017","October 2, 2018","10,091,232",#10091232,True
+750,,,,Unknown,,,,#10091665,True
+751,US,14,Time Warner Cable Enterprises LLC,Electricity,"August 27, 2014","October 2, 2018","10,091,667",#10091667,True
+752,KR,14,SEOUL NATIONAL UNIVERSITY R&DB FOUNDATION,Human Necessities,"May 8, 2014","October 9, 2018","10,092,566",#10092566,True
+753,US,14,"VAPOTHERM, INC.",Human Necessities,"November 18, 2014","October 9, 2018","10,092,722",#10092722,True
+754,USUS,15,Dow Global Technologies LLC,"Chemistry, Metallurgy","October 22, 2013","October 9, 2018","10,093,821",#10093821,True
+755,US,14,"APPLIED MATERIALS, INC.","Mechanical Engineering, Lighting, Heating, Weapons, Blasting Engines or Pumps","November 4, 2015","October 9, 2018","10,094,486",#10094486,True
+756,FR,14,SAFRAN AIRCRAFT ENGINES,Physics,"October 6, 2014","October 9, 2018","10,094,740",#10094740,True
+757,GBGB,14,THE QUEEN'S UNIVERSITY OF BELFAST,Physics,"June 13, 2013","October 9, 2018","10,094,839",#10094839,True
+758,JP,15,"TOYO TIRE & RUBBER CO., LTD.",Electricity,"November 12, 2015","October 9, 2018","10,094,884",#10094884,True
+759,US,15,"ADVANCED MICRO DEVICES, INC.",Physics,"September 15, 2016","October 9, 2018","10,095,637",#10095637,True
+760,DE,14,Fraunhofer-Gesellschaft zur Foerderung der angewandten Forschung e.V.,Physics,"December 18, 2015","October 9, 2018","10,096,322",#10096322,True
+761,FRFRFRFRFRFRFR,13,NEXANS,Electricity,"August 7, 2012","October 9, 2018","10,096,398",#10096398,True
+762,TW,15,"BOHHEN OPTRONICS CO., LTD.",Electricity,"July 28, 2017","October 9, 2018","10,096,445",#10096445,True
+763,KY,15,GLOBAL FOUNDRIES Inc.,Electricity,"October 26, 2017","October 9, 2018","10,096,587",#10096587,True
+764,USUS,15,"Power Temp Systems, Inc.",Electricity,"June 29, 2017","October 9, 2018","10,096,935",#10096935,True
+765,TW,14,"CHICONY POWER TECHNOLOGY CO., LTD.",Electricity,"January 13, 2016","October 9, 2018","10,096,990",#10096990,True
+766,US,15,"ADVANCED MICRO DEVICES, INC.",Physics,"October 25, 2017","October 9, 2018","10,097,091",#10097091,True
+767,US,14,"CLOUDGENIX, INC.",Electricity,"September 16, 2015","October 9, 2018","10,097,403",#10097403,True
+768,DE,15,Vodafone Holding GmbH,Electricity,"October 21, 2016","October 9, 2018","10,097,495",#10097495,True
+769,US,15,AVAYA INC.,Electricity,"April 3, 2017","October 9, 2018","10,097,639",#10097639,True
+770,US,14,"JIVE COMMUNICATIONS, INC.",Electricity,"July 18, 2014","October 9, 2018","10,097,693",#10097693,True
+771,FI,15,Nokia Solutions and Networks Oy,Electricity,"April 28, 2016","October 9, 2018","10,098,124",#10098124,True
+772,JP,15,"ZIOSOFT, INC.",Human Necessities,"September 27, 2016","October 16, 2018","10,098,604",#10098604,True
+773,US,15,"Biomet Sports Medicine, LLC",Human Necessities,"October 19, 2016","October 16, 2018","10,098,629",#10098629,True
+774,US,13,NORTHWESTERN UNIVERSITY,Human Necessities,"December 20, 2012","October 16, 2018","10,098,958",#10098958,True
+775,CH,15,M.A. Med Alliance SA,Human Necessities,"October 11, 2016","October 16, 2018","10,098,987",#10098987,True
+776,IT,15,Belotti S.p.A.,"Performing Operations, Transporting","May 20, 2014","October 16, 2018","10,099,333",#10099333,True
+777,US,15,"Hewlett-Packard Development Company, L.P.","Performing Operations, Transporting","June 25, 2014","October 16, 2018","10,099,496",#10099496,True
+778,DE,14,Reifenhauser GmbH & Co. KG Maschinenfabrik,"Performing Operations, Transporting","December 20, 2013","October 16, 2018","10,099,857",#10099857,True
+779,,,,Unknown,,"10,100,052","10,100,052",#10100052,True
+780,US,15,3M Innovative Properties Company,"Chemistry, Metallurgy","August 31, 2015","October 16, 2018","10,100,237",#10100237,True
+781,US,15,"NORTHERN STAR INDUSTRIES, INC.",Fixed Construction,"March 1, 2017","October 16, 2018","10,100,509",#10100509,True
+782,US,14,Rolls-Royce Corporation,"Mechanical Engineering, Lighting, Heating, Weapons, Blasting Engines or Pumps","August 31, 2015","October 16, 2018","10,100,642",#10100642,True
+783,USUS,14,General Electric Company,"Mechanical Engineering, Lighting, Heating, Weapons, Blasting Engines or Pumps","October 30, 2013","October 16, 2018","10,100,741",#10100741,True
+784,KR,14,"Samsung Electronics Co., Ltd.",Physics,"May 7, 2015","October 16, 2018","10,101,884",#10101884,True
+785,US,14,International Business Machines Corporation,Physics,"June 30, 2015","October 16, 2018","10,102,029",#10102029,True
+786,US,15,INTEL CORPORATION,Physics,"September 19, 2016","October 16, 2018","10,102,886",#10102886,True
+787,US,15,"Micron Technology, Inc.",Physics,"August 9, 2017","October 16, 2018","10,102,914",#10102914,True
+788,JP,15,"Semiconductor Energy Laboratory Co., Ltd.",Electricity,"June 9, 2017","October 16, 2018","10,103,350",#10103350,True
+789,GB,15,BAE Systems plc,Electricity,"December 15, 2016","October 16, 2018","10,103,443",#10103443,True
+790,JP,15,OMRON Corporation,Electricity,"November 17, 2017","October 16, 2018","10,103,460",#10103460,True
+791,JP,15,"HIROSE ELECTRIC CO., LTD.",Electricity,"July 25, 2017","October 16, 2018","10,103,485",#10103485,True
+792,US,14,"Arista Networks, Inc.",Electricity,"April 27, 2015","October 16, 2018","10,103,850",#10103850,True
+793,US,15,"Red Hat, Inc.",Electricity,"September 23, 2016","October 16, 2018","10,103,894",#10103894,True
+794,US,15,"Amazon Technologies, Inc.",Electricity,"April 20, 2016","October 16, 2018","10,103,962",#10103962,True
+795,DEDE,12,Sivantos GmbH,Electricity,"March 25, 2008","October 16, 2018","10,104,480",#10104480,True
+796,US,15,Dolby Laboratories Licensing Corporation,Electricity,"April 13, 2017","October 16, 2018","10,104,488",#10104488,True
+797,KR,14,"SAMSUNG ELECTRONICS CO., LTD.",Human Necessities,"September 3, 2014","October 23, 2018","10,105,022",#10105022,True
+798,US,14,"Ethicon Endo-Surgery, Inc.",Human Necessities,"October 15, 2014","October 23, 2018","10,105,141",#10105141,True
+799,US,15,"ADURO BIOTECH, INC.",Human Necessities,"April 12, 2016","October 23, 2018","10,105,427",#10105427,True
+800,US,15,"Ford Global Technologies, LLC","Performing Operations, Transporting","March 7, 2017","October 23, 2018","10,106,197",#10106197,True
+801,JP,15,MITSUBISHI CHEMICAL CORPORATION,"Chemistry, Metallurgy","August 5, 2016","October 23, 2018","10,106,413",#10106413,True
+802,US,15,Intervet Inc.,"Chemistry, Metallurgy","December 19, 2014","October 23, 2018","10,106,607",#10106607,True
+803,,,,Unknown,,,,#10107024,True
+804,US,14,"Halliburton Energy Services, Inc.",Fixed Construction,"September 18, 2012","October 23, 2018","10,107,038",#10107038,True
+805,DEDE,13,HYDAC FILTER SYSTEMS GMBH,"Mechanical Engineering, Lighting, Heating, Weapons, Blasting Engines or Pumps","May 14, 2011","October 23, 2018","10,107,266",#10107266,True
+806,JPJP,13,TOYOTA JIDOSHA KABUSHIKI KAISHA,"Mechanical Engineering, Lighting, Heating, Weapons, Blasting Engines or Pumps","August 10, 2011","October 23, 2018","10,107,454",#10107454,True
+807,US,15,3M Innovative Properties Company,"Performing Operations, Transporting","September 29, 2015","October 23, 2018","10,107,471",#10107471,True
+808,USUS,14,"SCIENCE RESEARCH LABORATORY, INC.","Mechanical Engineering, Lighting, Heating, Weapons, Blasting Engines or Pumps","January 9, 2015","October 23, 2018","10,107,573",#10107573,True
+809,US,14,International Business Machines Corporation,Physics,"December 12, 2014","October 23, 2018","10,108,623",#10108623,True
+810,US,14,"Twitter, Inc.",Physics,"August 26, 2015","October 23, 2018","10,108,674",#10108674,True
+811,KW,12,PUBLIC WAREHOUSING COMPANY KSC,Physics,"September 29, 2008","October 23, 2018","10,108,921",#10108921,True
+812,USUSUSUSUS,13,"AT&T Intellectual Property I, L.P.",Physics,"June 24, 2011","October 23, 2018","10,108,980",#10108980,True
+813,JP,15,NICHIA CORPORATION,Electricity,"May 15, 2017","October 23, 2018","10,109,777",#10109777,True
+814,DE,15,Siemens Aktiengesellschaft,Electricity,"November 19, 2015","October 23, 2018","10,109,991",#10109991,True
+815,IL,15,StoreDot Ltd.,Electricity,"April 28, 2017","October 23, 2018","10,110,036",#10110036,True
+816,US,14,Bank of America Corporation,Electricity,"December 3, 2015","October 23, 2018","10,110,625",#10110625,True
+817,AU,14,Perfusion Solutions Pty Ltd,Human Necessities,"May 26, 2014","October 30, 2018","10,111,418",#10111418,True
+818,US,14,"Terumo BCT, Inc.",Human Necessities,"October 8, 2015","October 30, 2018","10,112,002",#10112002,True
+819,US,15,"SIEMENS INDUSTRY, INC.","Performing Operations, Transporting","March 13, 2017","October 30, 2018","10,112,217",#10112217,True
+820,DE,13,Robert Bosch GmbH,"Performing Operations, Transporting","July 28, 2011","October 30, 2018","10,112,294",#10112294,True
+821,JP,15,Seiko Epson Corporation,"Performing Operations, Transporting","February 9, 2017","October 30, 2018","10,112,394",#10112394,True
+822,US,14,"Genentech, Inc.","Chemistry, Metallurgy","August 13, 2013","October 30, 2018","10,113,002",#10113002,True
+823,DEDEDEDE,15,AKTIEBOLAGET SKF,"Mechanical Engineering, Lighting, Heating, Weapons, Blasting Engines or Pumps","June 29, 2016","October 30, 2018","10,113,634",#10113634,True
+824,JP,15,"NAGANO KEIKI CO., LTD.",Physics,"July 5, 2017","October 30, 2018","10,113,926",#10113926,True
+825,JP,14,JAPAN SCIENCE AND TECHNOLOGY AGENCY,Physics,"December 5, 2012","October 30, 2018","10,114,005",#10114005,True
+826,TW,15,NANYA TECHNOLOGY CORPORATION,Electricity,"September 5, 2017","October 30, 2018","10,115,594",#10115594,True
+827,,,,Unknown,,,,#10115863,True
+828,KR,14,"SAMSUNG DISPLAY CO., LTD.","Chemistry, Metallurgy","June 11, 2015","October 30, 2018","10,115,907",#10115907,True
+829,KR,14,"Samsung SDI Co., Ltd.",Electricity,"November 3, 2014","October 30, 2018","10,115,934",#10115934,True
+830,JP,15,"HONDA MOTOR CO., LTD.",Electricity,"March 31, 2016","October 30, 2018","10,116,147",#10116147,True
+831,US,15,TEXAS INSTRUMENTS INCORPORATED,Electricity,"March 4, 2018","October 30, 2018","10,116,319",#10116319,True
+832,US,15,,Electricity,"August 11, 2016","October 30, 2018","10,116,534",#10116534,True
+833,US,15,"The Music People, Inc.","Mechanical Engineering, Lighting, Heating, Weapons, Blasting Engines or Pumps","January 17, 2017","October 30, 2018","10,117,011",#10117011,True
+834,JP,14,FUJITSU LIMITED,Electricity,"November 23, 2015","October 30, 2018","10,117,210",#10117210,True
+835,US,14,,Human Necessities,"January 3, 2016","November 6, 2018","10,118,047",#10118047,True
+836,CN,15,"Wuhan YZY Biopharma Co., Ltd.","Chemistry, Metallurgy","March 3, 2017","November 6, 2018","10,118,964",#10118964,True
+837,JP,15,Asahi Kasei Kabushiki Kaisha,"Chemistry, Metallurgy","March 10, 2015","November 6, 2018","10,119,017",#10119017,True
+838,FR,15,SAINT-GOBAIN ISOVER,"Chemistry, Metallurgy","April 27, 2015","November 6, 2018","10,119,211",#10119211,True
+839,KR,15,LG Electronics Inc.,"Textiles, Paper","March 17, 2016","November 6, 2018","10,119,221",#10119221,True
+840,GB,14,J. C. Bamford Excavators Limited,Fixed Construction,"October 29, 2015","November 6, 2018","10,119,247",#10119247,True
+841,US,15,"Carbon Development Services, LLC",Fixed Construction,"October 11, 2016","November 6, 2018","10,119,265",#10119265,True
+842,US,15,Caterpillar Inc.,"Mechanical Engineering, Lighting, Heating, Weapons, Blasting Engines or Pumps","September 13, 2016","November 6, 2018","10,119,455",#10119455,True
+843,US,15,,"Mechanical Engineering, Lighting, Heating, Weapons, Blasting Engines or Pumps","August 3, 2017","November 6, 2018","10,119,511",#10119511,True
+844,DE,14,SIEMENS AKTIENGESELLSCHAFT,"Mechanical Engineering, Lighting, Heating, Weapons, Blasting Engines or Pumps","February 14, 2015","November 6, 2018","10,119,520",#10119520,True
+845,KR,14,LG ELECTRONICS INC.,"Mechanical Engineering, Lighting, Heating, Weapons, Blasting Engines or Pumps","January 8, 2016","November 6, 2018","10,119,692",#10119692,True
+846,US,15,"View, Inc.",Physics,"June 28, 2016","November 6, 2018","10,120,258",#10120258,True
+847,TW,15,Andes Technology Corporation,Physics,"November 15, 2016","November 6, 2018","10,120,688",#10120688,True
+848,US,15,"Facebook Technologies, LLC",Electricity,"January 30, 2018","November 6, 2018","10,121,823",#10121823,True
+849,US,15,International Business Machines Corporation,Electricity,"August 29, 2016","November 6, 2018","10,122,153",#10122153,True
+850,US,15,NEC Corporation,Electricity,"August 15, 2016","November 6, 2018","10,122,547",#10122547,True
+851,US,15,Bank of America Corporation,Electricity,"November 7, 2016","November 6, 2018","10,122,744",#10122744,True
+852,JPUS,14,SONY CORPORATION,Physics,"May 21, 2014","November 6, 2018","10,122,982",#10122982,True
+853,IE,15,FotoNation Limited,Physics,"May 28, 2015","November 6, 2018","10,123,003",#10123003,True
+854,USUSUS,15,"NTT DOCOMO, INC.",Electricity,"March 9, 2016","November 6, 2018","10,123,326",#10123326,True
+855,US,14,Verizon Patent and Licensing Inc.,Electricity,"September 8, 2015","November 6, 2018","10,123,374",#10123374,True
+856,US,15,University of Washington,"Performing Operations, Transporting","October 27, 2017","November 13, 2018","10,124,296",#10124296,True
+857,US,14,MASSACHUSETTS INSTITUTE OF TECHNOLOGY,"Performing Operations, Transporting","June 12, 2014","November 13, 2018","10,124,300",#10124300,True
+858,DE,14,FLECOTEC AG,"Performing Operations, Transporting","January 2, 2014","November 13, 2018","10,124,931",#10124931,True
+859,US,14,MICROSS ADVANCED INTERCONNECT TECHNOLOGY LLC,Fixed Construction,"August 1, 2013","November 13, 2018","10,125,599",#10125599,True
+860,JPJP,15,"MITSUMI ELECTRIC CO., LTD.",Electricity,"September 6, 2017","November 13, 2018","10,126,414",#10126414,True
+861,JP,14,Japan Display Inc.,Physics,"October 22, 2015","November 13, 2018","10,126,612",#10126612,True
+862,JP,15,HOYA CORPORATION,Physics,"July 21, 2016","November 13, 2018","10,126,641",#10126641,True
+863,,,,Unknown,,,,#10126677,True
+864,JP,15,"ZENRIN CO., LTD.","Performing Operations, Transporting","January 24, 2017","November 13, 2018","10,126,751",#10126751,True
+865,LU,14,Conversant Wireless Licensing S.A.R.L.,Physics,"January 22, 2015","November 13, 2018","10,126,834",#10126834,True
+866,CZUS,15,,Human Necessities,"June 14, 2017","November 13, 2018","10,127,362",#10127362,True
+867,US,15,BANK OF AMERICA CORPORATION,Electricity,"September 26, 2016","November 13, 2018","10,127,400",#10127400,True
+868,JP,15,NEC CORPORATION,Physics,"April 19, 2016","November 13, 2018","10,127,780",#10127780,True
+869,JP,15,SHARP KABUSHIKI KAISHA,Physics,"April 8, 2015","November 13, 2018","10,127,907",#10127907,True
+870,JP,15,"HONDA MOTOR CO., LTD.",Electricity,"January 21, 2016","November 13, 2018","10,128,515",#10128515,True
+871,US,14,INTERNATIONAL BUSINESS MACHINES CORPORATION,Electricity,"September 7, 2015","November 13, 2018","10,129,366",#10129366,True
+872,US,14,INTEL CORPORATION,Electricity,"September 25, 2015","November 13, 2018","10,129,530",#10129530,True
+873,US,15,"FORD GLOBAL TECHNOLOGIES, LLC",Electricity,"November 3, 2016","November 13, 2018","10,129,643",#10129643,True
+874,CN,15,"NANNING FUGUI PRECISION INDUSTRIAL CO., LTD.",Electricity,"December 27, 2016","November 13, 2018","10,129,748",#10129748,True
+875,JPGB,15,Sony Corporation,Electricity,"July 27, 2017","November 13, 2018","10,129,865",#10129865,True
+876,JP,15,Sony Corporation,Electricity,"May 21, 2015","November 13, 2018","10,129,897",#10129897,True
+877,CH,15,ABB Schweiz AG,Electricity,"October 11, 2016","November 13, 2018","10,130,000",#10130000,True
+878,US,15,,Human Necessities,"February 2, 2017","November 20, 2018","10,130,075",#10130075,True
+879,DE,14,Carl Zeiss Meditec AG,Human Necessities,"May 15, 2014","November 20, 2018","10,130,248",#10130248,True
+880,US,15,"Herddogg, Inc.",Human Necessities,"December 21, 2017","November 20, 2018","10,130,265",#10130265,True
+881,NL,15,KONINKLIJKE PHILIPS N.V.,Human Necessities,"March 6, 2017","November 20, 2018","10,130,330",#10130330,True
+882,GB,14,Cerus Endovascular Limited,Human Necessities,"April 29, 2015","November 20, 2018","10,130,372",#10130372,True
+883,CNCN,15,"BOE TECHNOLOGY GROUP CO., LTD.",Electricity,"October 27, 2015","November 20, 2018","10,130,516",#10130516,True
+884,JP,15,BROTHER KOGYO KABUSHIKI KAISHA,"Performing Operations, Transporting","June 29, 2017","November 20, 2018","10,131,167",#10131167,True
+885,US,15,"Ford Global Technologies, LLC","Performing Operations, Transporting","December 14, 2016","November 20, 2018","10,131,342",#10131342,True
+886,NL,14,Ferring B.V.,"Chemistry, Metallurgy","July 25, 2014","November 20, 2018","10,131,692",#10131692,True
+887,ININ,12,COUNCIL OF SCIENTIFIC AND INDUSTRIAL RESEARCH,"Chemistry, Metallurgy","March 21, 2007","November 20, 2018","10,131,727",#10131727,True
+888,US,15,"Ford Global Technologies, LLC","Mechanical Engineering, Lighting, Heating, Weapons, Blasting Engines or Pumps","December 16, 2016","November 20, 2018","10,132,235",#10132235,True
+889,JPJP,14,KAWASAKI JUKOGYO KABUSHIKI KAISHA,"Mechanical Engineering, Lighting, Heating, Weapons, Blasting Engines or Pumps","December 2, 2014","November 20, 2018","10,132,499",#10132499,True
+890,KR,14,"Samsung Electronics Co., Ltd.",Physics,"August 13, 2015","November 20, 2018","10,133,176",#10133176,True
+891,KR,14,"Samsung Electronics Co., Ltd.",Physics,"October 4, 2013","November 20, 2018","10,133,470",#10133470,True
+892,CN,15,Tencent Technology,Electricity,"September 26, 2017","November 20, 2018","10,133,534",#10133534,True
+893,US,14,"Nant Holdings IP, LLC",Physics,"May 24, 2013","November 20, 2018","10,133,742",#10133742,True
+894,US,13,"SCENERA MOBILE TECHNOLOGIES, LLC",Physics,"April 15, 2013","November 20, 2018","10,133,780",#10133780,True
+895,US,15,"Walmart Apollo, LLC",Physics,"November 17, 2017","November 20, 2018","10,134,027",#10134027,True
+896,US,15,IGT,Physics,"June 29, 2016","November 20, 2018","10,134,228",#10134228,True
+897,JPJPJP,14,HAMAMATSU PHOTONICS K.K.,Physics,"October 4, 2013","November 20, 2018","10,134,492",#10134492,True
+898,KY,15,FOXCONN INTERCONNECT TECHNOLOGY LIMITED,Electricity,"October 18, 2016","November 20, 2018","10,134,507",#10134507,True
+899,IT,15,EISENBAU S.R.L.,Electricity,"December 4, 2015","November 20, 2018","10,134,544",#10134544,True
+900,TW,15,"TAIWAN SEMICONDUCTOR MANUFACTURING CO., LTD.",Electricity,"December 11, 2017","November 20, 2018","10,134,626",#10134626,True
+901,US,15,Intel Corporation,Physics,"August 22, 2017","November 20, 2018","10,134,758",#10134758,True
+902,US,15,Ampro North America Corp.,"Mechanical Engineering, Lighting, Heating, Weapons, Blasting Engines or Pumps","January 19, 2016","November 20, 2018","10,135,045",#10135045,True
+903,US,15,Palo Alto Research Center Incorporated,Electricity,"May 19, 2017","November 20, 2018","10,135,227",#10135227,True
+904,SG,14,MEDIATEK Singapore Pte. Ltd.,Electricity,"May 21, 2015","November 20, 2018","10,135,305",#10135305,True
+905,US,15,HEWLETT PACKARD ENTERPRISE DEVELOPMENT LP,Electricity,"April 3, 2014","November 20, 2018","10,135,744",#10135744,True
+906,US,14,"COX COMMUNICATIONS, INC",Electricity,"November 14, 2013","November 20, 2018","10,135,887",#10135887,True
+907,CN,14,TENCENT TECHNOLOGY,Electricity,"July 9, 2015","November 20, 2018","10,135,939",#10135939,True
+908,KR,15,"LG Display Co., Ltd.",Electricity,"June 30, 2017","November 20, 2018","10,136,122",#10136122,True
+909,US,14,QUALCOMM Incorporated,Electricity,"June 10, 2015","November 20, 2018","10,136,141",#10136141,True
+910,US,15,"Hewlett-Packard Development Company, L.P.",Physics,"April 29, 2015","November 20, 2018","10,136,197",#10136197,True
+911,US,15,"Thales Avionics, Inc.",Electricity,"September 28, 2017","November 20, 2018","10,136,293",#10136293,True
+912,SE,15,Electrolux Appliances Aktiebolag,Electricity,"April 7, 2015","November 20, 2018","10,136,479",#10136479,True
+913,US,15,"Translate Bio, Inc.","Chemistry, Metallurgy","January 23, 2018","November 27, 2018","10,137,087",#10137087,True
+914,USUS,15,,"Performing Operations, Transporting","March 15, 2016","November 27, 2018","10,138,137",#10138137,True
+915,JP,14,TOSHIBA MEMORY CORPORATION,"Chemistry, Metallurgy","March 11, 2015","November 27, 2018","10,138,550",#10138550,True
+916,US,14,,Fixed Construction,"October 19, 2015","November 27, 2018","10,138,673",#10138673,True
+917,CNCN,15,"BOE TECHNOLOGY GROUP CO., LTD.",Physics,"August 9, 2016","November 27, 2018","10,139,523",#10139523,True
+918,KR,15,"SAMSUNG DISPLAY CO., LTD.",Physics,"April 13, 2017","November 27, 2018","10,139,661",#10139661,True
+919,US,14,"Amazon Technologies, Inc.",Electricity,"January 11, 2016","November 27, 2018","10,140,592",#10140592,True
+920,US,15,QUALCOMM Incorporated,Physics,"December 20, 2016","November 27, 2018","10,140,718",#10140718,True
+921,KR,15,"SAMSUNG ELECTRONICS CO., LTD.",Electricity,"November 4, 2016","November 27, 2018","10,141,400",#10141400,True
+922,IS,15,NOX MEDICAL,Human Necessities,"December 29, 2016","November 27, 2018","10,141,675",#10141675,True
+923,DE,15,SICK AG,Electricity,"September 29, 2016","November 27, 2018","10,141,746",#10141746,True
+924,JP,15,"RICOH COMPANY, LTD.",Electricity,"July 8, 2016","November 27, 2018","10,142,334",#10142334,True
+925,DE,15,BOCK 1 GmbH & Co. KG,Human Necessities,"July 22, 2016","December 4, 2018","10,143,306",#10143306,True
+926,KR,14,"SAMSUNG ELECTRONICS CO., LTD.","Chemistry, Metallurgy","March 28, 2014","December 4, 2018","10,143,749",#10143749,True
+927,JP,15,"Kobe Steel, Ltd.","Performing Operations, Transporting","March 6, 2017","December 4, 2018","10,144,457",#10144457,True
+928,KR,14,"Samsung Electronics Co., Ltd.",Physics,"September 17, 2015","December 4, 2018","10,145,891",#10145891,True
+929,US,14,PURDUE RESEARCH FOUNDATION,Physics,"May 11, 2015","December 4, 2018","10,145,968",#10145968,True
+930,JPJP,15,PHOTONICS ELECTRONICS TECHNOLOGY RESEARCH ASSOCIATION,Physics,"February 2, 2016","December 4, 2018","10,146,070",#10146070,True
+931,JP,16,Japan Display Inc.,Physics,"June 12, 2018","December 4, 2018","10,146,096",#10146096,True
+932,US,15,"Dell Products, LP",Physics,"August 14, 2017","December 4, 2018","10,146,273",#10146273,True
+933,US,14,Mastercard International Incorporated,Physics,"May 8, 2015","December 4, 2018","10,147,084",#10147084,True
+934,CN,15,"BEIJING NAURA MICROELECTRONICS EQUIPMENT CO., LTD.",Electricity,"December 14, 2016","December 4, 2018","10,147,586",#10147586,True
+935,TW,14,"Taiwan Semiconductor Manufacturing Company, Ltd.",Electricity,"March 27, 2015","December 4, 2018","10,147,692",#10147692,True
+936,DE,15,OSRAM Opto Semiconductors GmbH,Electricity,"September 17, 2015","December 4, 2018","10,147,696",#10147696,True
+937,SE,15,TELEFONAKTIEBOLAGET L M ERICSSON,Electricity,"May 6, 2016","December 4, 2018","10,148,461",#10148461,True
+938,US,14,EMC IP Holding Company LLC,Electricity,"December 29, 2015","December 4, 2018","10,148,503",#10148503,True
+939,JP,15,Olympus Corporation,Physics,"June 3, 2017","December 4, 2018","10,148,865",#10148865,True
+940,JP,15,"PANASONIC INTELLECTUAL PROPERTY MANAGEMENT CO., LTD.",Electricity,"March 2, 2016","December 4, 2018","10,148,965",#10148965,True
+941,US,15,Platypus IP LLC,Electricity,"March 8, 2017","December 4, 2018","10,149,009",#10149009,True
+942,US,14,"Revivicor, Inc.",Human Necessities,"March 23, 2015","December 11, 2018","10,149,461",#10149461,True
+943,US,15,"Minkaa Daisy Lockets & More, LLC",Human Necessities,"April 19, 2016","December 11, 2018","10,149,517",#10149517,True
+944,JP,15,NC MEDICAL RESEARCH INC.,Human Necessities,"July 28, 2017","December 11, 2018","10,149,894",#10149894,True
+945,USUS,15,,Human Necessities,"April 5, 2016","December 11, 2018","10,149,935",#10149935,True
+946,CH,15,Clariant International Ltd.,"Performing Operations, Transporting","February 24, 2016","December 11, 2018","10,150,103",#10150103,True
+947,US,14,CORNING INCORPORATED,"Chemistry, Metallurgy","August 12, 2015","December 11, 2018","10,150,691",#10150691,True
+948,US,14,,"Mechanical Engineering, Lighting, Heating, Weapons, Blasting Engines or Pumps","April 18, 2014","December 11, 2018","10,151,350",#10151350,True
+949,CH,14,ANSALDO ENERGIA SWITZERLAND AG,"Mechanical Engineering, Lighting, Heating, Weapons, Blasting Engines or Pumps","September 29, 2015","December 11, 2018","10,151,489",#10151489,True
+950,US,14,"DSCG Solutions, Inc.",Physics,"July 23, 2015","December 11, 2018","10,151,827",#10151827,True
+951,KR,15,"LG DISPLAY CO., LTD.",Physics,"December 22, 2016","December 11, 2018","10,152,156",#10152156,True
+952,KR,15,"Samsung Electronics Co., Ltd.",Physics,"June 3, 2016","December 11, 2018","10,152,226",#10152226,True
+953,US,14,International Business Machines Corporation,Physics,"July 3, 2014","December 11, 2018","10,152,385",#10152385,True
+954,US,15,Splunk Inc.,Physics,"April 17, 2018","December 11, 2018","10,152,773",#10152773,True
+955,JP,15,"Hitachi, Ltd.",Electricity,"February 9, 2017","December 11, 2018","10,153,109",#10153109,True
+956,KY,15,GLOBALFOUNDRIES INC.,Electricity,"September 14, 2016","December 11, 2018","10,153,224",#10153224,True
+957,TW,14,"Chunghwa Picture Tubes, Ltd.",Electricity,"August 18, 2015","December 11, 2018","10,153,302",#10153302,True
+958,NL,15,IPALCO BV,Electricity,"August 4, 2016","December 11, 2018","10,153,589",#10153589,True
+959,US,15,"Power Integrations, Inc.",Electricity,"April 19, 2016","December 11, 2018","10,153,689",#10153689,True
+960,CN,15,"Huawei Technologies Co., Ltd",Electricity,"March 23, 2016","December 11, 2018","10,153,971",#10153971,True
+961,US,15,Verizon Patent and Licensing Inc.,Electricity,"June 3, 2016","December 11, 2018","10,154,150",#10154150,True
+962,US,14,"Cirrent, Inc.",Electricity,"September 30, 2015","December 11, 2018","10,154,409",#10154409,True
+963,US,15,The Procter & Gamble Company,Human Necessities,"July 3, 2017","December 18, 2018","10,154,949",#10154949,True
+964,GB,14,OXFORD UNIVERSITY INNOVATION LIMITED,Physics,"May 20, 2013","December 18, 2018","10,155,212",#10155212,True
+965,US,15,"ELCO ENTERPRISES, INC.","Performing Operations, Transporting","July 1, 2016","December 18, 2018","10,155,280",#10155280,True
+966,DEUS,15,ABBVIE INC.,"Chemistry, Metallurgy","October 25, 2017","December 18, 2018","10,155,770",#10155770,True
+967,NL,14,KONINKLIKE PHILIPS N.V.,Physics,"September 2, 2013","December 18, 2018","10,156,623",#10156623,True
+968,US,15,Vector Technologies LLC,"Performing Operations, Transporting","February 5, 2018","December 18, 2018","10,156,856",#10156856,True
+969,US,15,"OmniSci, Inc.",Physics,"January 18, 2017","December 18, 2018","10,157,442",#10157442,True
+970,KR,15,"SAMSUNG ELECTRONICS CO., LTD.",Electricity,"January 11, 2017","December 18, 2018","10,157,883",#10157883,True
+971,JP,15,DENSO CORPORATION,Electricity,"August 3, 2015","December 18, 2018","10,158,318",#10158318,True
+972,US,15,Oracle International Corporation,Electricity,"October 21, 2016","December 18, 2018","10,158,489",#10158489,True
+973,USUSUSUS,14,NORTHROP GRUMMAN SYSTEMS CORPORATION,Electricity,"November 17, 2015","December 18, 2018","10,159,161",#10159161,True
+974,CA,14,GECKO ALLIANCE GROUP INC.,Human Necessities,"September 11, 2015","December 25, 2018","10,159,624",#10159624,True
+975,JP,15,FANUC CORPORATION,"Performing Operations, Transporting","April 14, 2017","December 25, 2018","10,160,073",#10160073,True
+976,JP,15,FUJIFILM Corporation,"Performing Operations, Transporting","July 27, 2017","December 25, 2018","10,160,182",#10160182,True
+977,JP,15,BROTHER KOGYO KABUSHIKI KAISHA,"Performing Operations, Transporting","February 2, 2018","December 25, 2018","10,160,242",#10160242,True
+978,US,15,,"Performing Operations, Transporting","November 1, 2016","December 25, 2018","10,160,299",#10160299,True
+979,US,15,UNITED TECHNOLOGIES CORPORATION,"Performing Operations, Transporting","September 15, 2017","December 25, 2018","10,161,048",#10161048,True
+980,US,14,"Cummins Emission Solutions, Inc.","Mechanical Engineering, Lighting, Heating, Weapons, Blasting Engines or Pumps","September 15, 2015","December 25, 2018","10,161,284",#10161284,True
+981,USUS,14,OSRAM SYLVANIA Inc.,"Mechanical Engineering, Lighting, Heating, Weapons, Blasting Engines or Pumps","August 31, 2015","December 25, 2018","10,161,591",#10161591,True
+982,US,15,"Haier US Appliance Solutions, Inc.","Mechanical Engineering, Lighting, Heating, Weapons, Blasting Engines or Pumps","November 15, 2017","December 25, 2018","10,161,667",#10161667,True
+983,CN,14,"SHENZHEN CHINA STAR OPTOELECTRONICS TECHNOLOGY CO., LTD.",Physics,"August 4, 2015","December 25, 2018","10,161,998",#10161998,True
+984,US,14,"Sixense Entertainment, Inc.",Physics,"July 13, 2015","December 25, 2018","10,162,177",#10162177,True
+985,JP,15,JAPAN DISPLAY INC.,Physics,"February 16, 2017","December 25, 2018","10,162,470",#10162470,True
+986,US,15,"NETFLIX, INC.",Physics,"August 17, 2016","December 25, 2018","10,162,819",#10162819,True
+987,US,14,SPLUNK INC.,Physics,"November 1, 2014","December 25, 2018","10,162,863",#10162863,True
+988,US,14,INTERNATIONAL BUSINESS MACHINES CORPORATION,Physics,"June 25, 2014","December 25, 2018","10,162,894",#10162894,True
+989,JP,14,"Hitachi, Ltd.",Physics,"October 10, 2014","December 25, 2018","10,162,909",#10162909,True
+990,SG,15,Lenovo Enterprise Solutions,Physics,"March 30, 2016","December 25, 2018","10,162,963",#10162963,True
+991,US,14,Honeywell International Inc.,Physics,"September 10, 2014","December 25, 2018","10,162,969",#10162969,True
+992,,,,Unknown,,,,#10163543,True
+993,CNCN,15,"BOE Technology Group Co., Ltd.",Electricity,"September 23, 2016","December 25, 2018","10,163,938",#10163938,True
+994,KR,15,"LUMENS CO., LTD.",Electricity,"April 23, 2018","December 25, 2018","10,164,149",#10164149,True
+995,TW,15,PlayNitride Inc.,Electricity,"February 3, 2017","December 25, 2018","10,164,152",#10164152,True
+996,TW,15,"CHICONY POWER TECHNOLOGY CO., LTD.",Electricity,"November 3, 2017","December 25, 2018","10,164,539",#10164539,True
+997,US,15,International Business Machines Corporation,Electricity,"October 27, 2017","December 25, 2018","10,164,830",#10164830,True
+998,US,15,GENBAND US LLC,Electricity,"April 28, 2017","December 25, 2018","10,165,122",#10165122,True
+999,CNCNFI,15,Nokia Solutions and Networks Oy,Electricity,"September 25, 2015","December 25, 2018","10,165,545",#10165545,True
