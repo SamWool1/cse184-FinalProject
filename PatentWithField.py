@@ -14,6 +14,7 @@ class PatentWithField(Patent):
     def __init__(self, title: str, url: str):
         super().__init__(title, url)
         self.fields = None
+        self.application_type = None
 
     # Fetches details. Need access to parsed page, so had to c/p func here
     def fetch_details(self):
