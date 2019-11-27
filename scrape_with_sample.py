@@ -18,9 +18,9 @@ def generatePatentURL(patnum):
 
 
 # Returns the sampled patent numbers as a list
-def getSamples(filename):
+def getSamples(filename, year):
     print('Reading samples')
-    f = open(filename, 'r')
+    f = open(filename + year + '.txt', 'r')
     str_samples = f.readline()
     print('Read samples')
     samples = str_samples.split(', ')
@@ -73,9 +73,10 @@ def getDataframe(samples):
 
 
 def main():
-    samples = getSamples('sample_numbers.txt')
+    year = str(2018)
+    samples = getSamples('samples/sample_numbers', year)
     df = getDataframe(samples)
-    df.to_csv(r'scraped_patents.csv')
+    df.to_csv('scrapes/scraped_patents' + year + '.csv')
     print('CSV created')
 
 
