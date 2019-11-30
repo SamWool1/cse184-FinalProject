@@ -72,12 +72,12 @@ def getDataframe(samples):
     return df
 
 
-def main():
-    year = str(2018)
+def main(year):
     samples = getSamples('samples/sample_numbers', year)
     df = getDataframe(samples)
     df.to_csv('scrapes/scraped_patents' + year + '.csv')
     print('CSV created')
 
 
-main()
+for year in range(1980, 2019):
+    main(str(year))
