@@ -45,13 +45,16 @@ def test_func(df):
     return
 
 
-def main():
-    df = pd.read_csv('scraped_patents.csv')
+def main(year):
+    df = pd.read_csv('scrapes/scraped_patents' + year + '.csv')
     df.fillna('Unknown', inplace=True)
     assignee_name_df = getCountAndPercent(df.loc[:, 'Assignee Name'])
-    print(assignee_name_df.head())
+    print(assignee_name_df.sort_values('Count', ascending=False).head())
 
     # test_func(df)
 
-
-main()
+for year in range(1980, 2019):
+    print('Wrangling ' + str(year))
+    main(str(year))
+    input('Finished ' + str(year) + ', press Enter to continue...')
+print('All wrangling finished')
