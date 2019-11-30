@@ -7,6 +7,22 @@ from PatentWithField import PatentWithField
 import time
 import pandas as pd
 
+applicationTypes = {
+
+}
+
+fieldTypes = {
+    'A': 'Human Necessities',
+    'B': 'Performing Operations, Transporting',
+    'C': 'Chemistry, Metallurgy',
+    'D': 'Textiles, Paper',
+    'E': 'Fixed Construction',
+    'F': 'Mechanical Engineering, Lighting, Heating, Weapons, Blasting Engines or Pumps',
+    'G': 'Physics',
+    'H': 'Electricity',
+    'Y': 'General New Technological Developments',
+}
+
 # Generates a URL corresponding a specific patent - used in scraping
 
 
@@ -31,19 +47,39 @@ def getSamples(filename, year):
 # includes unneeded information (abstract)
 def getPatentAsDict(p):
     d = {}
-    d['Applicant City'] = p.applicant_city
     d['Applicant Country'] = p.applicant_country
-    d['Applicant Number'] = p.applicant_num
-    d['Applicant State'] = p.applicant_state
-    d['Assignee Location'] = p.assignee_loc
+
+    # Get first 2 digits of application number to get application type TODO remove because better way exists
+    try:
+        d['Applicant Number '] = p.applicant_num.split('/')[0]
+    except Exception:
+        d['Applicant Number'] = 'Unknown'
+
     d['Assignee Name'] = p.assignee_name
-    d['Family Id'] = p.family_id
     d['File Date'] = p.file_date
-    d['Inventors'] = p.inventors
     d['Patent Date'] = p.patent_date
     d['Patent Number'] = p.patent_num
     d['Title (Patent Number)'] = p.title
-    d['Fields'] = p.fields
+
+    # Gets most valid CPC field for this patent
+    try:
+        fields_raw = p.fields.split('; ')
+        fields = {}
+        for field_raw in fields_raw:
+            field = field_raw[0]
+            if field in fields:
+                fields[field] = fields[field] + 1
+            else:
+                fields[field] = 1
+        field = max(fields, key=fields.get)
+        try:
+            d['Fields'] = fieldTypes[field]
+        except Exception:
+            d['Fields'] = field
+
+    except Exception:
+        d['Fields'] = 'Unknown'
+
     d['fetched'] = p.fetched_details
     return d
 
@@ -60,8 +96,12 @@ def getDataframe(samples):
         p = PatentWithField(title='#' + str(sample),
                             url=generatePatentURL(sample))
         print('Starting fetch of number ' + sample)
-        p.fetch_details()
-        print('Fetched number ' + sample)
+        try:
+            p.fetch_details()
+            print('Fetched number ' + sample)
+        except:
+            print('Fetch for ' + str(sample) + ' failed')
+
         p_dict = getPatentAsDict(p)
 
         if df is None:
@@ -72,11 +112,21 @@ def getDataframe(samples):
     return df
 
 
+<<<<<<< HEAD
 def main(year):
     samples = getSamples('samples/sample_numbers', year)
     df = getDataframe(samples)
     df.to_csv('scrapes/scraped_patents' + year + '.csv')
     print('CSV created')
+=======
+def main():
+    years = range(1980, 2019)
+    for year in years:
+        samples = getSamples('samples/sample_numbers', year)
+        df = getDataframe(samples)
+        df.to_csv('scrapes/scraped_patents' + str(year) + '.csv')
+        print('CSV created')
+>>>>>>> a5fa71768d5efca7c94edcd75cfcdfe06ef0aea7
 
 
 for year in range(1980, 2019):
