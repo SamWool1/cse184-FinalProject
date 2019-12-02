@@ -112,21 +112,11 @@ def getDataframe(samples):
     return df
 
 
-<<<<<<< HEAD
 def main(year):
     samples = getSamples('samples/sample_numbers', year)
     df = getDataframe(samples)
     df.to_csv('scrapes/scraped_patents' + year + '.csv')
     print('CSV created')
-=======
-def main():
-    years = range(1980, 2019)
-    for year in years:
-        samples = getSamples('samples/sample_numbers', year)
-        df = getDataframe(samples)
-        df.to_csv('scrapes/scraped_patents' + str(year) + '.csv')
-        print('CSV created')
->>>>>>> a5fa71768d5efca7c94edcd75cfcdfe06ef0aea7
 
 
 for year in range(1980, 2019):
