@@ -49,36 +49,39 @@ def getPatentAsDict(p):
     d = {}
     d['Applicant Country'] = p.applicant_country
 
-    # Get first 2 digits of application number to get application type TODO remove because better way exists
-    try:
-        d['Applicant Number '] = p.applicant_num.split('/')[0]
-    except Exception:
-        d['Applicant Number'] = 'Unknown'
+    # # Get first 2 digits of application number to get application type TODO remove because better way exists
+    # try:
+    #     d['Applicant Number '] = p.applicant_num.split('/')[0]
+    # except Exception:
+    #     d['Applicant Number'] = 'Unknown'
+    d['Applicant Number'] = p.applicant_num
 
     d['Assignee Name'] = p.assignee_name
     d['File Date'] = p.file_date
     d['Patent Date'] = p.patent_date
     d['Patent Number'] = p.patent_num
     d['Title (Patent Number)'] = p.title
+    d['Family ID'] = p.family_id
 
-    # Gets most valid CPC field for this patent
-    try:
-        fields_raw = p.fields.split('; ')
-        fields = {}
-        for field_raw in fields_raw:
-            field = field_raw[0]
-            if field in fields:
-                fields[field] = fields[field] + 1
-            else:
-                fields[field] = 1
-        field = max(fields, key=fields.get)
-        try:
-            d['Fields'] = fieldTypes[field]
-        except Exception:
-            d['Fields'] = field
-
-    except Exception:
-        d['Fields'] = 'Unknown'
+    # # Gets most valid CPC field for this patent
+    # try:
+    #     fields_raw = p.fields.split('; ')
+    #     fields = {}
+    #     for field_raw in fields_raw:
+    #         field = field_raw[0]
+    #         if field in fields:
+    #             fields[field] = fields[field] + 1
+    #         else:
+    #             fields[field] = 1
+    #     field = max(fields, key=fields.get)
+    #     try:
+    #         d['Fields'] = fieldTypes[field]
+    #     except Exception:
+    #         d['Fields'] = field
+    # 
+    # except Exception:
+    #     d['Fields'] = 'Unknown'
+    d['Fields'] = p.fields
 
     d['fetched'] = p.fetched_details
     return d

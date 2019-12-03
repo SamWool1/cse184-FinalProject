@@ -56,7 +56,7 @@ for i in range(1980, 2019):
 
 
 def sampleByYear(year):
-    sample_size = 1000
+    sample_size = 5000
     sample = random.sample(range(patent_num_amt[year]), sample_size)
     sample.sort()
     sample = [x + patent_num_start[year] for x in sample]
