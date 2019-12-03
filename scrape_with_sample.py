@@ -57,6 +57,7 @@ def getPatentAsDict(p):
     d['Applicant Number'] = p.applicant_num
 
     d['Assignee Name'] = p.assignee_name
+    d['Assignee Location'] = p.assignee_loc
     d['File Date'] = p.file_date
     d['Patent Date'] = p.patent_date
     d['Patent Number'] = p.patent_num

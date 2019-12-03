@@ -21,7 +21,7 @@ def getCountAndPercent(values):
             count_values[value] = count_values[value] + 1
 
     # Craete dataframe and get percentage of appearances for each value
-    total_count = len(count_values)
+    total_count = len(values)
     df = pd.DataFrame(columns=np.arange(3))
     df.columns = ['Value', 'Count', 'Percentage']
 
@@ -47,9 +47,11 @@ def test_func(df):
 
 def main(year):
     df = pd.read_csv('scrapes/scraped_patents' + year + '.csv')
-    df.fillna('Unknown', inplace=True)
+    df.dropna(subset=['Assignee Name'], inplace=True)
+    print(df.shape)
     assignee_name_df = getCountAndPercent(df.loc[:, 'Assignee Name'])
     print(assignee_name_df.sort_values('Count', ascending=False).head())
+    print(assignee_name_df.shape)
 
     # test_func(df)
 
