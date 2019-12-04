@@ -14,7 +14,8 @@ def getCountAndPercent(values):
     # Get number of occurrences for each value
     count_values = {}
     for value in values:
-        value = value.upper()
+        value = str(value).upper()
+
         if value not in count_values:
             count_values[value] = 1
         else:
@@ -48,8 +49,12 @@ def test_func(df):
 def main(year):
     df = pd.read_csv('scrapes/scraped_patents' + year + '.csv')
     df.dropna(subset=['Assignee Name'], inplace=True)
+
     assignee_name_df = getCountAndPercent(df.loc[:, 'Assignee Name'])
     print(assignee_name_df.sort_values('Count', ascending=False).head())
+
+    place_df = getCountAndPercent(df.loc[:, 'Assignee Location'])
+    print(place_df.sort_values('Count', ascending=False))
 
     # test_func(df)
 
