@@ -37,7 +37,7 @@ def getCountAndPercent(values):
 
     for i, value in enumerate(count_values):
         count = count_values[value]
-        percentage = count/total_count
+        percentage = (count/total_count) * 100
         df.loc[i] = [value, count, percentage]
 
     return df
@@ -67,6 +67,32 @@ def main(year):
 
     # test_func(df)
 
+
+#Create a CSV for a line graph
+def makeLineCSV():
+    line_df = pd.DataFrame()
+
+    for year in range(1980, 2019):
+        year = str(year)
+        line_df = line_df.append(makeLineDf(year))
+
+    line_df = line_df.reset_index()
+    line_df = line_df.drop(['Count', 'index'], axis=1)
+    line_df = line_df.pivot(index='Value', columns='Year')
+    line_df = line_df.fillna(0)
+    line_df = line_df.T
+    line_df.to_csv('lineChartData.csv')
+
+def makeLineDf(year):
+    df = pd.read_csv('scrapes/scraped_patents' + year + '.csv')
+    df.dropna(subset=['Assignee Name'], inplace=True)
+
+    assignee_name_df = getCountAndPercent(df.loc[:, 'Assignee Name'])
+    assignee_name_df['Year'] = year
+    print('Finished ' + year)
+    return(assignee_name_df.sort_values('Count', ascending=False).head())
+
+makeLineCSV()
 
 createUnifiedScrape()
 # for year in range(1980, 2019):
