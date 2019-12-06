@@ -18,6 +18,9 @@ fieldTypes = {
     'Y': 'General New Technological Developments',
 }
 
+delawareCities_raw = open('delaware_cities.txt')
+delawareCities = delawareCities_raw.read().upper().split("\n")
+
 # Creates a single spreadsheet with values for all years
 def createLocFieldSheet():
     df = pd.DataFrame()
@@ -48,6 +51,20 @@ def createLocFieldSheet():
     df['Fields'] = df['Fields'].str.get(0)
     df['CPC Category'] = df['Fields'].map(fieldTypes)
 
+    # Parse location
+    locations_raw = df['Assignee Location']
+    locations = []
+    for location in locations_raw:
+        location = location.upper().split(', ')
+        if len(location) == 1 or (len(location[0]) == 2 and location[0].isupper()):
+            locations.append(location[0][0:2])
+        else:
+            if location[0] in delawareCities and location[1][0:2] == 'DE':
+                locations.append(location[1][0:2] + ' (US)')
+            else:
+                locations.append(location[1][0:2])
+
+    df['Assignee Location'] = locations
     print(df.head())
     df.to_csv('field_location_patents.csv')
 
