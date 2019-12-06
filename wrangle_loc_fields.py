@@ -44,10 +44,11 @@ def createLocFieldSheet():
     # Uppercase assignee names
     df['Assignee Name'] = df['Assignee Name'].apply(lambda x: str(x).upper())
 
-    # Assign corresponding CPC category for each field
-    for i, row in df.iterrows():
-        print(row['Fields'] + ' ' + str(i))
+    # Add column for field and field letter
+    df['Fields'] = df['Fields'].str.get(0)
+    df['CPC Category'] = df['Fields'].map(fieldTypes)
 
     print(df.head())
+    df.to_csv('field_location_patents.csv')
 
 createLocFieldSheet()
