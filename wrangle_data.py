@@ -79,9 +79,23 @@ def makeLineCSV():
     line_df = line_df.reset_index()
     line_df = line_df.drop(['Count', 'index'], axis=1)
     line_df = line_df.pivot(index='Value', columns='Year')
+    line_df = line_df.dropna(thresh = 5)
     line_df = line_df.fillna(0)
     line_df = line_df.T
+    print('line_df:')
+    print(line_df.head())
     line_df.to_csv('lineChartData.csv')
+
+    df = pd.read_csv('lineChartData.csv')
+    print('df:')
+    print(df.head())
+    df = df.drop(df.columns[0], axis=1)
+    print(df.head())
+    df = df.set_index('Year')
+    print(df.head())
+    df = df.cumsum()
+    print(df.head())
+    df.to_csv('lineChartData.csv')
 
 def makeLineDf(year):
     df = pd.read_csv('scrapes/scraped_patents' + year + '.csv')
@@ -92,8 +106,43 @@ def makeLineDf(year):
     print('Finished ' + year)
     return(assignee_name_df.sort_values('Count', ascending=False).head())
 
-makeLineCSV()
+def makeRacingBar():
+    fields = []
+    locations = []
 
+    #format lineChartData for a racing bar chart
+    df = pd.read_csv('lineChartData.csv')
+    df = df.set_index('Year')
+
+    #get all company names
+    names = list(df.columns)
+
+    df = df.T
+
+    #get first occurence of company's name
+    mf = pd.read_csv('field_location_patents.csv')
+    for name in names:
+        rowNums = mf.loc[mf['Assignee Name'] == name].index.tolist()
+        rowNum = rowNums[0]
+        fields.append(mf.iloc[rowNum, 8])
+        locations.append(mf.iloc[rowNum, 1])
+
+    df['Company Field'] = fields
+    df['Company Location'] = locations
+    
+    #output a csv
+    df.to_csv('racingBar.csv')
+
+def makeBarCumSum():
+    df = pd.read_csv('lineChartData.csv')
+    year = 1980
+    for row in range(0, 39):
+        df.iloc[row].to_csv('barCharts/cumSum' + str(year) + '.csv')
+        year = year + 1
+
+# makeLineCSV()
+makeRacingBar()
+makeBarCumSum()
 createUnifiedScrape()
 # for year in range(1980, 2019):
 #     print('Wrangling ' + str(year))

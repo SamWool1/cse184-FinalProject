@@ -1,0 +1,28 @@
+
+body{
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: #F2FAF6;
+}
+h1{
+    text-align: center;
+    font-size: 25px;
+}
+h2{
+    text-align: right;
+    font-size: 18px;
+}
+h3{
+    margin-bottom: 0px;
+}
+p{
+    text-indent: 2em;
+    margin-top: 10px;
+    background-color: grey;
+}
+footer{
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px;
+    background-color: #FAF3F2
+}
