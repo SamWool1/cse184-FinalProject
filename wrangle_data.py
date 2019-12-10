@@ -196,9 +196,6 @@ def makeRacingBarCountries():
     df.set_index('CPC Category', inplace=True)
     df.replace(to_replace=states, value = 'US', inplace=True)
 
-
-    df.to_csv('asdsadasd.csv')
-
     for year in range(1980,2019):
         af = df.loc[df['Year'] == year]
         cf = getCountAndPercent(af.loc[:, 'Assignee Location']).sort_values('Count', ascending=False)
