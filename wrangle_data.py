@@ -137,6 +137,59 @@ def getTimeDiff():
 
     ff.to_csv('timeDiffFields.csv')
 
+def makeRacingBarFields():
+    ddf = pd.DataFrame()
+    states = ["AL", "AK", "AZ", "AR", "CA", "CO", "CT", "DC", "DE", "FL", "GA",
+              "HI", "ID", "IL", "IN", "IA", "KS", "KY", "LA", "ME", "MD",
+              "MA", "MI", "MN", "MS", "MO", "MT", "NE", "NV", "NH", "NJ",
+              "NM", "NY", "NC", "ND", "OH", "OK", "OR", "PA", "RI", "SC",
+              "SD", "TN", "TX", "UT", "VT", "VA", "WA", "WV", "WI", "WY"]
+
+    df = pd.read_csv('field_location_patents.csv')
+
+    #delete unneeded columns
+    del df['Unnamed: 0']
+    del df['Assignee Name']
+    del df['Fields']
+    del df['File Date']
+    del df['Patent Date']
+    del df['Patent Number']
+    del df['Title (Patent Number)']
+    #del df['fetched']
+
+    df.sort_values(by='CPC Category', inplace=True)
+    df.set_index('fetched', inplace=True)
+    df.replace(to_replace=states, value = 'US', inplace=True)
+
+    print(df)
+
+    for year in range(1980,2019):
+        af = df.loc[df['Year'] == year]
+        cf = getCountAndPercent(af.loc[:, 'CPC Category']).sort_values('Count', ascending=False)
+        del cf['Percentage']
+        cf['Year'] = year
+        ddf = ddf.append(cf)
+
+    print(ddf)
+
+    ddf = ddf.pivot(index='Value', columns='Year')
+    ddf.dropna(thresh=20, inplace=True)
+    ddf.fillna(0, inplace=True)
+    ddf = ddf.cumsum(axis = 1)
+    ddf = ddf.T
+    print(ddf)
+
+    ddf.to_csv('totalPatentCountFields.csv')
+
+    df = pd.read_csv('totalPatentCountFields.csv')
+    del df['Unnamed: 0']
+    df = df.set_index('Year')
+    df = df.T
+
+    print(df)
+
+    df.to_csv('totalPatentCountFields.csv')
+
 def makeRacingBarCountries():
     ddf = pd.DataFrame()
     states = ["AL", "AK", "AZ", "AR", "CA", "CO", "CT", "DC", "DE", "FL", "GA",
@@ -156,7 +209,6 @@ def makeRacingBarCountries():
     del df['Patent Number']
     del df['Title (Patent Number)']
     del df['fetched']
-    # del df['Year']
 
     df.sort_values(by='CPC Category', inplace=True)
     df.set_index('CPC Category', inplace=True)
@@ -178,10 +230,19 @@ def makeRacingBarCountries():
     ddf.dropna(thresh=20, inplace=True)
     ddf.fillna(0, inplace=True)
     ddf = ddf.cumsum(axis = 1)
-    ddf = ddf.reset_index()
+    ddf = ddf.T
     print(ddf)
 
     ddf.to_csv('totalPatentCountCountry.csv')
+
+    df = pd.read_csv('totalPatentCountCountry.csv')
+    del df['Unnamed: 0']
+    df = df.set_index('Year')
+    df = df.T
+
+    print(df)
+
+    df.to_csv('totalPatentCountCountry.csv')
 
 def makeRacingBar():
     fields = []
@@ -217,7 +278,8 @@ def makeBarCumSum():
         df.iloc[row].to_csv('barCharts/cumSum' + str(year) + '.csv')
         year = year + 1
 
-makeRacingBarCountries()
+# makeRacingBarCountries()
+makeRacingBarFields()
 #getTimeDiff()
 # makeLineCSV()
 #makeRacingBar()
