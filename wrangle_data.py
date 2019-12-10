@@ -42,7 +42,6 @@ def getCountAndPercent(values):
 
     return df
 
-
 # TODO remove, for testing date-time delta stuff
 def test_func(df):
     dates = df.loc[:, 'Patent Date']
@@ -54,7 +53,6 @@ def test_func(df):
             print('Unknown')
     return
 
-
 def main(year):
     df = pd.read_csv('scrapes/scraped_patents' + year + '.csv')
     df.dropna(subset=['Assignee Name'], inplace=True)
@@ -64,9 +62,6 @@ def main(year):
 
     place_df = getCountAndPercent(df.loc[:, 'Assignee Location'])
     print(place_df.sort_values('Count', ascending=False))
-
-    # test_func(df)
-
 
 #Create a CSV for a line graph
 def makeLineCSV():
@@ -82,19 +77,13 @@ def makeLineCSV():
     line_df = line_df.dropna(thresh = 5)
     line_df = line_df.fillna(0)
     line_df = line_df.T
-    print('line_df:')
-    print(line_df.head())
+    line_df[line_df.columns[0:]] = line_df[line_df.columns[0:]] * 50
     line_df.to_csv('lineChartData.csv')
 
     df = pd.read_csv('lineChartData.csv')
-    print('df:')
-    print(df.head())
     df = df.drop(df.columns[0], axis=1)
-    print(df.head())
     df = df.set_index('Year')
-    print(df.head())
     df = df.cumsum()
-    print(df.head())
     df.to_csv('lineChartData.csv')
 
 def makeLineDf(year):
@@ -105,6 +94,80 @@ def makeLineDf(year):
     assignee_name_df['Year'] = year
     print('Finished ' + year)
     return(assignee_name_df.sort_values('Count', ascending=False).head())
+
+def getTimeDiff():
+    fields = [
+        'Human Necessities',
+        'Performing Operations, Transporting',
+        'Chemistry, Metallurgy',
+        'Textiles, Paper',
+        'Fixed Construction',
+        'Mechanical Engineering, Lighting, Heating, Weapons, Blasting Engines or Pumps',
+        'Physics',
+        'Electricity',
+    ]
+    dict = {}
+
+    df = pd.read_csv('field_location_patents.csv')
+
+    #delete unneeded columns
+    del df['Unnamed: 0']
+    del df['Assignee Location']
+    del df['Fields']
+    del df['Patent Number']
+    del df['Title (Patent Number)']
+    del df['fetched']
+
+    #format the file date and patent date columns
+    df['File Date'] = pd.to_datetime(df['File Date'], format="%B %d, %Y", errors='coerce')
+    df['Patent Date'] = pd.to_datetime(df['Patent Date'], format="%B %d, %Y", errors='coerce')
+
+    df['Time Difference'] = df['Patent Date'] - df['File Date']
+    df.dropna()
+
+    df.sort_values(by='CPC Category', inplace=True)
+    df.set_index('CPC Category', inplace=True)
+
+    #get average for each different Category and make new df
+    for field in fields:
+        a = {field: str(df.loc[field, 'Time Difference'].mean().days)}
+        dict.update(a)
+    ff = pd.DataFrame(list(dict.items()), columns=['Fields', 'Time Difference (days)'])
+    ff.sort_values('Time Difference (days)', inplace=True)
+
+    ff.to_csv('timeDiffFields.csv')
+
+def makeRacingBarCountries():
+    states = ["AL", "AK", "AZ", "AR", "CA", "CO", "CT", "DC", "DE", "FL", "GA",
+              "HI", "ID", "IL", "IN", "IA", "KS", "KY", "LA", "ME", "MD",
+              "MA", "MI", "MN", "MS", "MO", "MT", "NE", "NV", "NH", "NJ",
+              "NM", "NY", "NC", "ND", "OH", "OK", "OR", "PA", "RI", "SC",
+              "SD", "TN", "TX", "UT", "VT", "VA", "WA", "WV", "WI", "WY"]
+
+    df = pd.read_csv('field_location_patents.csv')
+
+    #delete unneeded columns
+    del df['Unnamed: 0']
+    del df['Assignee Name']
+    del df['Fields']
+    del df['File Date']
+    del df['Patent Date']
+    del df['Patent Number']
+    del df['Title (Patent Number)']
+    del df['fetched']
+    del df['Year']
+
+    df.sort_values(by='CPC Category', inplace=True)
+    df.set_index('CPC Category', inplace=True)
+    df.replace(to_replace=states, value = 'US', inplace=True)
+
+    print(df)
+
+    cf = getCountAndPercent(df.loc[:, 'Assignee Location']).sort_values('Count', ascending=False)
+    del cf['Percentage']
+    print(cf)
+
+    cf.to_csv('totalPatentCountCountry.csv')
 
 def makeRacingBar():
     fields = []
@@ -124,12 +187,12 @@ def makeRacingBar():
     for name in names:
         rowNums = mf.loc[mf['Assignee Name'] == name].index.tolist()
         rowNum = rowNums[0]
-        fields.append(mf.iloc[rowNum, 8])
+        fields.append(mf.iloc[rowNum, 10])
         locations.append(mf.iloc[rowNum, 1])
 
     df['Company Field'] = fields
     df['Company Location'] = locations
-    
+
     #output a csv
     df.to_csv('racingBar.csv')
 
@@ -140,10 +203,12 @@ def makeBarCumSum():
         df.iloc[row].to_csv('barCharts/cumSum' + str(year) + '.csv')
         year = year + 1
 
+makeRacingBarCountries()
+getTimeDiff()
 # makeLineCSV()
-makeRacingBar()
-makeBarCumSum()
-createUnifiedScrape()
+#makeRacingBar()
+# makeBarCumSum()
+# createUnifiedScrape()
 # for year in range(1980, 2019):
 #     print('Wrangling ' + str(year))
 #     main(str(year))

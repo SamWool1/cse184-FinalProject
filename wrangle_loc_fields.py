@@ -41,8 +41,8 @@ def createLocFieldSheet():
     del df['Applicant State']
     del df['Inventors']
     del df['Family Id']
-    del df['File Date']
-    del df['Patent Date']
+    # del df['File Date']
+    # del df['Patent Date']
 
     # Uppercase assignee names
     df['Assignee Name'] = df['Assignee Name'].apply(lambda x: str(x).upper())

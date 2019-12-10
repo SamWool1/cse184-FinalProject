@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>CSE184 - Patents</title>
     <link rel="stylesheet" href="style.css">
+
+
 </head>
 
 <body>
@@ -17,16 +19,91 @@
     <hr>
 
     <h3>Why Patents</h3>
-    <p>We decided to look more into patents for the simple reason that we didn't know a lot about them. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <p>We decided to look more into patents for the simple reason that we didn't know a whole lot about them and we were curious to find out more. Patents are talked about all the time in the news, especially in the tech world, and we were curious if there were any trends or indicators behind them.
+    In addition, we were able to find a great dataset on the USPTO website, which has every patent for the past 40 years.
+
+    We first had to understand how exactly patents worked: the application process, the information accompanying every application, and if patents were even open to the possibility of data wrangling and analysis.
+    </p>
 
     <h3>What is a Patent?</h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <p>Coming into this project with no knowledge, we had a bit of a learning curve before us.
+    There are several important aspects of a patent that we decided to focus on for this project:
+    </p>
+    <ul>
+        <li>Assignee Information</li>
+            <p>The assignee is the person or entity to whom the patent belongs.</p>
+            <p>Some important information was the assignee's name, and location</p>
+        <li>CPC Category</li>
+            <p>CPC is short for <b>Cooperative Patent Classification</b>, a Classification system jointly developed by European and US Patent Offices. The system starts broad, with 9 major categories, which can then be further broken down into smaller and smaller subsections. We decided to just focus on the 9 broad categories, and you'll see these used in some of our graphs and analysis</p>
+        <li>File Date and Patent Date</li>
+            <p>The file date is the date that the patent was filed, whereas the Patent Date is the date when the patent has finally been approved and has come into effect. </p>
+
+    </ul>
+
 
     <h3>Our Approach</h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <p>At the start, we both worked together, finding out more about patents and trying to figure out which questions could be asked with the dataset that we had. We then decided to divide the labor as follows:</p>
+    <ul>
+        <li>Sam:</li>
+            <p>Sam was responsible for the web scraping and preliminary data wrangling</p>
+        <li>Thomas:</li>
+            <p>Thomas was responsible for the vizualisation part of the project, as well as cleaning and wranging the data to get the desired graphs.</p>
+        <li>Together:</li>
+            <p></p>
+    </ul>
 
     <h3>Findings</h3>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+    <button class="collapsible">Cumulative Line Graph</button>
+    <div class="content">
+    <p>This line graph shows the companies with the most number of patents over the years. For each year, we obtained a sample size of 5000 patents (randomly selected) and then were able to calculate the percentage of the total patents each company had applied for in a given year. We then multipled that percentage by the sample size (5000) and found the cumulative sum for each company.</p>
+    <iframe title="Cumulative Patent applications" aria-label="Interactive line chart" id="datawrapper-chart-FCmnn" src="//datawrapper.de/_/FCmnn/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="591"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}})}();</script>
+    <p>As can be seen, IBM is by far the company with the most patents to its name.</p>
+    </div>
+
+    <button class="collapsible">Racing Bar Graph CPC</button>
+    <div class="content">
+    <p>This graph is quite similar to the line graph above but presents the data in a slighly different way. We're able to see how the companies positions changed over time. The different colors on the bars represent the CPC Category that each company belongs to.</p>
+    <div class="flourish-embed" data-src="visualisation/1073631"></div>
+    <script src="https://public.flourish.studio/resources/embed.js"></script>
+    </div>
+
+    <button class="collapsible">Racing Bar Graphs Regions</button>
+    <div class="content">
+    </div>
+
+    <button class="collapsible">Time Lag Graphs</button>
+    <div class="content">
+
+    </div>
+
+    <button class="collapsible">Graph 1</button>
+    <div class="content">
+
+    </div>
+
+    <script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.maxHeight){
+          content.style.maxHeight = null;
+        } else {
+          content.style.maxHeight = content.scrollHeight + "px";
+        }
+      });
+    }
+    </script>
+
+
+
+    <iframe title="Cumulative Patent applications" aria-label="Interactive line chart" id="datawrapper-chart-FCmnn" src="//datawrapper.de/_/FCmnn/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="591"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}})}();</script>
+
 
 
 </body>
