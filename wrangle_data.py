@@ -42,17 +42,6 @@ def getCountAndPercent(values):
 
     return df
 
-# TODO remove, for testing date-time delta stuff
-def test_func(df):
-    dates = df.loc[:, 'Patent Date']
-    for date_str in dates:
-        try:
-            date = datetime.datetime.strptime(date_str, '%B %d, %Y')
-            print(date)
-        except Exception:
-            print('Unknown')
-    return
-
 def main(year):
     df = pd.read_csv('scrapes/scraped_patents' + year + '.csv')
     df.dropna(subset=['Assignee Name'], inplace=True)
@@ -161,8 +150,6 @@ def makeRacingBarFields():
     df.set_index('fetched', inplace=True)
     df.replace(to_replace=states, value = 'US', inplace=True)
 
-    print(df)
-
     for year in range(1980,2019):
         af = df.loc[df['Year'] == year]
         cf = getCountAndPercent(af.loc[:, 'CPC Category']).sort_values('Count', ascending=False)
@@ -170,14 +157,11 @@ def makeRacingBarFields():
         cf['Year'] = year
         ddf = ddf.append(cf)
 
-    print(ddf)
-
     ddf = ddf.pivot(index='Value', columns='Year')
     ddf.dropna(thresh=20, inplace=True)
     ddf.fillna(0, inplace=True)
     ddf = ddf.cumsum(axis = 1)
     ddf = ddf.T
-    print(ddf)
 
     ddf.to_csv('totalPatentCountFields.csv')
 
@@ -185,8 +169,6 @@ def makeRacingBarFields():
     del df['Unnamed: 0']
     df = df.set_index('Year')
     df = df.T
-
-    print(df)
 
     df.to_csv('totalPatentCountFields.csv')
 
@@ -214,7 +196,7 @@ def makeRacingBarCountries():
     df.set_index('CPC Category', inplace=True)
     df.replace(to_replace=states, value = 'US', inplace=True)
 
-    print(df)
+
     df.to_csv('asdsadasd.csv')
 
     for year in range(1980,2019):
@@ -224,14 +206,11 @@ def makeRacingBarCountries():
         cf['Year'] = year
         ddf = ddf.append(cf)
 
-    print(ddf)
-
     ddf = ddf.pivot(index='Value', columns='Year')
     ddf.dropna(thresh=20, inplace=True)
     ddf.fillna(0, inplace=True)
     ddf = ddf.cumsum(axis = 1)
     ddf = ddf.T
-    print(ddf)
 
     ddf.to_csv('totalPatentCountCountry.csv')
 
@@ -239,8 +218,6 @@ def makeRacingBarCountries():
     del df['Unnamed: 0']
     df = df.set_index('Year')
     df = df.T
-
-    print(df)
 
     df.to_csv('totalPatentCountCountry.csv')
 
