@@ -11,6 +11,7 @@ applicationTypes = {
 
 }
 
+# For categorizing patent type
 fieldTypes = {
     'A': 'Human Necessities',
     'B': 'Performing Operations, Transporting',
